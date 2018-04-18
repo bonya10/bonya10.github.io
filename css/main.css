@@ -13,6 +13,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500);
 p {
 	font-size: 13px;
 	line-height: 22.4px;
@@ -74,7 +76,7 @@ a:hover, a:focus {
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
-body {font-family: Azbuka04,sans-serif;
+body {font-family: 'Poiret One' , sans-serif;
 	
 	font-weight: 400;
 	color: #6c7279;
@@ -349,7 +351,6 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
 }
 .banner-text h1 {
 	color: #fff;
-	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 65px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -401,7 +402,7 @@ display: block;
     left: 0;
     right: 0;
     height: 50%;
-    background: linear-gradient(0deg, #9e163c, transparent);
+    background: linear-gradient(0deg, #46a2e6, transparent);
     transition: 1s all ease; 
     
 }
@@ -426,7 +427,6 @@ display: block;
 	margin-top: 0;
 }
 .intro p {
-	font-family: "Merriweather", Arial, sans-serif;
 	color: rgba(255, 255, 255, 0.75);
 	font-weight: 400;
 }
