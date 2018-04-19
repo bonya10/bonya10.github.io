@@ -139,7 +139,8 @@ line-height: 9rem;}
 .tel{ margin-top:10px font-size: 2rem; }
 
 #header.fixed {
-	background-color: #fff;
+	    background-color: #ffffff40;
+    color: #95c4ec;
 }
 
 #header.fixed .logo, #header.fixed  .header-tel, #header.fixed .time-work {
@@ -180,12 +181,12 @@ padding-bottom: 10px;}
 font: normal normal 2.5rem "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 
 }
-.navigation a {color: rgba(243, 235, 235, 0.65);
-text-decoration: none;
-padding: 6px 10px;
-display: block;
-border: 1px solid transparent;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+.navigation a {    color: rgb(168, 219, 234);
+    text-decoration: none;
+    padding: 6px 10px;
+    display: block;
+    border: 1px solid transparent;
+    text-shadow: 0 -1px 0 rgba(245, 236, 236, 0.32);
 
 }
 
