@@ -112,7 +112,7 @@ ul li {
 #header .header-content {
 	margin: 0 auto;
 	max-width: 100vw;
-	padding: 60px 0;
+	padding: 40px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -142,6 +142,7 @@ margin-right: 12px;
 height: 130px;
 vertical-align: middle;
 margin-top: -23px;
+margin-bottom: 7px;
 }
 
 .tel{ padding-top: 18px;
