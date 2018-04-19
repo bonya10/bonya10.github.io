@@ -123,13 +123,13 @@ ul li {
 	-2px -2px 2px hsl(195, 99%, 58.8%), 
 	-3px -1px 2px hsl(195, 99%, 58.8%);
 	float: left;
-font-size: 14rem;
+font-size: 15rem;
 font-weight: 700;
 color: #fff;
 text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 7px;
-margin-left: 30px;
+margin-left: 5px;
 line-height: 9rem;}
 
 .header-tel, .time-work{
