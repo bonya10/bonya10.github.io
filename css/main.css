@@ -389,7 +389,6 @@ display:none
 
 .fancy-hover:after {
   background: inherit;
-  margin: 2px;
   top: 0; right: 0; bottom: 0; left: 0;
   opacity: 0;
   transition-delay: 0.05s;
