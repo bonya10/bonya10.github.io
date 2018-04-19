@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+jQuery(function($){
 redrawDotNav();
 $(window).bind('scroll',function(e){redrawDotNav();});
 $('.n_1').click(function(){$('html, body').animate({scrollTop:0}, 1000);return false;});
@@ -7,7 +7,6 @@ $('.n_3').click(function(){$('html, body').animate({scrollTop:$('#b_3').offset()
 $('.n_4').click(function(){$('html, body').animate({scrollTop:$('#b_4').offset().top}, 1000);return false;});
 $('.n_5').click(function(){$('html, body').animate({scrollTop:$('#b_5').offset().top}, 1000);return false;});
 $('.n_6').click(function(){$('html, body').animate({scrollTop:$('#b_6').offset().top}, 1000);return false;});
- 
 $('#fix_nv a').hover(
 function(){$(this).prev('span').show();},
 function(){$(this).prev('span').hide();});
