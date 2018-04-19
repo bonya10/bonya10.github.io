@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function(){
 redrawDotNav();
 $(window).bind('scroll',function(e){redrawDotNav();});
 $('.n_1').click(function(){$('html, body').animate({scrollTop:0}, 1000);return false;});
@@ -32,4 +32,4 @@ $('#fix_nv .n_4').addClass('actv_b');
 $('#fix_nv .n_5').addClass('actv_b');
 } else if ($(document).scrollTop() >= section6Top){
 $('#fix_nv .n_6').addClass('actv_b');}  
-}(jQuery));
+}
