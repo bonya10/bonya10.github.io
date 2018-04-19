@@ -366,19 +366,19 @@ text-shadow: 1px 1px 1px rgba(245, 236, 236, 0.32);
 	margin: 0 auto;}
 
 #fix_nv li {position:relative;
-	height:20px;}
+	height:45px;}
 
 #fix_nv a {display: block;
 width: 10px;
 height: 10px;
 text-indent: -9999px;
-background: #a9ddf2;
+background: white;
 -webkit-border-radius: 50px;
 -moz-border-radius: 50px;
 border-radius: 50px;
 }
 
-#fix_nv a:hover,#fix_nv .actv_b{background:#0dc3ff;;}
+#fix_nv a:hover,#fix_nv .actv_b{background:#0dc3ff;}
 
 #fix_nv span{background:#de2e54;
 	position:absolute;
