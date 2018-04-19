@@ -348,19 +348,14 @@ background:transparent;
 	border:none;
 }
 .fancy-hover {
-  background: #242424;
   background: rgba(36,36,36,0.9);
-  color: #FFF;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 1em 1em;
-  position: relative;
-  overflow: hidden;
-  border-bottom: solid 1px #333;
-  z-index: 2;
-  transition: background-color 0.2s linear;
- 
+color: #FFF;
+display: flex;
+align-items: center;
+cursor: pointer;
+padding: 1em 1em;
+position: relative;
+overflow: hidden;
 }
 
 
@@ -402,7 +397,9 @@ display:none
 
 
 	
-.fancy-hover:hover { background-color: rgba(56,56,56,0.9); }
+.fancy-hover:hover {background-color: rgba(56, 56, 56, 0.82);
+border-left: 1px solid;
+border-right: 1px solid; }
 .fancy-hover:hover:before { opacity: 0.6; }
 .fancy-hover:hover:after { opacity: 0.85; transition-delay: 0s; }
 
