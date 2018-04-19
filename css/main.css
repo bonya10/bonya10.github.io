@@ -344,10 +344,53 @@ text-shadow: 1px 1px 1px rgba(245, 236, 236, 0.32);
 	transform: translateY(0) rotate(-45deg);
 }
 /* ------------------------------------------------------------------------------
+	$round navigate
+-------------------------------------------------------------------------------*/
+#fix_nv{z-index:5;
+	position:fixed;
+	height:100%;
+	top:0;
+	right:16px;
+	text-align: center;}
+#fix_nv:after {display:inline-block;
+	vertical-align:middle;
+	width:0;
+	height:100%;
+	content:'';}
+#fix_nv ul{display:inline-block;
+	vertical-align:middle;
+	position:relative;
+	list-style:none;}
+#fix_nv li {position:relative;
+	height:30px;}
+#fix_nv a {display:block;
+	width:20px;height:20px;
+	text-indent:-9999px;
+	background:#ccc;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px;
+	box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
+	-webkit-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
+	-moz-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);}
+#fix_nv a:hover,#fix_nv .actv_b{background:#de2e54;}
+#fix_nv span{background:#de2e54;
+	position:absolute;
+	right:32px;top:-7px;
+	text-align:center;
+	display:none;
+	padding:8px 15px 8px;color:#fff;
+	white-space:nowrap;
+	font-size:18px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border-radius:25px;
+	-webkit-box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);}
+/* ------------------------------------------------------------------------------
 	$light hover effect in menu
 -------------------------------------------------------------------------------*/
-
-
 
 :root {
   --px: 0;
