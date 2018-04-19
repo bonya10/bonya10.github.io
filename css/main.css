@@ -342,7 +342,7 @@ text-shadow: 1px 1px 1px rgba(245, 236, 236, 0.32);
   --px: 0;
   --py: 0;
 }
-#header.fixed .fancy-hover:hover{    padding: 0px 0;
+#header.fixed .fancy-hover:hover{    padding: 0 26.4px;
 }
 #header.fixed .fancy-hover{
 background:transparent;
