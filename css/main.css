@@ -181,13 +181,12 @@ padding-bottom: 10px;}
 font: normal normal 2.5rem "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 
 }
-.navigation a {    color: rgb(168, 219, 234);
-    text-decoration: none;
-    padding: 6px 10px;
-    display: block;
-    border: 1px solid transparent;
-    text-shadow: 0 -1px 0 rgba(245, 236, 236, 0.32);
-
+.navigation a { color: rgb(97, 219, 255);
+text-decoration: none;
+padding: 6px 10px;
+display: block;
+border: 1px solid transparent;
+text-shadow: 1px 1px 1px rgba(245, 236, 236, 0.32);
 }
 
 .navigation a:hover, .navigation a.active {
