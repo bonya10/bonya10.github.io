@@ -481,10 +481,10 @@ border-right: 3px solid #000; padding: 0px 24px; }
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+	min-height: auto;
 }
 .banner-text {
-	padding-top: 15%;
+	    padding-top: 15%;
 }
 .banner-text h1 {
 	color: #fff;
@@ -506,7 +506,8 @@ border-right: 3px solid #000; padding: 0px 24px; }
 /*===========================================================================
 	$round
 ============================================================================*/
-.multi{margin-top:80px;}
+.multi{margin-top: 30px;
+    margin-bottom: 30px;}
 
 
 .variant-1{
