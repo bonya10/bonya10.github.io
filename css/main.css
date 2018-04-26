@@ -106,8 +106,8 @@ ul li {
 -------------------------------------------------------------------------------*/
 #header {
 	position: fixed;
-	width: 100%;
 	z-index: 999;
+	padding: 0;
 }
 #header .header-content {
 	background: #ffffff1f;
@@ -140,16 +140,16 @@ line-height: 9rem;}
 	position: absolute;
 	margin-left: 13px;
 }
-.time-work{    font-size: 1.5rem;text-align: center;}
+.time-work{    font-size: 1.3rem;text-align: center;}
 .time-work p:first-child{ 
-text-transform: uppercase; font-size: 2.8rem;}
+text-transform: uppercase; font-size: 1.8rem;}
 
 .header-tel, .time-work{
 	float: right;
 	color: white;
 	background: #ffffff1a;
 	border-radius: 8px;
-	padding: 20px 17px;
+	padding: 10px 17px;
 	margin-right: 12px;
 	height: 130px;
 	vertical-align: middle;
@@ -158,8 +158,14 @@ text-transform: uppercase; font-size: 2.8rem;}
 	width: 21.667%;
 }
 
-.tel{ padding-top: 18px;
-font-size: 2.8rem;
+.tel{ padding-top: 10px;
+font-size: 1.8rem;
+text-transform: uppercase;
+text-align: center; }
+
+.tel1{margin: 0 0 7px;}
+.tel a{ 
+font-size: 1.8rem;
 text-transform: uppercase;
 text-align: center; }
 
@@ -196,14 +202,14 @@ text-align: center; }
 .navigation ul{margin: 0;
 	float: left;
 
-width: 100%;
+
 padding-top: 10px;
 padding-bottom: 10px;}
 
 .navigation li {
 	float: left;
 	text-transform: uppercase;
-font: normal normal 2.5rem "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+font: normal normal 2rem "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 
 }
 .navigation a { color: rgb(97, 219, 255);
@@ -429,7 +435,7 @@ color: #FFF;
 display: flex;
 align-items: center;
 cursor: pointer;
-padding: 0 26.4px;
+padding: 0 28.3px;
 position: relative;
 overflow: hidden;
 }
@@ -485,7 +491,8 @@ border-right: 3px solid #000; padding: 0px 24px; }
 	Banner
 -------------------------------------------------------------------------------*/
 
-.banner {
+.banner {width: 1170px;
+margin: 0 auto;
 	background-color: #000;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -534,33 +541,33 @@ border-right: 3px solid #000; padding: 0px 24px; }
 }
 .container-rond{background-image: url(../images/bg.jpg); background-size: contain;}
 .variant-1{
-	    position: absolute;
-    left: 50%;
-    top: 54%;
-    -webkit-transform: translate(-50%, 34%);
-    transform: translate(-50%, 34%);
-    transition: 1s all ease;
-    width: 100%;
-    padding: 0 10px;
-    font-size: 4.5rem;
-    line-height: 1.2;
-    color: white;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.92);
-    font-weight: 600;
+	  position: absolute;
+left: 50%;
+top: 40%;
+-webkit-transform: translate(-50%, 34%);
+transform: translate(-50%, 34%);
+transition: 1s all ease;
+width: 100%;
+padding: 0 10px;
+font-size: 2rem;
+line-height: 1.2;
+color: white;
+letter-spacing: 2px;
+text-transform: uppercase;
+text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.92);
+font-weight: 600;
 }
 
 .variant-2{
 	    position: absolute;
     left: 50%;
-    top: 51%;
+    top: 39%;
     -webkit-transform: translate(-50%, 34%);
     transform: translate(-50%, 34%);
     transition: 1s all ease;
     width: 100%;
     padding: 0 10px;
-    font-size: 2.9rem;
+    font-size: 2.2rem;
     line-height: 1.2;
     color: white;
     letter-spacing: 2px;
@@ -581,25 +588,48 @@ display: block;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50%;
+    height: 30%;
     background: linear-gradient(0deg, #46a2e6, transparent);
+    z-index: 1000;
     transition: 1s all ease; 
     
 }
-.round-purp::before{ background: linear-gradient(0deg, #9e163c, transparent);}
-.round-green::before{ background: linear-gradient(0deg, #50c420, transparent);}
-.round-orang::before{ background: linear-gradient(0deg, #f26921, transparent);}
-.round-blue::before{ background: linear-gradient(0deg, #4b2fc5, transparent);}
-.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);}
-.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);}
 
-
-.round:hover::before{height: 90%;}
 .round img{
 	border-radius: 50%;
-	width:  300px;
-	height: 300px;
+	width: 232px;
+height: 232px;
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+/*Добавим вот такой вот код*/
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+/*конец кода с transition*/
 }
+.round img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+.round-purp::before{ background: linear-gradient(0deg, #9e163c, transparent);z-index: 1000;}
+.round-green::before{ background: linear-gradient(0deg, #50c420, transparent);z-index: 1000;}
+.round-orang::before{ background: linear-gradient(0deg, #f26921, transparent);z-index: 1000;}
+.round-blue::before{ background: linear-gradient(0deg, #4b2fc5, transparent);z-index: 1000;}
+.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
+.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
+
+
+.round:hover::before{height: 70%;}
 
 .col-lg-4{width: 32.4%;}
 .round-box{
@@ -608,38 +638,48 @@ display: block;
     padding-right: 30px;
 	margin-bottom: 10px;
 	}
-/* ==========================================================================
-	$intro
-========================================================================== */
-.intro {
-	background-color: #00aeda;
+/* ------------------------------------------------------------------------------
+	 Testimonials
+-------------------------------------------------------------------------------*/
+.testimonials {
+	background-color: black;
+	position: relative;
+	text-align: center;
 }
-.intro h3 {
+.testimonials blockquote {
+	border: 0;
+	margin: 0;
+	padding: 100px 15%;
+	padding-top: 20px;
+}
+.testimonials h1 {
 	color: #fff;
-	margin-top: 0;
+	font: 23px "Merriweather";
+	font-weight: 300;
 }
-.intro p {
-	color: rgba(255, 255, 255, 0.75);
+.testimonials p {
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	letter-spacing: 2px;
 	font-weight: 400;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.flex-control-nav {
+	margin-top: 2%;
+	bottom: none!important;
+	position: relative!important;
+	right: 0;
+	text-align: center;
+	width: 100%!important;
+	z-index: 100;
 }
 /* ------------------------------------------------------------------------------
 	 Serives
 -------------------------------------------------------------------------------*/
-.service-section {
-	padding-top: 100px;
-}
-.services {
-	margin-bottom: 50px;
-}
-.services-content {
-	padding: 0 15px;
-	margin-top: 30px;
-}
-.services .icon {
-	color: #00aeda;
-	font-size: 50px;
-	padding-left: 15px;
-}
+
 /* ------------------------------------------------------------------------------
 	 Works
 -------------------------------------------------------------------------------*/
@@ -720,12 +760,14 @@ padding:15px 30px 15px 30px;
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
+.footer .map{padding: 0;}
 .footer {
 	text-align: left;
 }
 .footer-top {
 	background-color: #181818;
-	padding-top: 50px;
+
+	
 }
 .footer-bottom {
 	background-color: #313454;

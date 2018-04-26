@@ -20,8 +20,16 @@
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ <!-- Resource style -->
+  <script src="js/modernizr.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/fix-navigate.js"></script> 
+  <script src="js/feedback.js"></script> 
+  <script src="js/jquery-2.1.1.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+ 
 <script>
 
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
@@ -36,12 +44,13 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 
 <body>
 <!-- header section -->
-<section  class="banner " role="banner">
-  <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html">Lumiere</a>
+<section  class="banner" role="banner">
+  <header id="header" class="container">
+    <div class="header-content container clearfix"> <a class="logo" href="index.html">Lumiere</a>
       <p class="slogan"> кинокомната</p>
       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
-         <p class="tel1">+375(29)123-456-78</p></div>
+         <p class="tel1">+375(29)123-456-78</p>
+         <a href="#">забронировать онлайн</a></div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
           <p>суббота, воскресение: 14:00 - 06:00</p></div>
@@ -50,47 +59,38 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
         <ul class="primary-nav">
           <li class="fancy-hover"><a href="#b_1">Наши комнаты</a></li>
           <li class="fancy-hover"><a href="#b_2">наши услуги</a></li>
-          <li class="fancy-hover"><a href="#b_3">контакты</a></li>
+          <li class="fancy-hover"><a href="#b_3">акции</a></li>
           <li class="fancy-hover"><a href="#b_4">о нас</a></li>
           <li class="fancy-hover"><a href="#b_5">фотогалерея</a></li>
-          <li class="fancy-hover"><a href="#b_6">отзывы</a></li>
+          <li class="fancy-hover"><a href="#b_6">контакты</a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a></div>
   </header>
   <!-- banner text -->
-  <div class="container-fluid container-rond">
+  <div class="container container-rond">
     
       <div class="banner-text multi text-center">
       <div class="row">
         <h1>Какой-то текст!</h1>
-        <div class="box-r">
-      <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
-        <a href="#" class="round round-purp">
-          <img src="images/vr.jpg" alt="" >
-          <h4 class="variant-1">vr</h4>
-           </a> </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
+       
+        <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
         <a href="#" class="round round-orang">
           <img src="images/ps4.jpg" alt="" >
-          <h4 class="variant-1">ps4</h4>
+          <h4 class="variant-1">ps4 pro </br> vr</h4>
            </a> </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
+            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
         <a href="#" class="round round-green">
           <img src="images/ps1.jpg" alt="">
-          <h4 class="variant-1">ps1</h4>
+          <h4 class="variant-1">retro games </br> ps1&dandy</h4>
            </a> </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
-        <a href="#" class="round round-blue">
-          <img src="images/dendy.jpg" alt="" >
-          <h4 class="variant-1">dendy</h4>
-           </a> </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
         <a href="#" class="round round-yelow">
           <img src="images/2.jpg" alt="">
-          <h4 class="variant-1">фильмы</h4>
+          <h4 class="variant-1">фильмы в hd</h4>
            </a> </div>
-             <div class="col-lg-4 col-md-4 col-sm-6 round-box"> 
+             <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
         <a href="#" class="round ">
           <img src="images/sport.jpg" alt="" >
           <h4 class="variant-2">спортивные трансляции</h4>
@@ -98,73 +98,75 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
     </div>
   </div>
                             
-                        </div></section>
-                    
-
-<!-- header section -->
-  <section id="b_1" class="section intro">
-  <div class="container">
-   </div>
-</section>
-<!-- intro section -->
-<section id="b_2" class="section intro">
-  <div class="container">
-   </div>
-</section>
-<!-- services section --> 
-<!-- work section -->
-<section id="b_3" class="works section no-padding">
-  <div class="container-fluid">
-    
-  </div>
-</section>
-<!-- work section --> 
-<!-- our team section -->
-<section id="b_4" class="section teams">
-  <div class="container">
-    
-  </div>
-</section>
-<!-- our team section --> 
+</div></section>
 <!-- Testimonials section -->
-<section id="b_5" class="section testimonials no-padding">
-  <div class="container-fluid">
+<section id="testimonials" class="container testimonials no-padding">
+  
+    <div class="row no-gutter">
+      <div class="flexslider"><h1>Отзывы</h1>
+        <ul class="slides">
+
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Все понравилось, персонал отзывчивый, цены доступные, выбор фильмов хороший, советую сходить)" </h1>
+                <p>Ольга<br> Гродно</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то" </h1>
+                <p>Витя <br> Мосты</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote><p>Виктория</p>
+                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
+                
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote><p>Павел</p>
+                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
+                
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
     
   </div>
 </section>
-<!-- Testimonials section --> 
+<!-- Testimonials section -->        
 
-<!-- contact section -->
-<section id="b_6" class="section">
-  <div class="container">
-   
-  </div>
-</section>
-<!-- contact section --> 
+
 
 <!-- Footer section -->
 <footer class="footer">
-  <div class="footer-top section">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col col-md-6">
-          <h5></h5>
+  <div class="footer-top container ">
+   
+     <h5>Как добраться</h5>
+        <div class=" map col-md-6">
+          <iframe src="https://yandex.by/map-widget/v1/-/CBq65Jr3kB" width="460" height="360" frameborder="0"></iframe>
+          
           <p></p>
         </div>
-        <div class="footer-col col-md-3">
-         
-          
-        </div>
-        <div class="footer-col col-md-3">
-         
+                <div class="col-md-6">
+         <h5>Присоединитесь к нам!</h5>
           <ul class="footer-share">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
           </ul>
-        </div>
-      </div>
+        
+      
     </div>
   </div>
   <!-- footer top --> 
