@@ -760,14 +760,14 @@ padding:15px 30px 15px 30px;
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
-.footer .map{padding: 0;}
+.footer .map{padding: 0; padding-top: 15px;}
 .footer {
 	text-align: left;
 }
 .footer-top {
 	background-color: #181818;
-
-	
+height: 385px;
+	padding-bottom: 0;
 }
 .footer-bottom {
 	background-color: #313454;
