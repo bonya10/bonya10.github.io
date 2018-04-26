@@ -50,11 +50,30 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       <p class="slogan"> кинокомната</p>
       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
          <p class="tel1">+375(29)123-456-78</p>
-         <a href="#">забронировать онлайн</a></div>
+         <a href="#modal1">забронировать онлайн</a></div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
           <p>суббота, воскресение: 14:00 - 06:00</p></div>
 </div> 
+<div id="modal1" class="modal1">
+    <div>
+       <div class="text" align="center">
+       <div id="blok_tel">
+  <form action="php/contact.php" method="post" class="form1">
+ЗАКАЗ ОБРАТНОГО ЗВОНКА
+<input type="text" name="tel" class="inputbox" value="Номер телефона с кодом"
+       onfocus="(this.value == '0123456789') && (this.value = '')"
+       onblur="(this.value == '') && (this.value = '0123456789')">
+<input type="submit" class="button" name="submit_tel">
+  </form>
+
+</div>
+
+
+</div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>        
+</div>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li class="fancy-hover"><a href="#b_1">Наши комнаты</a></li>
