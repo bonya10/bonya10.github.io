@@ -698,7 +698,7 @@ height: 232px;
 }
 
 /* Контейнер */
-.modal1 {
+.modal1, .modal2 {
 
 /* Слой перекрытия */
 position: fixed;
@@ -730,7 +730,7 @@ pointer-events: auto;
 }
 
 /* Содержание */
-.modal1 > div {
+.modal1 > div,  .modal2 {
 width: 300px;
 background: #ffff;
 position: relative;
