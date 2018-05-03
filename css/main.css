@@ -22,7 +22,7 @@
   format("truetype"),url("../fonts/Righteous-Regular.svg#Righteous-Regular") 
  format("svg");font-weight:normal;font-style:normal;}
 
-
+img { pointer-events: none; }
 p {
 	font-size: 13px;
 	line-height: 22.4px;
