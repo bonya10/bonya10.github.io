@@ -1,30 +1,28 @@
-$(document).on('submit', '#contact-form', function(e) {
-    e.preventDefault();
-    var replyto = $('input[name=_replyto]'),
-        replyto_text = replyto.val(),
-        subject = $('input[name=_subject]'),
-        subject_text = subject.val(),
-        body = $('textarea[name=body]'),
-        body_text = body.val();
-
-    $.ajax({
-        url: "https://formspree.io/alin4eg10@gmail.com",
-        method: "POST",
-        data: {
-            _replyto: replyto_text,
-            _subject: subject_text,
-            message: body_text
-        },
-        dataType: "json",
-        beforeSend: function( xhr ) {
-            spinner.show();
+$(document).ready(function() {
+  $('#contact-form').submit(function(e) {
+      var name = $('#inputName')
+      var phone = $('#inputPhone')
+      var message = $('#inputMessage')
+    
+      if(name.val() == "" || phone.val() == "" || message.val() == "") {
+        $('.submit-fail').fadeToggle(400);
+        return false;
       }
-    }).done(function(){
-        $('#contacts-success-wrapper').show();
-    }).fail(function() {
-        $('#contacts-error-wrapper').show();
-    }).always(function() {
-        spinner.hide();
-        $('#contacts-wrapper').remove();
+      else {
+        $.ajax({
+          method: 'POST',
+          url: '//formspree.io/alin4eg10@gmail.com',
+          data: $('#contact-form').serialize(),
+          datatype: 'json'
+        });
+        e.preventDefault();
+        $(this).get(0).reset();
+        $('.submit-success').fadeToggle(400);
+      }
     });
+  
+  $('.submit-fail, .submit-success').click(function() {
+    $(this).hide();
+  })
 });
+  
