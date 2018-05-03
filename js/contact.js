@@ -20,7 +20,7 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).get(0).reset();
        $('.modal1').hide();
-        $('.submit-success').fadeToggle(30);
+        $('.submit-success').fadeToggle(fast);
      
    
       }
