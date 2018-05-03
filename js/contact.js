@@ -17,7 +17,7 @@ $(document).ready(function() {
         });
         e.preventDefault();
         $(this).get(0).reset();
-       $('#contact-form').close();
+       $('.modal1').close();
         alert("Ура!");
       }
     });
