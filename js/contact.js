@@ -1,4 +1,16 @@
 $(document).ready(function() {
+  $("#dialog").dialog({
+    autoOpen: false,
+    show: {
+        effect: "blind",
+        duration: 1000
+    },
+    hide: {
+        effect: "explode",
+        duration: 1000
+    }
+});
+  
   $('#contact-form').submit(function(e) {
       var name = $('#inputName')
       var phone = $('#inputPhone')
