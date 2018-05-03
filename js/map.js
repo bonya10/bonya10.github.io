@@ -24,15 +24,14 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/icon_pin.png',
+            iconImageHref: 'images/pin-smile.png',
             // Размеры метки.
             iconImageSize: [30, 28],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
             iconImageOffset: [-5, -38]
         })
-     myPlacemark.name = "Москва";
-myPlacemark.description = "Столица Российской Федерации";
+     
         
        
   myMap.geoObjects
