@@ -1,15 +1,5 @@
 $(document).ready(function() {
-  $("#dialog").dialog({
-    autoOpen: false,
-    show: {
-        effect: "blind",
-        duration: 1000
-    },
-    hide: {
-        effect: "explode",
-        duration: 1000
-    }
-});
+  
   
   $('#contact-form').submit(function(e) {
       var name = $('#inputName')
@@ -30,9 +20,7 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).get(0).reset();
        $('.modal1').remove();
-          $( function() {
-    $( "#dialog" ).dialog("open");
-  } );
+        $('#dialog').fadeToggle(400);
       }
     });
   
