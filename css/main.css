@@ -638,7 +638,7 @@ height: 232px;
 }
 .round-purp::before{ background: linear-gradient(0deg, #9e163c, transparent);z-index: 1000;}
 .round-green::before{ background: linear-gradient(0deg, #50c420, transparent);z-index: 1000;}
-.round-orang::before{ background: linear-gradient(0deg, #f26921, transparent);z-index: 1000;}
+.round-red::before{ background: linear-gradient(0deg, #e82e2e, transparent);z-index: 1000;}
 .round-blue::before{ background: linear-gradient(0deg, #4b2fc5, transparent);z-index: 1000;}
 .round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
 .round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
