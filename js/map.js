@@ -1,7 +1,7 @@
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [53.670286, 23.836715],
-            zoom: 14
+            zoom: 18
         }, {
             searchControlProvider: 'yandex#search'
         }),
@@ -12,6 +12,8 @@ ymaps.ready(function () {
         ),
 
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            // Опции.
+             iconCaption:'Lumiere',
             hintContent: 'Собственный значок метки',
             balloonContent: 'Это красивая метка'
         }, {
