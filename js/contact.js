@@ -18,7 +18,9 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).get(0).reset();
        $('.modal1').remove();
-        alert("Ура!");
+          $( function() {
+    $( "#dialog" ).dialog();
+  } );
       }
     });
   
