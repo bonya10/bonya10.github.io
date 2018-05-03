@@ -1,7 +1,5 @@
-var myMap;
-// при успешной загрузке API выполняется соответствующая функция
-ymaps.ready(function(){
-     myMap = new ymaps.Map("map", {
+ymaps.ready(function () {
+    var myMap = new ymaps.Map("map", {
             center: [53.670286, 23.836715],
             zoom: 16
         }, {
