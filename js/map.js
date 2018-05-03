@@ -13,10 +13,13 @@ ymaps.ready(function () {
 
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
             // Опции.
+           
+
              iconCaption:'Lumiere',
             hintContent: 'Собственный значок метки',
             balloonContent: 'Это красивая метка'
-        }, {
+        }, 
+     {
             // Опции.
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
@@ -28,6 +31,8 @@ ymaps.ready(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-5, -38]
         })
+     myPlacemark.name = "Москва";
+myPlacemark.description = "Столица Российской Федерации";
         
        
   myMap.geoObjects
