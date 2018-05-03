@@ -877,82 +877,13 @@ a.openModal:focus {
 /* ------------------------------------------------------------------------------
 	Contact form
 -------------------------------------------------------------------------------*/
-.conForm {
-	text-align: center;
-}
-.conForm h5 {
-	font-size: 30px;
-}
-.conForm p {
-	text-align: center;
-	margin: 7%;
-}
-.conForm input {
-	color: #797979;
-	padding: 15px 30px;
-	border: none;
-	margin-right: 3%;
-	margin-bottom: 30px;
-	outline: none;
-	font-style: normal;
-	border-bottom: #e0e0e0 1px solid;
-	font-size: 15px;
-}
-textarea.form-control{height: 54px;}
-.conForm input.noMarr {
-	margin-right: 0px;
-}
-.conForm textarea {
-	color: #797979;
-	padding: 15px 30px;
-	margin-bottom: 18px;
-	outline: none;
-	height: 150px;
-	font-style: normal;
-	resize: none;
-	font-size: 15px;
-	border: none;
-	border-bottom: #e0e0e0 1px solid;
-}
-.conForm .submitBnt {
-	background: #3bc492;
-	color: #fff;
-	margin-top: 30px;
-padding:15px 30px 15px 30px;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 5px;
-	border: 0;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	display: inline-block;
-	text-transform: uppercase;
-}
-.conForm .submitBnt:hover {
-	background: #3d3d3d;
-	color: #fff;
-}
-#success_page{
-	color: #00bdbd;
-	font-weight: 500;
-}
-.error_message{
-	color: #ff675f;
-	padding-bottom: 15px;
-	font-weight: 500;
-}
-#success_page h3{
-	font-size:17px;
-	color:#5ed07b;
-	font-weight: 700;
-}
+
 
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer .map{padding: 0; padding-top: 15px;}
-.ymaps-2-1-62-outerHint-pane{font-family: 'Montserrat Alternates' , sans-serif;
+[class*="ymaps-2"]{font-family: 'Montserrat Alternates' , sans-serif;
 font-size: 13px;
 }
 [class*="ymaps-2"][class*="-ground-pane"] {
