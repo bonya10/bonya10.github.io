@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	document.getElementsByTagName('img').ondragstart = function() { return false; };
 	// Header Scroll
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
