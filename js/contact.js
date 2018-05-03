@@ -17,7 +17,7 @@ $(document).ready(function() {
         });
         e.preventDefault();
         $(this).get(0).reset();
-       $('.modal1').close();
+       $('.modal1').("hide");
         alert("Ура!");
       }
     });
