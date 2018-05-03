@@ -21,8 +21,7 @@ $(document).ready(function() {
         $(this).get(0).reset();
        $('.modal1').hide();
         $('.submit-success').fadeToggle(100);
-           
-        location.reload();  
+     
    
       }
     });
