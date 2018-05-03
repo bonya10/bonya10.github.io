@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(this).get(0).reset();
        $('.modal1').remove();
           $( function() {
-    $( "#dialog" ).dialog();
+    $( "#dialog" ).dialog("open");
   } );
       }
     });
