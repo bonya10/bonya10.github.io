@@ -196,7 +196,7 @@ text-align: center;
     color: #95c4ec;
 }
 
-#header.fixed .logo, #header.fixed  .header-tel, #header.fixed .time-work, #header.fixed .slogan, .navigation {
+#header.fixed .logo, #header.fixed  .header-tel, #header.fixed .time-work, #header.fixed .slogan, #header.fixed  .navigation {
 	display: none;
 }
 #header.fixed a {
