@@ -848,9 +848,9 @@ content: 'X';
 display: block;
 
 /* Позиционируем */
-position: absolute;
-right: -10px;
-top: -10px;
+position: fixed;
+right: 519px;
+top: 129px;
 width: 26px;
 padding: 1px 1px 1px 2px;
 
