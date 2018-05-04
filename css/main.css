@@ -946,13 +946,10 @@ height: 385px;
 /*=======================================================
 	Gallery
 =========================================================*/
-#portfolio .col-sm-3{
-max-height: 171px;}
-
 
 #portfolio .col-sm-3 img{
    width: 100%;
-    max-height: 171px;
+    max-height: 167px;
     overflow: hidden;
 }
 
