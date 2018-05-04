@@ -41,6 +41,8 @@
 <script type="text/javascript" src="js/jquery.contact.js"></script>
    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
  <script src="js/map.js"></script>
+ <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 
 <script>
 
@@ -222,6 +224,16 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
-
+<script>
+(function($){
+$(window).load(function(){
+ 
+$("body").mCustomScrollbar({
+theme:"dark-thin"
+});
+ 
+});
+})(jQuery);
+</script>
 </body>
 </html>
