@@ -116,7 +116,7 @@ ul li {
 	Header
 -------------------------------------------------------------------------------*/
 #header {
-	position: fixed;
+	position: relative;
 	z-index: 999;
 	padding: 0;
 }
@@ -945,6 +945,8 @@ height: 385px;
 =========================================================*/
 
 
+
+#portfolio{position:relative;
 
 
 #portfolio div.gallery {
