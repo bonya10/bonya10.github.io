@@ -739,6 +739,7 @@ bottom: 0;
 background: rgba(0,0,0,0.5);
 	z-index: 10000;
 	text-align: center;
+	    height: 160px;
 }
 
 /* Контейнер */
@@ -777,11 +778,10 @@ pointer-events: auto;
 .modal1 > div,  .modal2 {
 width: 300px;
 background: #ffff;
-position: relative;
 margin: 10% auto;
 -webkit-animation: minimise 500ms linear;
     animation-name: minimise;
-padding: 30px;
+padding: 50px;
 -moz-border-radius: 7px;
 border-radius: 7px;
 /*-webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
