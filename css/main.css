@@ -946,13 +946,9 @@ height: 385px;
 
 .portfolio div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: none;
     float: left;
-    width: 180px;
-}
-
-.portfolio div.gallery:hover {
-    border: 1px solid #777;
+    width: 250px;
 }
 
 .portfolio div.gallery img {
@@ -966,7 +962,7 @@ height: 385px;
     text-align: center;
 }
 
-.portfolio div.desc:hover {
+.portfolio div.img:hover .desc{
     padding: 15px;
 	display:inline-block;
 	top:50px;
