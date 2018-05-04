@@ -1,4 +1,6 @@
-  $(document).ready(function() {
-      $('.navigation a[href^="/' + location.pathname.split("/")[1] + '"]').parent("li").addClass('active');
-    
-  }); 
+$('.primary-nav a').each(function() {
+        if ('http:/umiere10.github.io'+$(this).attr('href') == window.location.href)
+        {
+            $(this).addClass('active');
+        }
+    });
