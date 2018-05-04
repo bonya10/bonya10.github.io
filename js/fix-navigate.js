@@ -1,13 +1,3 @@
-$(function () {
-    var location = window.location.href;
-    var cur_url = '/' + location.split('/').pop();
- 
-    $('.navigation li').each(function () {
-        var link = $(this).find('a').attr('href');
- 
-        if (cur_url == link)
-        {
-            $(this).addClass('current');
-        }
-    });
+jQuery(document).ready(function($) {
+    $('.navigation a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
