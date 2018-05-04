@@ -949,20 +949,9 @@ height: 385px;
 
 
 
-#portfolio{position:relative;
-	margin: 0 5%;
-}
 
-#portfolio div.gallery {
-    margin: 5px;
-    border: none;
-    float: left;
-        height: 170px;
-    width: 250px;
-    overflow: hidden;
-}
 
-#portfolio div.gallery img {
+#portfolio  img {
     width: 100%;
     height: auto;
 }
