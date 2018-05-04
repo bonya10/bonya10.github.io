@@ -79,7 +79,7 @@ a {
 }
 
 .current  a{color: #fff !important;}
-.current  {
+
   .fancy-hover.current {
     background-color: rgba(56, 56, 56, 0.64) !important;
     border-left: 3px solid #000;
