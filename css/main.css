@@ -1021,6 +1021,12 @@ height: 385px;
     width: 100%;
     height: 100%;
 }
+.modal-dialog {
+    
+    width: auto;
+    
+}
+
 .modal-content {
   background:transparent;
     border: 2px solid rgba(255, 252, 252, 0.46);
