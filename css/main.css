@@ -81,7 +81,7 @@ a {
 .current  a{color: #fff !important;}
 
   .fancy-hover.current {
-    background-color: rgba(56, 56, 56, 0.64) !important;
+    background-color: rgba(78, 75, 75, 0.67) !important;
     border-left: 3px solid #000;
     border-right: 3px solid #000;
     padding: 0px 25px;
@@ -953,6 +953,8 @@ height: 385px;
 /*=======================================================
 	Gallery
 =========================================================*/
+#portfolio{
+	padding: 30px 0px;}
 
 #portfolio .col-sm-3 img{
    width: 100%;
