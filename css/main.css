@@ -947,13 +947,17 @@ height: 385px;
 	Gallery
 =========================================================*/
 
+
+
 #portfolio .col-sm-4 img{
    width: 100%;
-    height: 240px;
+    max-height: 150px;
     overflow: hidden;
 }
 #portfolio .col-sm-4{
 	padding: 0 5px;}
+#portfolio .col-md-9{
+	margin: 0 8%;}
 
 .modal-body {
     padding:0;
