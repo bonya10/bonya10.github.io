@@ -795,9 +795,7 @@ z-index: 10000;
 .modal1:target > div {
 -webkit-animation-name: minimise;
 }
-#contact-form textarea.form-control {
-    height: 50px;
-}
+
 .modal1 h2 {
 font-size: 36px;
 padding: 0 0 20px;
@@ -904,6 +902,55 @@ a.openModal:focus {
 	Contact form
 -------------------------------------------------------------------------------*/
 
+textarea.form-control{height: 54px;}
+.conForm input.noMarr {
+	margin-right: 0px;
+}
+.conForm textarea {
+	color: #797979;
+	padding: 15px 30px;
+	margin-bottom: 18px;
+	outline: none;
+	height: 150px;
+	font-style: normal;
+	resize: none;
+	font-size: 15px;
+	border: none;
+	border-bottom: #e0e0e0 1px solid;
+}
+.conForm .submitBnt {
+	background: #3bc492;
+	color: #fff;
+	margin-top: 30px;
+padding:15px 30px 15px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.conForm .submitBnt:hover {
+	background: #3d3d3d;
+	color: #fff;
+}
+#success_page{
+	color: #00bdbd;
+	font-weight: 500;
+}
+.error_message{
+	color: #ff675f;
+	padding-bottom: 15px;
+	font-weight: 500;
+}
+#success_page h3{
+	font-size:17px;
+	color:#5ed07b;
+	font-weight: 700;
+}
 
 /* ------------------------------------------------------------------------------
 	 Footer
