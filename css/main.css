@@ -86,7 +86,7 @@ a:hover, a:focus {
 }
 body {font-family: 'Montserrat Alternates' , sans-serif;
 background-image: url(../images/bg-1.jpg);
- background-size: contain;
+ background-size: cover;
  background-attachment: fixed;
 	
 	font-weight: 400;
