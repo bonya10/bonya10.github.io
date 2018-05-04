@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
  <!-- Resource style -->
   <script src="js/modernizr.js"></script> 
   <script src="js/fix-navigate.js"></script> 
@@ -105,141 +107,46 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
  
  <div id="portfolio" class="container">
-  <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="images/2.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="images/3.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="images/2.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="images/3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-  <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="images/2.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="images/3.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="images/2.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="images/3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-  <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="images/2.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="images/3.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="images/2.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="images/3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-  
-  <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="images/2.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="images/3.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="images/2.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="images/3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-  <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="images/2.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="images/3.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="images/2.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="images/3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="row">
+            <a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a>
+            <a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a><a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a>
+        </div>
+        <div class="row">
+           <a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a><a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a><a href="images/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/2.jpg" class="img-fluid">
+            </a>
+            <a href="images/32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/3.jpg" class="img-fluid">
+            </a>
+        </div>
+    </div>
 </div>
  </div>
  </section>
