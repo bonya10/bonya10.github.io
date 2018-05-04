@@ -1,6 +1,13 @@
-$('.primary-nav a').each(function() {
-        if ('http:/umiere10.github.io'+$(this).attr('href') == window.location.href)
+$(function () {
+    var location = window.location.href;
+    var cur_url = '/' + location.split('/').pop();
+ 
+    $('.primary-nav li').each(function () {
+        var link = $(this).find('a').attr('href');
+ 
+        if (cur_url == link)
         {
-            $(this).addClass('active');
+            $(this).addClass('current');
         }
     });
+});
