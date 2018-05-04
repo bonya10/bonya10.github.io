@@ -950,6 +950,7 @@ height: 385px;
 
 
 #portfolio{position:relative;
+	margin: 0 5%;
 }
 
 #portfolio div.gallery {
