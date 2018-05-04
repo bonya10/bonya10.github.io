@@ -948,10 +948,13 @@ height: 385px;
 =========================================================*/
 
 #portfolio .col-sm-4 img{
-   width:250px
-    max-height: 210px;
+   width: 100%;
+    height: 240px;
     overflow: hidden;
 }
+#portfolio .col-sm-4{
+	padding: 0 5px;}
+
 .modal-body {
     padding:0;
     width: 100%;
