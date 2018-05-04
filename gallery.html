@@ -191,5 +191,11 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 
 <script type="text/javascript" src="js/jquery.contact.js"></script>
 </body>
+<script>
+ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
 </html>
 
