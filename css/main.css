@@ -940,7 +940,44 @@ height: 385px;
 	font-size: 11px;
 	margin: 0 2px;
 }
-=======
+/*=======================================================
+	Gallery
+=========================================================*/
+
+.portfolio div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.portfolio div.gallery:hover {
+    border: 1px solid #777;
+}
+
+.portfolio div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio div.desc {
+    padding: 15px;
+	display:none;
+    text-align: center;
+}
+
+.portfolio div.desc:hover {
+    padding: 15px;
+	display:inline-block;
+	top:50px;
+    text-align: center;
+background: #ffff;
+	width:100%;
+	height:100%;
+}
+
+
+
 /* ------------------------------------------------------------------------------
 	Template Name: Minifolio
 	Author: Designstub
