@@ -100,7 +100,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 30px 0;
 }
 .no-padding {
 	padding: 0;
@@ -944,25 +944,25 @@ height: 385px;
 	Gallery
 =========================================================*/
 
-.portfolio div.gallery {
+#portfolio div.gallery {
     margin: 5px;
     border: none;
     float: left;
     height: 250px;
 }
 
-.portfolio div.gallery img {
+#portfolio div.gallery img {
     width: 100%;
     height: auto;
 }
 
-.portfolio div.desc {
+#portfolio div.desc {
     padding: 15px;
 	display:none;
     text-align: center;
 }
 
-.portfolio div.img:hover .desc{
+#portfolio div.img:hover .desc{
     padding: 15px;
 	display:inline-block;
 	top:50px;
