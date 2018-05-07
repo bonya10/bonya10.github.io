@@ -86,42 +86,41 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
        <div id="blok_tel">
  <form id="contact-form" action="" method="POST">
       <div class="form-group">
-          <label class="control-label" for="inputName">Как вас зовут?</label>
-         <input type="text" class="form-control contact-input" id="inputName" name="name" placeholder="">
+          <label class="control-label" for="имя">Как вас зовут?</label>
+         <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
       </div>
       <div class="form-group">
-          <label class="control-label" for="inputPhone">Ваш номер телефона:</label>
-          <input class="form-control" type="phone" class="form-control contact-input" id="inputPhone" name="phone" placeholder="+375(__)__ __ ___">
-      </div> <label class="visuallyhidden" for="count_people">на сколько часов?</label>
-            <input type="number" name="count_people"
-   min="1" max="4" step="1" value="1">
+          <label class="control-label" for="телефон">Ваш номер телефона:</label>
+          <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
+      </div>
+  <label class="visuallyhidden" for="количество часов">на сколько часов?</label>
+            <input type="number" name="количество часов"   min="1" max="4" step="1" value="1">
   <div class="field">
-            <label class="visuallyhidden" for="count_people">сколько человек</label>
-            <select name="hour" id="hour" required>
-              <option value="">сколько человек</option>
-              <option value="none">2</option>
-              <option value="1">3</option>
-              <option value="2">4</option>
-             <option value="2">5</option>
-             <option value="2">6</option>
+            <label class="visuallyhidden" for="количество_людей">сколько человек</label>
+            <select name="количество_людей" id="hour" required>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
             </select>
           </div
     <fieldset>
   <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio name=size> 1</label></div>
-  <div><label> <input required  type=radio name=size> 2 </label></div>
+  <div><label> <input required  type=radio name="комната"> 1</label></div>
+  <div><label> <input required  type=radio name="комната"> 2 </label></div>
   </fieldset>
- <div><label>На какое время? <input required  type=time min="11:00" max="21:00" step="900"></label></div>
+ <div><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="900"></label></div>
           <div class="field date">
-            <p><label>На какое число? <input type="date" name="day" max="2020-12-31"><br></label></p>
+            <p><label>На какое число? <input type="date" name="день" max="2020-12-31"><br></label></p>
            
 </div>
       <div class="form-group">
-          <label class="control-label" for="inputMessage">Ваше сообщение:</label>
-          <textarea rows="4"  id="messege" class="form-control " name="text" placeholder="Ваше сообщение"></textarea>
-</div>
+          <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
+          <textarea rows="4"  id="messege" class="form-control " name="дополнительная_информация" placeholder="Ваше сообщение"></textarea>
+      </div>
       <input class="btn btn-primary" type="submit" value="Отправить"> 
-   </form>
+</form>
 
 </div>
 
