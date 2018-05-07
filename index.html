@@ -84,8 +84,11 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
           <label class="control-label" for="inputPhone">Ваш номер телефона:</label>
           <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="phone" placeholder="+375(__)__ __ ___">
       </div>
+  <label class="visuallyhidden" for="count_people">на сколько часов?</label>
+            <input type="number" name="count_people"
+   min="1" max="4" step="1" value="1">
   <div class="field">
-            <label class="visuallyhidden" for="pets">на сколько часов</label>
+            <label class="visuallyhidden" for="count_people">сколько человек</label>
             <select name="hour" id="hour" required>
               <option value="">сколько человек</option>
               <option value="none">2</option>
