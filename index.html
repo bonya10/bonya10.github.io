@@ -78,12 +78,31 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  <form id="contact-form" action="" method="POST">
       <div class="form-group">
           <label class="control-label" for="inputName">Как вас зовут?</label>
-         <input type="text" class="form-control contact-input" id="inputName" name="name" placeholder="">
+         <input type="text" required class="form-control contact-input" id="inputName" name="name" placeholder="">
       </div>
       <div class="form-group">
           <label class="control-label" for="inputPhone">Ваш номер телефона:</label>
-          <input class="form-control" type="phone" class="form-control contact-input" id="inputPhone" name="phone" placeholder="+375(__)__ __ ___">
+          <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="phone" placeholder="+375(__)__ __ ___">
       </div>
+  <div class="field">
+            <label class="visuallyhidden" for="pets">на сколько часов</label>
+            <select name="hour" id="hour" required>
+              <option value="">Number of Pets (Please Choose)</option>
+              <option value="none">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div
+    <fieldset>
+  <legend> Какую комнату бронируете </legend>
+  <div><label> <input required  type=radio name=size> 1</label></div>
+  <div><label> <input required  type=radio name=size> 2 </label></div>
+  </fieldset>
+ <div><label>На какое время?: <input required  type=time min="11:00" max="21:00" step="900"></label></div>
+          <div class="field date">
+            <label for="checkin-date">check in date (mm/dd/yyyy) - <a target="_blank" href="http://www.vrbo.com/452480/calendar" title="check availability">check availability</a></label>
+            <input required  class="datetime" type="text" name="checkin-date" id="checkin-date">
+</div>
       <div class="form-group">
           <label class="control-label" for="inputMessage">Ваше сообщение:</label>
           <textarea rows="10"  id="inputMessage" class="form-control contact-input" name="body" placeholder="Ваше сообщение"></textarea>
