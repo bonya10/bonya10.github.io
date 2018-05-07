@@ -764,12 +764,13 @@ pointer-events: auto;
 
 /* Содержание */
 .modal1 > div,  .modal2 {
-width: 300px;
+width: 500px;
 background: #ffff;
-margin: 10% auto;
+margin: 5% auto;
 -webkit-animation: minimise 500ms linear;
     animation-name: minimise;
-padding: 50px;
+animation-name: minimise;
+padding: 30px;
 -moz-border-radius: 7px;
 border-radius: 7px;
 /*-webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
