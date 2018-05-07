@@ -13,7 +13,7 @@ $(document).ready(function() {
       else {
         $.ajax({
           method: 'POST',
-          url: '//formspree.io/alin4eg10@gmail.com',
+          url: '//formspree.io/alinka_cydik@mail.ru',
           data: $('#contact-form').serialize(),
           datatype: 'json'
         });
