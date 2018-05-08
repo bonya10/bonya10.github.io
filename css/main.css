@@ -764,7 +764,7 @@ pointer-events: auto;
 
 /* Содержание */
 .modal1 > div,  .modal2 {
-width: 500px;
+width: 69%;
 background: #ffff;
 margin: 5% auto;
 -webkit-animation: minimise 500ms linear;
@@ -906,6 +906,10 @@ textarea.form-control{height: 54px;}
 	font-size: 15px;
 	border: none;
 	border-bottom: #e0e0e0 1px solid;
+}
+
+.conForm input[type="radio"] {
+    width: 10%;
 }
 .conForm .submitBnt {
 	background: #3bc492;
