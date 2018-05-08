@@ -587,12 +587,12 @@ line-height: 1.2;
 color: white;
 letter-spacing: 2px;
 text-transform: uppercase;
-
+    z-index: 1000;
 font-weight: 600;
 text-shadow: 0px 0px 8px #00c6ff;
 }
 
-.variant-2{
+.variant-2{    z-index: 1000;
 	    position: absolute;
     left: 50%;
     top: 35%;
