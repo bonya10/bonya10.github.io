@@ -753,9 +753,11 @@ pointer-events: none;
 }
 
 .modal1 input[type=radio]{
-	width: 30px; margin-right:10px;
+	width: 30px; 
 }
 
+.modal1 input[type=radio] label{
+margin-right:10px;}
 
 /* Показываем модальное окно */
 .modal1 input{
