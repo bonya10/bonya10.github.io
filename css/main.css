@@ -752,6 +752,11 @@ opacity: 0;
 pointer-events: none;
 }
 
+.modal1 input[type=radio]{
+	width: 30px; margin-right:10px;
+}
+
+
 /* Показываем модальное окно */
 .modal1 input{
 	width: 196px;
