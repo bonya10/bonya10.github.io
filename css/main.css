@@ -771,7 +771,7 @@ pointer-events: auto;
 
 /* Содержание */
 .modal1 > div,  .modal2 {
-width: 69%;
+width:500px;
 background: #ffff;
 margin: 5% auto;
 -webkit-animation: minimise 500ms linear;
