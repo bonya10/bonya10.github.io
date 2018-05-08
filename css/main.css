@@ -908,7 +908,7 @@ textarea.form-control{height: 54px;}
 	border-bottom: #e0e0e0 1px solid;
 }
 
-.modal1 legend div {
+.modal1 .field legend div {
     width: 10%;
 }
 .conForm .submitBnt {
