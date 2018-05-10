@@ -1,22 +1,27 @@
 $(document).ready(function() {
-  
-  
-  $('#contact-form').submit(function(e) {
-     
-        $.ajax({
-          method: 'POST',
-          url: '//formspree.io/alin4eg10@gmail.com',
-          data: $('#contact-form').serialize(),
-          
+    $('#contact-form').submit(function(e) {
+        var name = $('#inputName')
+        var email = $('#inputEmail')
+        var message = $('#inputMessage')
+      
+        if(name.val() == "" || email.val() == "" || message.val() == "") {
+          $('.submit-fail').fadeToggle(400);
+          return false;
+        }
+        else {
+          $.ajax({
+            method: 'POST',
+            url: '//formspree.io/alin4eg10@gamil.com',
+            data: $('#contact-form').serialize(),
             datatype: 'json'
           });
           e.preventDefault();
           $(this).get(0).reset();
-          $(this).hide();
           $('.submit-success').fadeToggle(400);
-           
-        
+        }
       });
+    
+ 
   });
  
   
