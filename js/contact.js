@@ -2,15 +2,7 @@ $(document).ready(function() {
   
   
   $('#contact-form').submit(function(e) {
-      var name = $('#inputName')
-      var phone = $('#inputPhone')
-      var message = $('#inputMessage')
-    
-      if(name.val() == "" || phone.val() == "" || message.val() == "") {
-        $('.submit-fail').fadeToggle(400);
-        return false;
-      }
-      else {
+      
         $.ajax({
           method: 'POST',
           url: '//formspree.io/alinka_cydik@mail.ru',
@@ -26,8 +18,6 @@ $(document).ready(function() {
       }
     });
   
-  $('.submit-fail, .submit-success').click(function() {
-    $(this).hide();
-  })
-});
+  
+
   
