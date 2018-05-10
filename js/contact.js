@@ -15,8 +15,12 @@ $(document).ready(function() {
         $('.submit-success').fadeToggle(100);
         }
    
-      }  });
+      } 
+        });     
+        
     });
+
+}); 
   
   
 
