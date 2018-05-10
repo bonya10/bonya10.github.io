@@ -55,7 +55,7 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-.btn {
+.btn, .modal1 a[href="#close"] {
 	background-color: #3bc492;
 	color: #fff;
 	font-size: 13px;
@@ -847,32 +847,7 @@ color: transparent;
 outline: none;
 }
 
-/* Создаем кнопку Закрыть */
-.modal1 a[href="#close"]:after {
-content: 'X';
-display: block;
 
-/* Позиционируем */
-position: fixed;
-right: 519px;
-top: 129px;
-width: 26px;
-padding: 1px 1px 1px 2px;
-
-/* Стили */
-text-decoration: none;
-text-shadow: none;
-text-align: center;
-font-weight: bold;
-background: #000;
-color: #ffffff;
-border: 3px solid #ffffff;
--moz-border-radius: 50px;
-border-radius: 50px;
--webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
--moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-}
 
 .modal1 a[href="#close"]:focus:after,
 .modal1 a[href="#close"]:hover:after {
