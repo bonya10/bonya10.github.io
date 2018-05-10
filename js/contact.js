@@ -12,13 +12,11 @@ $(document).ready(function() {
           });
           e.preventDefault();
           $(this).get(0).reset();
+          $(this).hide();
           $('.submit-success').fadeToggle(400);
+           
         
       });
-    
-    $('.submit-fail, .submit-success').click(function() {
-      $(this).hide();
-    })
   });
  
   
