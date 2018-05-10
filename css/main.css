@@ -759,12 +759,6 @@ pointer-events: none;
 .modal1 input[type=radio] label{
 margin-right:10px;}
 
-.form-group {
-    width: 49%;
-    margin-bottom: 15px;
-    /* margin: 0; */
-    display: inline-block;
-}
 
 /* Показываем модальное окно */
 .modal1 input[type=text]{
