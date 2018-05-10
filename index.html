@@ -84,8 +84,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
           <label class="control-label" for="телефон">Ваш номер телефона:</label>
           <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
       </div>
-  <label class="visuallyhidden" for="количество часов">на сколько часов?</label>
-            <input type="number" name="количество часов"   min="1" max="4" step="1" value="1">
+  <div class="hour"><label class="visuallyhidden" for="количество часов">на сколько часов?</label>
+            <input type="number" name="количество часов"   min="1" max="4" step="1" value="1"></div>
   <div class="field">
             <label class="visuallyhidden" for="количество_людей">сколько человек</label>
             <select name="количество_людей" id="hour" required>
@@ -95,14 +95,14 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
              <option value="5">5</option>
              <option value="6">6</option>
             </select>
-          </div
+  </div>
     <fieldset>
   <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio name="комната"> 1</label>
-  <label> <input required  type=radio name="комната"> 2 </label></div>
+  <div><label> <input required  type=radio value="1" name="комната"> 1</label>
+  <label> <input required  type=radio value="2" name="комната"> 2 </label></div>
   </fieldset>
- <div><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="900"></label></div>
-          <div class="field date">
+ <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="900"></label></div>
+          <div class="field_date">
            <label>На какое число? <input type="date" name="день" max="2020-12-31"><br></label>
            
 </div>
