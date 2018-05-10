@@ -7,7 +7,7 @@ $(document).ready(function() {
           method: 'POST',
           url: 'https://formspree.io/alinka_cydik@mail.ru',
           data: $('#contact-form').serialize(),
-          datatype: 'json',
+          datatype: 'json'
 
         });     
         
