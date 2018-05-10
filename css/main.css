@@ -834,13 +834,7 @@ padding: 0 0 20px;
   }
 }
 
-/* Ссылка на кнопку Закрыть */
-.modal1 a[href="#close"] {
-position: absolute;
-right: 0;
-top: 0;
-color: transparent;
-}
+
 
 /* Сбрасываем изменения */
 .modal1 a[href="#close"]:focus {
