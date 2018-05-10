@@ -5,7 +5,7 @@ $(document).ready(function() {
      
         $.ajax({
           method: 'POST',
-          url: '//formspree.io/alinka_cydik@mail.ru',
+          url: '//formspree.io/alin4eg10@gmail.com',
           data: $('#contact-form').serialize(),
           
             datatype: 'json'
