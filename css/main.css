@@ -606,7 +606,8 @@ text-shadow: 0px 0px 8px #00c6ff;
     color: white;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+    /*text-shadow: -0.06em 0 red, 0.06em 0 cyan;*/
+	text-shadow: 0px 0px 8px #00c6ff;
     font-weight: 600;
 }
 
