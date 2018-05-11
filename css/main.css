@@ -633,8 +633,8 @@ z-index: 100;}
 
 .round img{
 	border-radius: 70%;
-	width: 232px;
-height: 232px;
+	width: 220px;
+height: 220px;
 
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -667,12 +667,13 @@ height: 232px;
 
 .round:hover::before{height: 70%;}
 
-.col-lg-4{width: 32.4%;}
+.col-lg-3{width: 18%;}
 .round-box{
 	padding: 0;
-	    padding-left: 30px;
-    padding-right: 30px;
-	margin-bottom: 10px;
+    padding-right: 0px;
+margin-left: 18px;
+padding-right: 0px;
+margin-bottom: 10px;
 	}
 /* ------------------------------------------------------------------------------
 	 Testimonials
