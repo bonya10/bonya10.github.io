@@ -1049,7 +1049,13 @@ background: #ffff;
 
 ------------------------------------------------------------------------------*/
 
-.disqus-footer__wrapper{display:none;}
+.chatContainer {
+   
+    background-color: transparent;
+    
+    color: #fff;
+    
+	border: 0px solid rgb(198,198,198);}
 
 /*--------------------------------------------------------------------------------
 
