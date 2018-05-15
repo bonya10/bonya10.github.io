@@ -1186,7 +1186,7 @@ line-height: 3.5rem;
 border-left:5px solid #222; border-right:5px solid #222;
 text-decoration:none; color:#bfe1f1; }
 #list8 li:hover { -moz-transform:rotate(-5deg); -moz-box-shadow:10px 10px 
-20px #000000;
+20px #000000; color:white;
 -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
 transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
 
