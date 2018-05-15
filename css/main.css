@@ -81,7 +81,7 @@ a {
 	color: #e84545;
 }
 .rooms{color: #fff; }
-.reviws, .rooms  { background-color:#181818;}
+.reviws, .rooms, #portfolio  { background-color:#181818;}
 .current  a{color: #fff !important;}
 
   .fancy-hover.current {
