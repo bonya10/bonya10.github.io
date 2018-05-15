@@ -984,6 +984,7 @@ box-shadow: 0px 1px 8px #00c6ff;
 .booking:hover:before,
 .booking:hover:after {
     width: 100%;
+	border-radius: 4px;
 }
 /* ------------------------------------------------------------------------------
 	Contact form
