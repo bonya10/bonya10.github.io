@@ -1162,13 +1162,18 @@ background: #ffff;
 
 ------------------------------------------------------------------------------*/
 
-.chatContainer {
-   
+.about_us .chatContainer {
+    font-family: Arial;
     background-color: transparent;
-    
-    color: #fff;
-    
-	border: 0px solid rgb(198,198,198);}
+    right: 0px;
+    bottom: 0px;
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+}
 
 /*--------------------------------------------------------------------------------
 
