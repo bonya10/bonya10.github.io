@@ -882,10 +882,22 @@ letter-spacing: 2px;
 text-transform: uppercase;
 z-index: 1000;
 font-weight: 600;
-	text-shadow: 0px 0px 8px #00c6ff;}
-.booking{padding:5px 10px;
-	boxtext-shadow: 0px 0px 8px #00c6ff;
+text-shadow: 0px 0px 8px #00c6ff;}
+
+.booking{padding: 5px 10px;
+box-shadow: 0px 0px 8px #00c6ff;
+color: #2d3033;
+border-radius: 4px;
+background: #fff;padding:5px 10px;
+boxtext-shadow: 0px 0px 8px #00c6ff;
 }
+
+.room-box h3{color: #fff;}
+.room-box h4{color: #fff;}
+.room-box .tarif{color: #2d3033;}
+	
+
+	
 /* ------------------------------------------------------------------------------
 	Contact form
 -------------------------------------------------------------------------------*/
