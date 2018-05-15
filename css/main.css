@@ -899,7 +899,7 @@ margin-bottom: 48px;
 }
 	
 .room-box{text-align: center;}
-.private ul{background: #ae1e2880;
+.private ul{background: #fff5f61a;
 width: 454px;
 margin-left: 10%;
 padding: 27px 59px;
@@ -908,7 +908,7 @@ font-size: 2.1rem;
 line-height: 3rem;
 margin-top: 20px;}
 
-.vip ul{background: #ae1e2880;
+.vip ul{background: #fff5f61a;
 width: 454px;
 margin-left: 10%;
 padding: 12px 10px;
