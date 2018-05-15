@@ -1173,6 +1173,7 @@ text-shadow: 0px 0px 8px #00c6ff;}
 
 .about_us{line-height: 2.7rem;
 	color:white;}
+
 .lumiere{letter-spacing: 2px;
 text-transform: uppercase;
 font-weight: 600;
@@ -1189,6 +1190,15 @@ text-decoration:none; color:#bfe1f1; }
 20px #000000; color:white;
 -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
 transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
+
+.services, #imposible{
+	text-align: center;
+}
+
+.about_us p{
+	font-size:2rem;}
+
+
 
 /*--------------------------------------------------------------------------------
 
