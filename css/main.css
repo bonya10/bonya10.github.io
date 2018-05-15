@@ -1172,7 +1172,9 @@ font-weight: 600;
 text-shadow: 0px 0px 8px #00c6ff;}
 
 .about_us{line-height: 2.7rem;
-	color:white;}
+	color:white
+		padding: 30px 15px;
+}
 
 .lumiere{letter-spacing: 2px;
 text-transform: uppercase;
@@ -1181,7 +1183,7 @@ font-size: 2.1rem;
 line-height: 3.5rem;
 }
 
-#list8 { text-align: center;}
+#list8 { text-align: center; margin-bottom: 18px;}
 #list8 ul { list-style:none; }
 #list8 li { display:block;  background-color:#333; 
 border-left:5px solid #222; border-right:5px solid #222;
@@ -1192,12 +1194,16 @@ text-decoration:none; color:#bfe1f1; }
 transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
 
 #imposible{
-	margin-left: 33%;}
+	margin-left: 25%;
+font-size: 2.25rem;}
 .services{
-	margin-left: 43%;}
+	margin-left: 40%;
+font-size: 2.25rem;}
 
-.about_us p{
-	font-size:2rem;}
+.about_us p{text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify;
+	font-size: 24.8px;
+margin-bottom: 18px;}
 
 
 
