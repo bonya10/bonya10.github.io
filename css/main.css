@@ -887,8 +887,6 @@ text-shadow: 0px 0px 8px #00c6ff;}
 box-shadow: 0px 0px 8px #00c6ff;
 color: #2d3033;
 border-radius: 4px;
-background: #fff;padding:5px 10px;
-boxtext-shadow: 0px 0px 8px #00c6ff;
 }
 
 .rooms{padding: 50px 0;}
@@ -951,7 +949,7 @@ margin-top: 20px;}
     padding: 1.4rem 4.2rem;
     padding-right: 3.1rem;
     font-size: 1.4rem;
-    color: var(--inv);
+    color: #fff;
     letter-spacing: 1.1rem;
     text-transform: uppercase;
     transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);  
@@ -967,7 +965,7 @@ margin-top: 20px;}
 }
 
 .booking:hover {
-    color: var(--def);
+    color: #000;
     transition-delay: .6s;
 }
 
@@ -976,7 +974,7 @@ margin-top: 20px;}
 }
 
 .booking:hover:after {
-    background: var(--inv);
+    background: #fff;
     transition-delay: .4s;
 }
 	
