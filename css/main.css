@@ -885,7 +885,6 @@ text-shadow: 0px 0px 8px #00c6ff;}
 
 .booking{padding: 5px 10px;
 box-shadow: 0px 0px 8px #00c6ff;
-color: #2d3033;
 border-radius: 4px;
 }
 
@@ -928,23 +927,7 @@ margin-top: 20px;}
     height: 100%;
 }
 
-.booking:before {
-    right: 0;
-    border: 1px solid var(--inv);
-    border-left: 0;
-    border-right: 0;    
-}
-
-.booking:after {
-    left: 0;
-}
-
-.booking:hover:before,
-.booking:hover:after {
-    width: 100%;
-}
-
-.booking {      
+.btn {      
     position: relative; 
     padding: 1.4rem 4.2rem;
     padding-right: 3.1rem;
@@ -957,27 +940,48 @@ margin-top: 20px;}
     user-select: none;
 }
 
-.booking:before, .booking:after {
+.btn:before, .btn:after {
     content: '';
     position: absolute; 
     transition: inherit;
     z-index: -1;
 }
 
-.booking:hover {
-    color: #000;
+.btn:hover {
+    color: #96B7C4;
     transition-delay: .6s;
 }
 
-.booking:hover:before {
+.btn:hover:before {
     transition-delay: 0s;
 }
 
-.booking:hover:after {
+.btn:hover:after {
     background: #fff;
     transition-delay: .4s;
 }
-	
+.booking:before, 
+.booking:after {
+    top: 0;
+    width: 0;
+    height: 100%;
+}
+
+.booking:before {
+    right: 0;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;    
+}
+
+.booking:after {
+    left: 0;
+}
+
+.booking:hover:before,
+.booking:hover:after {
+    width: 100%;
+}
 /* ------------------------------------------------------------------------------
 	Contact form
 -------------------------------------------------------------------------------*/
