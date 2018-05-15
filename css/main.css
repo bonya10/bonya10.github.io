@@ -875,12 +875,11 @@ a.openModal:focus {
 	rooms
 -------------------------------------------------------------------------------*/
 .variant-3{padding: 0 10px;
-font-size: 4rem;
-line-height: 1.2;
+font-size: 3rem;
+line-height: 1.7;
 color: white;
 letter-spacing: 2px;
 text-transform: uppercase;
-z-index: 1000;
 font-weight: 600;
 text-shadow: 0px 0px 8px #00c6ff;}
 
@@ -902,9 +901,17 @@ boxtext-shadow: 0px 0px 8px #00c6ff;
     width: 300px;
     text-align: center;
     font-size: 1.1rem;
+	margin-left: 25%;
+margin-bottom: 48px;
 }
 	
 .room-box{text-align: center;}
+.room-box ul{background: #ae1e2880;
+width: 336px;
+margin-left: 20%;
+padding: 10px;
+border-radius: 4px;
+font-size: 2rem;}
 	
 /* ------------------------------------------------------------------------------
 	Contact form
