@@ -1191,9 +1191,10 @@ text-decoration:none; color:#bfe1f1; }
 -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
 transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
 
-.services, #imposible{
-	text-align: center;
-}
+#imposible{
+	margin-left: 33%;}
+.services{
+	margin-left: 33%;}
 
 .about_us p{
 	font-size:2rem;}
