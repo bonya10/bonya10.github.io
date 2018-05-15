@@ -919,6 +919,7 @@ border-radius: 4px;
 font-size: 1.7rem;
 line-height: 3rem;
 margin-top: 20px;}
+
 .from-left:before, 
 .from-left:after {
     top: 0;
@@ -1162,18 +1163,24 @@ background: #ffff;
 
 ------------------------------------------------------------------------------*/
 
-.about_us .chatContainer {
-    font-family: Arial;
-    background-color: transparent;
-    right: 0px;
-    bottom: 0px;
-    padding: 0px;
-    border: none;
-    overflow: hidden;
-    position: relative;
-    margin: 5px;
-    border-radius: 5px;
-}
+private {background: #fff5f61a;
+width: 454px;
+margin-left: 10%;
+padding: 27px 59px;
+border-radius: 4px;
+font-size: 2.1rem;
+line-height: 3rem;
+margin-top: 20px;}
+
+.vip{background: #fff5f61a;
+width: 454px;
+margin-left: 10%;
+padding: 12px 10px;
+border-radius: 4px;
+font-size: 1.7rem;
+line-height: 3rem;
+margin-top: 20px;}
+
 
 /*--------------------------------------------------------------------------------
 
