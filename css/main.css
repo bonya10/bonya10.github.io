@@ -927,7 +927,7 @@ margin-top: 20px;}
     height: 100%;
 }
 
-.btn {      
+.btn1 {      
     position: relative; 
     padding: 1.4rem 4.2rem;
     padding-right: 3.1rem;
@@ -940,23 +940,23 @@ margin-top: 20px;}
     user-select: none;
 }
 
-.btn:before, .btn:after {
+.btn1:before, .btn1:after {
     content: '';
     position: absolute; 
     transition: inherit;
     z-index: -1;
 }
 
-.btn:hover {
+.btn1:hover {
     color: #96B7C4;
     transition-delay: .6s;
 }
 
-.btn:hover:before {
+.btn1:hover:before {
     transition-delay: 0s;
 }
 
-.btn:hover:after {
+.btn1:hover:after {
     background: #fff;
     transition-delay: .4s;
 }
