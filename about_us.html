@@ -212,8 +212,9 @@ theme:"minimal"
 })(jQuery);
 </script>
 <script>
-	  $(".open_modal").click(function() {
- $(".modal1").fadeToggle('fast');
+$(document).ready(function() {
+    $(".open_modal").click(function() {
+      $(".modal1").fadeToggle('fast');
     });
       $(".modal1").bind("click",function(e){
         if($(e.target).attr("class") != "modal-form")
