@@ -1166,7 +1166,7 @@ line-height: 3.5rem;
 .footer .lumiere{
 	font-size: 11px;}
 
-.footer {
+.footer {width: 80%;
 	text-align: left;
 	background-color: #181818;
 }
