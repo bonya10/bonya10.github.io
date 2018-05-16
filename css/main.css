@@ -1058,6 +1058,14 @@ padding:15px 30px 15px 30px;
     -webkit-filter: grayscale(100%);
     /* Chrome 19+ & Safari 6+ */
 }
+.footer .numer_tel{
+	font-size: 11px;
+	float:right;}
+.footer .copy{
+	font-size: 11px;
+	}
+.footer .lumiere{
+	font-size: 11px;}
 
 .footer {
 	text-align: left;
