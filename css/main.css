@@ -786,9 +786,10 @@ pointer-events: auto;
 width:500px;
 background: #ffff;
 margin: 5% auto;
--webkit-animation: minimise 500ms linear;
-    animation-name: minimise;
-animation-name: minimise;
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
 padding: 30px;
 -moz-border-radius: 7px;
 border-radius: 7px;
@@ -801,7 +802,10 @@ z-index: 10000;
 
 /* Изменяем анимацию при открытии модального окна*/
 .modal1:target > div {
--webkit-animation-name: minimise;
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
 }
 
 .modal1 h2 {
