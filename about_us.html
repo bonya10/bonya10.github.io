@@ -75,12 +75,12 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
          <p class="tel2">+375(29)123-456-78</p>
        <p class="or">или</p>
-         <a href="#modal1" id="open_modal">забронировать онлайн</a></div>
+         <a onclick="document.getElementById('modal1').style.display='block';µ=true">забронировать онлайн</a></div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
           <p>суббота, воскресение: 14:00 - 06:00</p></div>
 </div> 
-<div id="modal1" class="modal1">
+<div id="modal1" class="modal1" style="display:none" onclick="µ=true">
     <div>
        <div class="text" align="center">
        <div id="blok_tel">
