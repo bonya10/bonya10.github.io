@@ -1,7 +1,7 @@
 
-$(#open_modal).mouseup(function (e) {
+$(#open_modal).mouseup(function() {
     var container = $(".modal1");
-    if (container.has(e.target).length === 0){
+    if (container.has(this.target).length === 0){
         container.hide();
     }
 });
