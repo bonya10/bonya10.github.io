@@ -52,7 +52,21 @@
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
-</script>
+</script> 
+	
+	<script>
+	var test = document.querySelector('.modal1');
+
+function removeTest(e) {
+    if(!e.target.matches('.modal1, .modal1 *')) {
+        test.remove();
+        this.removeEventListener('click', removeTest);
+    }
+}
+
+window.addEventListener('click', removeTest);
+
+	</script>
  <script>
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   el.addEventListener('mousemove',function(e){
