@@ -1,4 +1,5 @@
-  $(".modal1").fadeToggle('fast');
+$(document).mouseup(function (e) {  
+$(".modal1").fadeToggle('fast');
      });
        $(".modal1").bind("click",function(e){
 -        if($(e.target).attr("class") != "modal-form")
