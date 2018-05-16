@@ -1,4 +1,4 @@
-$(document).mouseup(function (e) {  
+$(document).ready(function() {
 $(".modal1").fadeToggle('fast');
      });
        $(".modal1").bind("click",function(e){
