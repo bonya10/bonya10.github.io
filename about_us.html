@@ -75,7 +75,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
          <p class="tel2">+375(29)123-456-78</p>
        <p class="or">или</p>
-         <a href="#modal1">забронировать онлайн</a></div>
+         <a href="#modal1" class="open_modal">забронировать онлайн</a></div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
           <p>суббота, воскресение: 14:00 - 06:00</p></div>
@@ -84,7 +84,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
     <div>
        <div class="text" align="center">
        <div id="blok_tel">
-  <form id="contact-form" action="" method="POST">
+  <form id="contact-form" class="modal-form" action="" method="POST">
       <div class="form-group">
           <label class="control-label" for="имя">Как вас зовут?</label>
          <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
@@ -212,9 +212,14 @@ theme:"minimal"
 })(jQuery);
 </script>
 <script>
-$(".modal1").on('click', function (e) {
-    if (e.target == this) $(".modal1").fadeOut('fast');
-})
+	  $(".open_modal").click(function() {
+ $(".modal1").fadeToggle('fast');
+    });
+      $(".modal1").bind("click",function(e){
+        if($(e.target).attr("class") != "modal-form")
+      $(".modal1").fadeOut('fast');
+      })
+});
 </script>
 </body>
 
