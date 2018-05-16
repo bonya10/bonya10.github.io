@@ -53,9 +53,14 @@
                 $(this).ekkoLightbox();
             });
 </script>
- 
- 
-
+ <script>
+ window.onload=function(){
+  document.body.onclick=function(){
+     if(µ) {µ =false; return;}
+     document.getElementById('modal1').style.display="none"
+  }
+}
+</script>
 <script>
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   el.addEventListener('mousemove',function(e){
