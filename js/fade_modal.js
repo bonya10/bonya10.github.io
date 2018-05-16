@@ -1,7 +1,8 @@
-
-$(#open_modal).mouseup(function() {
-    var container = $(".modal1");
-    if (container.has(this.target).length === 0){
-        container.hide();
-    }
-});
+  $(".modal1").fadeToggle('fast');
+     });
+       $(".modal1").bind("click",function(e){
+-        if($(e.target).attr("class") != "modal-form")
++        if($(e.target).attr("class") != "text")
+       $(".modal1").fadeOut('fast');
+       })
+ });
