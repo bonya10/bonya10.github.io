@@ -786,10 +786,11 @@ pointer-events: auto;
 width:500px;
 background: #ffff;
 margin: 5% auto;
--webkit-transform: scale(1);
--moz-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1);
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
 padding: 30px;
 -moz-border-radius: 7px;
 border-radius: 7px;
@@ -802,10 +803,11 @@ z-index: 10000;
 
 /* Изменяем анимацию при открытии модального окна*/
 .modal1:target > div {
--webkit-transform: scale(1);
--moz-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1);
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
 }
 
 .modal1 h2 {
@@ -813,33 +815,6 @@ font-size: 36px;
 padding: 0 0 20px;
 }
 
-@-webkit-keyframes bounce {
-  0% {
-   -webkit-transform: scale3d(0.1,0.1,1);
-   -webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-  }
-  55% {
-   -webkit-transform: scale3d(1.08,1.08,1);
-   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0);
-  }
-  75% {
-   -webkit-transform: scale3d(0.95,0.95,1);
-   -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.9);
-  }
-  100% {
-   -webkit-transform: scale3d(1,1,1);
-   -webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-  }
-}
-
-@-webkit-keyframes minimise {
-  0% {
-   -webkit-transform: scale3d(1,1,1);
-  }
-  100% {
-   -webkit-transform: scale3d(0.1,0.1,1);
-  }
-}
 
 
 
