@@ -746,9 +746,11 @@ background: rgba(0,0,0,0.5);
 z-index: 10000;
 
 /* Трансформации прозрачности при открытии  */
--webkit-transition: opacity 500ms ease-in;
--moz-transition: opacity 500ms ease-in;
-transition: opacity 500ms ease-in;
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
 
 /* Скрываем изначально */
 opacity: 0;
@@ -786,11 +788,7 @@ pointer-events: auto;
 width:500px;
 background: #ffff;
 margin: 5% auto;
--webkit-transition: opacity .5s;
--moz-transition: opacity .5s;
--ms-transition: opacity .5s;
--o-transition: opacity .5s;
-transition: opacity .5s;
+
 padding: 30px;
 -moz-border-radius: 7px;
 border-radius: 7px;
@@ -803,11 +801,7 @@ z-index: 10000;
 
 /* Изменяем анимацию при открытии модального окна*/
 .modal1:target > div {
--webkit-transition: opacity .5s;
--moz-transition: opacity .5s;
--ms-transition: opacity .5s;
--o-transition: opacity .5s;
-transition: opacity .5s;
+
 }
 
 .modal1 h2 {
