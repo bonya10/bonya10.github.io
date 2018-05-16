@@ -1,11 +1,14 @@
-
-var test = document.querySelector('.modal1');
-
-function removeTest(e) {
-    if(!e.target.matches('.modal1')) {
-        test.remove();
-        this.removeEventListener('click', removeTest);
-    }
-};
-
-window.addEventListener('click', removeTest);
+jQuery(function ($) {
+	$(".but").on("click", function () {
+		$(".modal-form").toggle();
+		$(".modal1").show();
+	});
+	$(".modal1").on("click", function (e) {
+		$(".modal-form").toggle();
+		$(this).hide();
+		var elem = document.elementFromPoint(e.clientX, e.clientY);
+		if (elem.className != "but") {
+			elem.click();
+		}
+	});
+});
