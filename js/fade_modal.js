@@ -16,7 +16,7 @@ $("form").mousedown(function(event){
 
     $('#modal1').toggleClass('opened');}
     
-}
+
      });
 });
 
