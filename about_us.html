@@ -54,19 +54,7 @@
             });
 </script> 
 	
-	<script>
-	$('.but').click(function () {
-    $('.modal1').toggleClass('opened');
-});
-$(document).click(function (e) {
-    if (!$(e.target).parents().andSelf().is('.but')) {
-        $(".modal1").removeClass("opened");
-    }
-});
-$(".modal1").click(function (e) {
-    e.stopPropagation();
-});
-	</script>
+	
  <script>
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   el.addEventListener('mousemove',function(e){
@@ -88,7 +76,19 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
        <p class="or" >или</p>
 	     
          <a class="but" href="#">забронировать онлайн</a>
-
+<script>
+	$('.but').click(function () {
+    $('.modal1').toggleClass('opened');
+});
+$(document).click(function (e) {
+    if (!$(e.target).parents().andSelf().is('.but')) {
+        $(".modal1").removeClass("opened");
+    }
+});
+$(".modal1").click(function (e) {
+    e.stopPropagation();
+});
+	</script>
 		    </div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
