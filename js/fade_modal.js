@@ -15,7 +15,7 @@ $("#modal1").mousedown(function(e){
     if(e.button == 2 )
 {
 
-    if (!$(e.target).parents().andSelf().is('.but')) {
+    if (!e.parents().andSelf().is('.but')) {
         $("#modal1").removeClass("opened");
     }
     else{
