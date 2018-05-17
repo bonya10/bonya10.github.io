@@ -55,7 +55,7 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-.btn, .modal1 a[href="#close"] {
+.btn {
 	background-color: #3bc492;
 	color: #fff;
 	font-size: 13px;
@@ -66,6 +66,7 @@ h5 {
 	border-radius: 2px;
 	display: inline-block;
 	text-transform: uppercase;
+	width: 100%;
 }
 .btn:hover, .btn:focus {
 	background-color: #3d3d3d;
