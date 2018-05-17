@@ -10,10 +10,9 @@ $(document).click(function (e) {
     }
 });
 
-$("#modal1").mousedown(function(e){
-   
-    if(e.button == 2 )
-{
+$('#modal1').mousedown(function(event){
+    event.preventDefault();
+    if(event.button == 2){
 
     $('#modal1').toggleClass('opened');}
     
