@@ -63,6 +63,17 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   });
 });</script>
 
+<script>webshims.setOptions('forms-ext', {
+    replaceUI: 'auto',
+    types: 'date'
+});
+webshims.polyfill('forms forms-ext');
+
+$(function(){
+    $('[type="date"].date').prop('min', function(){
+        return new Date().toJSON().split('T')[0];
+    });
+});</script>
 </head>
 
 <body  >
@@ -114,7 +125,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   </fieldset>
  <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="60"></label></div>
           <div class="field_date">
-           <label>На какое число? <input type="date" name="день" max="2020-12-31"><br></label>
+	
+           <label>На какое число? <input class="date" id="min" type="date" placeholder="YYYY-MM-DD" data-date-split-input="true" /><br></label>
            
 </div>
       <div class="form-group">
