@@ -205,12 +205,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
-<script>webshims.setOptions('forms-ext', {
-    replaceUI: 'auto',
-    types: 'date'
-});
-webshims.polyfill('forms forms-ext');
-
+<script>
 $(function(){
     $('[type="date"].date').prop('min', function(){
         return new Date().toJSON().split('T')[0];
