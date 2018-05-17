@@ -4,16 +4,15 @@ $('.but').click(function () {
     $('#modal1').toggleClass('opened');
 });
 
-$(document).click(function(e){
-  
-
+$(document).click(function (e) {
     if (!$(e.target).parents().andSelf().is('.but')) {
         $("#modal1").removeClass("opened");
     }
 });
+
 $(document).mousedown(function(e){
    
-    if(e.button == 0 )
+    if(e.button == 2 )
 {
 
     if (!$(e.target).parents().andSelf().is('.but')) {
