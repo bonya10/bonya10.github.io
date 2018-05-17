@@ -782,43 +782,16 @@ border-radius: 7px;
 .modal1 input[type=radio] label{
 margin-right:10px;}
 
-
-/* Показываем модальное окно */
 .modal1 input[type=text]{
 	width: 175px;
     text-align: center;
     display: inline-block;
 }
 
-/* Содержание */
-
-
-
 .modal1 h2 {
 font-size: 36px;
 padding: 0 0 20px;
 }
-
-
-
-
-/* Сбрасываем изменения */
-.modal1 a[href="#close"]:focus {
-outline: none;
-}
-
-
-
-.modal1 a[href="#close"]:focus:after,
-.modal1 a[href="#close"]:hover:after {
--webkit-transform: scale(1.1,1.1);
--moz-transform: scale(1.1,1.1);
-}
-
-.modal1 a[href="#close"]:focus:after {
-outline: 0px solid #000;
-}
-
 
 .modal1 .modal_title {
   display: block;
@@ -1113,8 +1086,14 @@ margin-bottom: 18px;}
 .footer .numer_tel{
 	font-size: 11px;
 text-align: right;
-line-height: 3.5rem;
+line-height: 5.5rem;
 }
+
+.footer .lumiere{
+	
+line-height: 5.5rem;
+}
+
 .footer .copy{
 	font-size: 11px;
 	}
