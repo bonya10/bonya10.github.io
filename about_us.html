@@ -63,17 +63,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   });
 });</script>
 
-<script>webshims.setOptions('forms-ext', {
-    replaceUI: 'auto',
-    types: 'date'
-});
-webshims.polyfill('forms forms-ext');
 
-$(function(){
-    $('[type="date"].date').prop('min', function(){
-        return new Date().toJSON().split('T')[0];
-    });
-});</script>
 </head>
 
 <body  >
@@ -131,7 +121,7 @@ $(function(){
 </div>
       <div class="form-textarea">
           <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
-          <textarea rows="4"  id="messege" class="form-textarea " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
+          <textarea rows="4"  id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
       </div>
       <input class="btn btn-primary" type="submit" value="Отправить"> 
   </div>
@@ -215,6 +205,17 @@ $(function(){
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
+<script>webshims.setOptions('forms-ext', {
+    replaceUI: 'auto',
+    types: 'date'
+});
+webshims.polyfill('forms forms-ext');
+
+$(function(){
+    $('[type="date"].date').prop('min', function(){
+        return new Date().toJSON().split('T')[0];
+    });
+});</script>
 <script>
 (function($){
 $(window).load(function(){
