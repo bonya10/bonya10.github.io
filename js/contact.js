@@ -15,10 +15,7 @@ $(document).ready(function() {
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
-              $('.but').click(function () {
-    
-        $("#modal1").removeClass("opened");});
-        
+           
           e.preventDefault();
           $(this).get(0).reset();
           $('.submit-success').fadeToggle(400);
