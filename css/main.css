@@ -734,23 +734,29 @@ background: rgba(0,0,0,0.5);
 }
 
 /* Контейнер */
-.modal1 {
-
-/* Слой перекрытия */
-position: fixed;
-top: 0;
+.modal1, .modal2 {
+ {
+    padding: 5px;
+    
+    display: none;
+    position: fixed;
+    top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background: rgba(0,0,0,0.5);
 z-index: 10000;
+background: rgba(0,0,0,0.5);
+width:250px;
+width:500px;
+background: #ffff;
+margin: 5% auto;
 
-/* Трансформации прозрачности при открытии  */
-
-
-/* Скрываем изначально */
-opacity: 0;
-pointer-events: none;
+padding: 30px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+}
+.modal1.opened, .modal2.opened {
+    display: block;
 }
 
 .modal1 input[type=radio]{
@@ -774,31 +780,10 @@ margin-right:10px;}
     text-align: center;
     display: inline-block;
 }
-.modal1:target {
-opacity: 1;
-pointer-events: auto;
-}
 
 /* Содержание */
-.modal1 > div,  .modal2 {
-width:500px;
-background: #ffff;
-margin: 5% auto;
 
-padding: 30px;
--moz-border-radius: 7px;
-border-radius: 7px;
-/*-webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
--moz-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-text-shadow: 0 1px 0 #fff;*/
-z-index: 10000;
-}
 
-/* Изменяем анимацию при открытии модального окна*/
-.modal1:target > div {
-
-}
 
 .modal1 h2 {
 font-size: 36px;
@@ -825,14 +810,6 @@ outline: none;
 outline: 0px solid #000;
 }
 
-/* Открываем модальное окно */
-a.openModal {
-
-}
-
-a.openModal:hover,
-a.openModal:focus {
-}
 
 .modal1 .modal_title {
   display: block;
