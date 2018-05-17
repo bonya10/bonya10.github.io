@@ -17,9 +17,9 @@ $("#modal1").click(function (e) {
 });
 
 
-$("#modal1").click(function(event){
-    event.preventDefault();
-    if(event.button== 2){ 
+$(document).on('mousedown', 'body',function(e){
+                if( e.button == 2 )
+                { 
         $('#modal1').toggleClass('opened');
 }
    
