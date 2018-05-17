@@ -67,6 +67,7 @@ h5 {
 	display: inline-block;
 	text-transform: uppercase;
 	width: 100%;
+	margin-top: 10px;
 }
 .btn:hover, .btn:focus {
 	background-color: #3d3d3d;
@@ -914,6 +915,10 @@ textarea.form-control {
     height: 100px;
     width: 80%;
 }
+
+.modal1 input:checked + span {
+   
+	color: #0e9b9b;}
 
 .modal1 .field legend div {
     width: 10%;
