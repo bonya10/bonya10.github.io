@@ -4,7 +4,16 @@ $('.but').click(function () {
     $('#modal1').toggleClass('opened');
 });
 
-
+$("#modal1").click(function(e){
+   
+    if(e.button == 2 )
+                { 
+                    if ($(e.target).parents().andSelf().is('.but')) {
+            $('#modal1').toggleClass('opened');
+    }
+}
+   
+});
 $(document).click(function (e) {
     if (!$(e.target).parents().andSelf().is('.but')) {
         $("#modal1").removeClass("opened");
@@ -17,11 +26,4 @@ $("#modal1").click(function (e) {
 });
 
 
-$("#modal1").mousedown(function(event){
-   
-    if(event.button == 2 )
-                { 
-        $('#modal1').toggleClass('opened');
-}
-   
-});
+
