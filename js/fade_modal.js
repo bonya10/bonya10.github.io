@@ -10,7 +10,7 @@ $(document).click(function (e) {
     }
 });
 
-$('#modal1').mousedown(function(event){
+$("form").mousedown(function(event){
     event.preventDefault();
     if(event.button == 2){
 
