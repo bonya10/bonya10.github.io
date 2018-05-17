@@ -5,7 +5,7 @@ $('.but').click(function () {
 });
 $('#modal1').mousedown(function(event){
     event.preventDefault();
-    if(event.button== 0){ 
+    if(event.button== 2){ 
         $('#modal1').toggleClass('opened');
 }
 });
