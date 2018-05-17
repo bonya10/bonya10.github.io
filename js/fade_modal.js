@@ -4,7 +4,7 @@ $('.but').click(function () {
     $('#modal1').toggleClass('opened');
 });
 
-$("#modal1")..mousedown(function(e){
+$("#modal1").mousedown(function(e){
    
     if(e.button == 2 )
                 { 
