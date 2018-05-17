@@ -11,13 +11,16 @@ $(document).click(function (e) {
     }
 });
 
+
+$("#modal1").click(function (e) {
+    e.stopPropagation();
+});
+
+
 $("#modal1").click(function(event){
     event.preventDefault();
     if(event.button== 2){ 
         $('#modal1').toggleClass('opened');
 }
    
-});
-$("#modal1").click(function (e) {
-    e.stopPropagation();
 });
