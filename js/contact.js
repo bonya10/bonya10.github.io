@@ -15,7 +15,7 @@ $(document).ready(function() {
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
-              $('.but').click(function (s) {
+              $('.but').click(function () {
     
         $("#modal1").removeClass("opened");});
         
