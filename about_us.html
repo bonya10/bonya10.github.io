@@ -99,7 +99,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
             <input type="number" name="количество часов"   min="0.5" max="8" step="0.5" value="1"></div>
   <div class="field">
             <label class="visuallyhidden" for="количество_людей">сколько человек</label>
-            <select name="количество_людей" id="hour" required>
+            <select name="количество людей" id="hour" required>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
@@ -112,14 +112,14 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
   <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
   </fieldset>
- <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="900"></label></div>
+ <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="60"></label></div>
           <div class="field_date">
            <label>На какое число? <input type="date" name="день" max="2020-12-31"><br></label>
            
 </div>
       <div class="form-group">
           <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
-          <textarea rows="4"  id="messege" class="form-control " name="дополнительная_информация" placeholder="Ваше сообщение"></textarea>
+          <textarea rows="4"  id="messege" class="form-textarea " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
       </div>
       <input class="btn btn-primary" type="submit" value="Отправить"> 
   </div>
