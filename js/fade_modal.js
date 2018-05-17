@@ -15,13 +15,9 @@ $("#modal1").mousedown(function(e){
     if(e.button == 2 )
 {
 
-    if (!e.parents().andSelf().is('.but')) {
-        $("#modal1").removeClass("opened");
-    }
-    else{
     $('#modal1').toggleClass('opened');}
     
-}
+
     
 });
 
