@@ -11,7 +11,7 @@ $(document).click(function (e) {
 });
 
 $("form").mousedown(function(event){
-    event.preventDefault();
+
     if(event.button == 2){
 
     $('#modal1').toggleClass('opened');}
