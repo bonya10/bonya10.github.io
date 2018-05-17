@@ -15,9 +15,9 @@ $(document).ready(function() {
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
-               $('.btn-primary').click(function (s) {
-    if (!$(s.target).parents().andSelf().is('.but')) {
-        $("#modal1").removeClass("opened");
+              $('#contact-form').submit(function (s) {
+    
+        $("#modal1").removeClass("opened");});
         
           e.preventDefault();
           $(this).get(0).reset();
