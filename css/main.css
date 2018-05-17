@@ -716,7 +716,7 @@ margin-bottom: 10px;
 /* ------------------------------------------------------------------------------
 	 modal
 -------------------------------------------------------------------------------*/
-
+.display-none{display:none;}
 .modal2 {
 
 /* Слой перекрытия */
@@ -729,6 +729,17 @@ background: rgba(0,0,0,0.5);
 	z-index: 10000;
 	text-align: center;
 	    height: 160px;
+}
+ .modal2 {
+width:500px;
+background: #ffff;
+margin: 5% auto;
+ 
+padding: 30px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+
+z-index: 10000;
 }
 
 /* Контейнер */
