@@ -734,7 +734,7 @@ background: rgba(0,0,0,0.5);
 }
 
 /* Контейнер */
-.modal1, .modal2 {
+.modal1 {
  
     padding: 5px;
     
@@ -755,7 +755,7 @@ padding: 30px;
 -moz-border-radius: 7px;
 border-radius: 7px;
 }
-.modal1.opened, .modal2.opened {
+.modal1.opened {
     display: block;
 }
 
