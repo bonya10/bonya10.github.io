@@ -788,16 +788,6 @@ margin-right:10px;}
     display: inline-block;
 }
 
-.modal1 h2 {
-font-size: 36px;
-padding: 0 0 20px;
-}
-
-.modal1 .modal_title {
-  display: block;
-  text-align: center;
-  font-size: 22pt;
-}
 
 /* ------------------------------------------------------------------------------
 	rooms
@@ -919,45 +909,15 @@ box-shadow: 0px 1px 8px #00c6ff;
 	Contact form
 -------------------------------------------------------------------------------*/
 
-textarea.form-control{height: 54px;}
-.conForm input.noMarr {
-	margin-right: 0px;
-}
-.conForm textarea {
-	color: #797979;
-	padding: 15px 30px;
-	margin-bottom: 18px;
-	outline: none;
-	height: 150px;
-	font-style: normal;
-	resize: none;
-	font-size: 15px;
-	border: none;
-	border-bottom: #e0e0e0 1px solid;
+textarea.form-control {
+    height: 100px;
+    width: 80%;
 }
 
 .modal1 .field legend div {
     width: 10%;
 }
-.conForm .submitBnt {
-	background: #3bc492;
-	color: #fff;
-	margin-top: 30px;
-padding:15px 30px 15px 30px;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 5px;
-	border: 0;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	display: inline-block;
-	text-transform: uppercase;
-}
-.conForm .submitBnt:hover {
-	background: #3d3d3d;
-	color: #fff;
-}
+
 #success_page{
 	color: #00bdbd;
 	font-weight: 500;
@@ -973,7 +933,32 @@ padding:15px 30px 15px 30px;
 	font-weight: 700;
 }
 
+.modal-form .hour {
+display: inline-block;
+width: 200px;
+}
 
+.modal-form .field {
+display: inline-block;
+width: 164px;}
+.modal1 form .field select{	
+display: inline-block;
+padding: 2px;
+width: 48px;
+height: 26px;
+margin-bottom: 10px;
+}
+.modal-form .hour input {
+	width: 48px;
+display: inline-block;
+}
+	
+.modal-form label {
+ display: inline-block;
+font-weight: 300;
+color:#000;
+}
+.modal-form .tims, .modal-form .field_date {margin: 10px 0;}
 
 /*=======================================================
 	Gallery
