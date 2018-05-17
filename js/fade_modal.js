@@ -10,15 +10,7 @@ $(document).click(function (e) {
     }
 });
 
-$("form").mousedown(function(event){
-  $("form" && "form".children()).each(function(){
-    if(event.button == 2){
 
-    $('#modal1').toggleClass('opened');}
-    
-
-     });
-});
 
 
 
