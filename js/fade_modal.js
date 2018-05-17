@@ -7,6 +7,12 @@ $(document).click(function (e) {
         $("#modal1").removeClass("opened");
     }
 });
+$('.btn-primary').click(function (s) {
+    if (!$(s.target).parents().andSelf().is('.but')) {
+        $("#modal1").removeClass("opened");
+    }
+});
+
 $("#modal1").click(function (e) {
     e.stopPropagation();
 });
