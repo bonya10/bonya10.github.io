@@ -1113,6 +1113,7 @@ line-height: 5.5rem;
 	offers
 -------------------------------------------------------------------------------*/
 .offers{text-align:center;}
+.offers .row{    margin: 0 4%;}
 .one-div, .two-div, .three-div, .for-div, .five-div{
 	color:#fff; 
 	border: 1px solid #fff;
