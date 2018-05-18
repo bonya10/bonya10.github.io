@@ -1121,20 +1121,20 @@ line-height: 5.5rem;
 	background-image: ;
 	height:250px;
 	background-size: cover;
-margin:5px;}
+}
 .two-div{text-align:center;
 background-image: ;
 	height:250px;}
 .three-div{text-align:center;
 background-image: url(../images/4.jpg);
-	height:250px;margin:5px;
+	height:250px;
 	background-size: cover;}
 .for-div{text-align:center;
 background-image: url(../images/movie-room-decor-ideas1.jpg);
-	height:250px;margin:5px;
+	height:250px;
 	background-size: cover;}
 .five-div{text-align:center;background-image: ;
-	height:250px;margin:5px;
+	height:250px;
 	}
 
 /* ------------------------------------------------------------------------------
