@@ -99,7 +99,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       </div>
 	    <fieldset>
   <legend> Какую комнату бронируете </legend>
-  <div><label> <input required id="privat" type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
+  <div><label> <input required id="privat" type=radio value="private" name="комната"> <span class="private1">private</span></label>
   <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
   </fieldset>
   <div class="hour"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
@@ -208,10 +208,15 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 <!-- Footer section --> 
 <!-- JS FILES --> 
 <script type="text/javascript">
-    function validate() {
-   $('select').children(':not(:first-child)').remove();
-});
-}
+    $("input:radio").click(function () {
+
+        if ($('input:checked').val() == "private") {
+            $('select').children(':not(:first-child)').addClass('hidden');
+        }
+        else{   $('select').children(':not(:first-child)').removeClass('hidden');}
+        });
+
+
     </script>
 <script>
 $(function(){
