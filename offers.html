@@ -52,11 +52,10 @@
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
-</script>
- 
- 
-
-<script>
+</script> 
+	
+	
+ <script>
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   el.addEventListener('mousemove',function(e){
     el.style.setProperty('--px', e.clientX - el.offsetLeft);
@@ -64,9 +63,10 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   });
 });</script>
 
+
 </head>
 
-<body  >
+<body>
 <!-- header section -->
 <section  class="banner" role="banner">
   <header id="header" class="container">
@@ -172,11 +172,26 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   <!-- footer top --> 
   
 </footer>
+<script src="js/fade_modal.js"></script>
   
   <!-- Плавающее меню-->
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
+<script type="text/javascript">
+    $("input:radio").click(function () {
+        if ($('input:checked').val() == "private") {
+            $('select').children(':not(:first-child)').addClass('hidden');
+        }
+        else{   $('select').children(':not(:first-child)').removeClass('hidden');}
+        });
+    </script>
+<script>
+$(function(){
+    $('[type="date"].date').prop('min', function(){
+        return new Date().toJSON().split('T')[0];
+    });
+});</script>
 <script>
 (function($){
 $(window).load(function(){
@@ -188,6 +203,7 @@ theme:"minimal"
 });
 })(jQuery);
 </script>
+
 </body>
 
 </html>
