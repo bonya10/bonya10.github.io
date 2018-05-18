@@ -1118,23 +1118,22 @@ line-height: 5.5rem;
 	background-color: #ffffff5c;}
 .one-div{text-align:center; 
 	background-image: url(../images/hdSmoothLight.png);
-	background-attachment: fixed;
-	background-size: auto;}
+	height:250px;
+	background-size: cover;}
 .two-div{text-align:center;
 background-image: url(../images/Golden-Backgrounds-PNG-Image-228x171.png);
-	background-attachment: fixed;
-	background-size: auto;}
+	height:250px;}
 .three-div{text-align:center;
 background-image: url(../images/4.jpg);
-	background-attachment: fixed;
-	background-size: auto;}
+	height:250px;
+	background-size: cover;}
 .for-div{text-align:center;
 background-image: url(../images/movie-room-decor-ideas1.jpg);
-	background-attachment: fixed;
-	background-size: auto;}
+	height:250px;
+	background-size: cover;}
 .five-div{text-align:center;background-image: url(../images/DVcDM23X4AAE7zy.jpg);
-	background-attachment: fixed;
-	background-size: auto;}
+	height:250px;
+	}
 
 /* ------------------------------------------------------------------------------
 	Banner
