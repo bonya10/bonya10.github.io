@@ -943,7 +943,8 @@ textarea.form-control {
 
 .modal-form .hour {
 display: inline-block;
-width: 200px;
+margin-top: 10px;
+    width: 242px;
 }
 
 .modal-form .field {
@@ -966,7 +967,10 @@ display: inline-block;
 font-weight: 300;
 color:#000;
 }
-.modal-form .tims, .modal-form .field_date {margin: 10px 0;}
+.modal-form .tims, .modal-form .field_date {    margin: 10px 0;
+   
+    width: 196px;
+    display: inline-block;}
 
 /*=======================================================
 	Gallery
