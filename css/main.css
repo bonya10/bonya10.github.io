@@ -1112,12 +1112,29 @@ line-height: 5.5rem;
 
 	offers
 -------------------------------------------------------------------------------*/
-.offers .row{color:#fff;}
-.one-div{text-align:center; background-image: url();}
-.two-div{text-align:center;}
-.three-div{text-align:center;}
-.for-div{text-align:center;}
-.five-div{text-align:center;}
+.one-div, .two-div, .three-div, .for-div, .five-div{
+	color:#fff; 
+	border: 1px solid #fff;
+	background-color: #ffffff5c;}
+.one-div{text-align:center; 
+	background-image: url(../images/hdSmoothLight.png);
+	background-attachment: fixed;
+	background-size: auto;}
+.two-div{text-align:center;
+background-image: url(../images/Golden-Backgrounds-PNG-Image-228x171.png);
+	background-attachment: fixed;
+	background-size: auto;}
+.three-div{text-align:center;
+background-image: url(../images/4.jpg);
+	background-attachment: fixed;
+	background-size: auto;}
+.for-div{text-align:center;
+background-image: url(../images/movie-room-decor-ideas1.jpg);
+	background-attachment: fixed;
+	background-size: auto;}
+.five-div{text-align:center;background-image: url(../images/DVcDM23X4AAE7zy.jpg);
+	background-attachment: fixed;
+	background-size: auto;}
 
 /* ------------------------------------------------------------------------------
 	Banner
