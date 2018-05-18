@@ -99,7 +99,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       </div>
 	    <fieldset>
   <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
+  <div><label> <input required id="privat" type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
   <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
   </fieldset>
   <div class="hour"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
@@ -207,6 +207,21 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
+<script type="text/javascript">
+    function validate() {
+	
+
+    if (document.getElementById('privat').checked) {      
+      $('select option[value=3]').hide();
+	$('select option[value=4]').hide();
+	$('select option[value=5]').hide();
+	    $('select option[value=6]').hide();
+	    $('select option[value=7]').hide();
+	    $('select option[value=8]').hide();
+	    
+    }
+}
+    </script>
 <script>
 $(function(){
     $('[type="date"].date').prop('min', function(){
