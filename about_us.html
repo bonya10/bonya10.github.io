@@ -92,6 +92,11 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
           <label class="control-label" for="имя">Как вас зовут?</label>
          <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
       </div>
+	     <fieldset>
+  <legend> Какую комнату бронируете </legend>
+  <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
+  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
+  </fieldset>
       <div class="form-group">
           <label class="control-label" for="телефон">Ваш номер телефона:</label>
           <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
@@ -107,12 +112,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
              <option value="5">5</option>
              <option value="6">6</option>
             </select>
-  </div
-    <fieldset>
-  <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
-  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
-  </fieldset>
+	  </div>
+ 
  <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="60"></label></div>
           <div class="field_date">
 	
