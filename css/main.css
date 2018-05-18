@@ -1110,9 +1110,14 @@ line-height: 5.5rem;
 }
 /*--------------------------------------------------------------------------------
 
-	Typography
+	offers
 -------------------------------------------------------------------------------*/
-
+.row{color:#000;}
+.one-div{text-align:center; background-image: url();}
+.two-div{text-align:center;}
+.three-div{text-align:center;}
+.for-div{text-align:center;}
+.five-div{text-align:center;}
 
 /* ------------------------------------------------------------------------------
 	Banner
