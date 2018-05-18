@@ -92,15 +92,16 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
           <label class="control-label" for="имя">Как вас зовут?</label>
          <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
       </div>
-	     <fieldset>
-  <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
-  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
-  </fieldset>
+	   
       <div class="form-group">
           <label class="control-label" for="телефон">Ваш номер телефона:</label>
           <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
       </div>
+	    <fieldset>
+  <legend> Какую комнату бронируете </legend>
+  <div><label> <input required  type=radio value="PRIVATE" name="комната"> <span class="private1">private</span></label>
+  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
+  </fieldset>
   <div class="hour"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
             <input type="number" name="количество часов"   min="0.5" max="8" step="0.5" value="1"></div>
   <div class="field">
