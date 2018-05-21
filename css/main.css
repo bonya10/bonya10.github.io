@@ -1113,6 +1113,11 @@ line-height: 5.5rem;
 	offers
 -------------------------------------------------------------------------------*/
 .offers{text-align:center;}
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 50px; 
+    grid-template-rows: 100px ;
+}
 .offers .row{    margin: 0 4%;}
 .one-div, .two-div, .three-div, .for-div, .five-div{
 	color:#fff; 
