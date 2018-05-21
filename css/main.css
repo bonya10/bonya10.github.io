@@ -1114,34 +1114,22 @@ line-height: 5.5rem;
 -------------------------------------------------------------------------------*/
 .offers{text-align:center;}
 .wrapper {
-    display: grid;
-    grid-template-columns: 200px 50px; 
-    grid-template-rows: 100px ;
+        display: grid;
+    grid-template-columns: 421px 661px;
+    grid-template-rows: 250px 250px 250px;
+     border-radius: 5px;
+       margin-left: 10%;
+	  grid-gap: 5px;
+	
 }
-.offers .row{    margin: 0 4%;}
+
 .one-div, .two-div, .three-div, .for-div, .five-div{
+	text-align:center;
 	color:#fff; 
 	border: 1px solid #fff;
-	background-color: #ffffff5c;}
-.one-div{text-align:center; 
-	background-image: ;
-	height:250px;
-	background-size: cover;
-}
-.two-div{text-align:center;
-background-image: ;
-	height:250px;}
-.three-div{text-align:center;
-background-image: url(../images/4.jpg);
-	height:250px;
-	background-size: cover;}
-.for-div{text-align:center;
-background-image: url(../images/movie-room-decor-ideas1.jpg);
-	height:250px;
-	background-size: cover;}
-.five-div{text-align:center;background-image: ;
-	height:250px;
+	
 	}
+
 
 /* ------------------------------------------------------------------------------
 	Banner
