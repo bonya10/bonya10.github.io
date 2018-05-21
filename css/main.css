@@ -1133,7 +1133,7 @@ line-height: 5.5rem;
 .one-div, .for-div, .five-div{
     grid-column: 2 / 4;
 	}
-.ецщ-вшм, .three-div, .six-div {
+.two-div, .three-div, .six-div {
     grid-column: 1 / 3;
 	}
 
