@@ -1128,11 +1128,12 @@ line-height: 5.5rem;
 	color:#fff; 
 	border: 1px solid #fff;
 	border-radius: 5px;
+	height:250px;
 	}
 .one-div, .for-div, .five-div{
     grid-column: 2 / 4;
 	}
-.one-two, .three-div, .six-div {
+.ецщ-вшм, .three-div, .six-div {
     grid-column: 1 / 3;
 	}
 
