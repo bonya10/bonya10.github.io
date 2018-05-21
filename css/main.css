@@ -1118,8 +1118,8 @@ line-height: 5.5rem;
     grid-template-columns: 421px 661px;
     grid-template-rows: 250px 250px 250px;
      border-radius: 5px;
-       margin-left: 10%;
-	  grid-gap: 5px;
+          padding-left: 3%;
+    grid-gap: 10px;
 	
 }
 
@@ -1127,7 +1127,7 @@ line-height: 5.5rem;
 	text-align:center;
 	color:#fff; 
 	border: 1px solid #fff;
-	
+	border-radius: 5px;
 	}
 
 
