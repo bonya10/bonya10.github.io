@@ -1114,12 +1114,11 @@ line-height: 5.5rem;
 -------------------------------------------------------------------------------*/
 .offers{text-align:center;}
 .wrapper {
-        width: 800px;
+        width: 1170px;
   display: grid;
   grid-template-columns: 300px 60% ;
   grid-template-rows: 250px 250px;
   grid-gap: 1rem;
-}
 	
 }
 
