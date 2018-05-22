@@ -1114,12 +1114,12 @@ line-height: 5.5rem;
 -------------------------------------------------------------------------------*/
 .offers{text-align:center;}
 .wrapper {
-        display: grid;
-    grid-template-columns: 421px 661px;
-    grid-template-rows: 250px 250px 250px;
-     border-radius: 5px;
-          padding-left: 3%;
-    grid-gap: 10px;
+        width: 800px;
+  display: grid;
+  grid-template-columns: 300px 60% ;
+  grid-template-rows: 250px 250px;
+  grid-gap: 1rem;
+}
 	
 }
 
@@ -1131,10 +1131,10 @@ line-height: 5.5rem;
 	height:250px;
 	}
 .one-div, .for-div, .five-div{
-    grid-column: 2 / 4;
+  
 	}
 .two-div, .three-div, .six-div {
-    grid-column: 1 / 3;
+ 
 	}
 
 /* ------------------------------------------------------------------------------
