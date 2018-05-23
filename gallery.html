@@ -235,11 +235,12 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   <!-- footer top --> 
   
 </footer>
-  
+    <script src="js/fade_modal.js"></script>
   <!-- Плавающее меню-->
  
 <!-- Footer section --> 
-<!-- JS FILES --> <script>let mainSliderSelector = ".main-slider",
+<!-- JS FILES --> <script>
+	let mainSliderSelector = ".main-slider",
   navSliderSelector = ".nav-slider",
   interleaveOffset = 0;
 // Main Slider
@@ -285,7 +286,7 @@ let navSlider = new Swiper(navSliderSelector, navSliderOptions);
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
 </script>
-  <script src="js/fade_modal.js"></script>
+
   <!-- Плавающее меню-->
  
 <!-- Footer section --> 
@@ -298,12 +299,14 @@ navSlider.controller.control = mainSlider;
         else{   $('select').children(':not(:first-child)').removeClass('hidden');}
         });
     </script>
+
 <script>
 $(function(){
     $('[type="date"].date').prop('min', function(){
         return new Date().toJSON().split('T')[0];
     });
 });</script>
+
 <script>
 (function($){
 $(window).load(function(){
