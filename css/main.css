@@ -206,6 +206,24 @@ padding-bottom:1px;
 text-align: center; margin: 0;}
 
 .book{font-size: 0.94rem; margin: 0;}
+.book1 {
+
+    font-size: 1rem;
+    margin: 0;
+    color: #000;
+
+}
+.day{max-width: 86px;
+display: inline-block;
+padding-top: 8px;
+	padding-right: 0px;}
+.day p{width: 130px;
+display: inline-block;
+line-height: 14px;
+height: 37px;
+vertical-align: middle;
+padding-left: 13px;
+	margin-bottom: 0;}
 
 .tel1{margin: 0 0 7px;}
 .tel a{ 
