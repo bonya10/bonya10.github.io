@@ -11,8 +11,8 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lumiere -кинокомната</title>
-<link rel="stylesheet" href="css/slider.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/responsive.css">
@@ -41,29 +41,28 @@
    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="js/map.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" href="css/swiper.min.css">
+
  <script>
  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
-</script>
- 
- 
-
-<script>
+</script> 
+	
+	
+ <script>
 Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   el.addEventListener('mousemove',function(e){
     el.style.setProperty('--px', e.clientX - el.offsetLeft);
     el.style.setProperty('--py', e.clientY - el.offsetTop);
   });
 });</script>
+
 
 </head>
 
@@ -75,54 +74,61 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
       <p class="slogan"> кинокомната</p>
       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
          <p class="tel2">+375(29)123-456-78</p>
-       <p class="or">или</p>
-         <a href="#modal1">забронировать онлайн</a></div>
+       <p class="or" >или</p>
+	     
+         <a class="but" href="#">забронировать онлайн</a>
+	      <p class="book">данная бронь является предвариетльной </p>
+
+		    </div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
           <p>будние: 08:00- 00:00</p>
           <p>суббота, воскресение: 14:00 - 06:00</p></div>
 </div> 
-<div id="modal1" class="modal1">
+<div id="modal1" class="modal1" >
     <div>
        <div class="text" align="center">
        <div id="blok_tel">
- <form id="contact-form" action="" method="POST">
+  <form id="contact-form" class="modal-form" action="" method="POST">
       <div class="form-group">
           <label class="control-label" for="имя">Как вас зовут?</label>
          <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
       </div>
+	   
       <div class="form-group">
           <label class="control-label" for="телефон">Ваш номер телефона:</label>
           <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
       </div>
-  <div class="hour"><label class="visuallyhidden" for="количество часов">на сколько часов?</label>
-            <input type="number" name="количество часов"   min="1" max="4" step="1" value="1"></div>
+	    <fieldset>
+  <legend> Какую комнату бронируете </legend>
+  <div><label> <input required id="privat" type=radio value="private" name="комната"> <span class="private1">private</span></label>
+  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
+  </fieldset>
+  <div class="hour"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
+            <input type="number" name="количество часов"   min="0.5" max="8" step="0.5" value="1"></div>
   <div class="field">
-            <label class="visuallyhidden" for="количество_людей">сколько человек</label>
-            <select name="количество_людей" id="hour" required>
+            <label class="visuallyhidden" for="количество_людей">сколько человек?</label>
+            <select name="количество людей" id="hour" required>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
              <option value="5">5</option>
              <option value="6">6</option>
             </select>
-  </div
-    <fieldset>
-  <legend> Какую комнату бронируете </legend>
-  <div><label> <input required  type=radio value="1" name="комната"> 1</label>
-  <label> <input required  type=radio value="2" name="комната"> 2 </label></div>
-  </fieldset>
- <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="900"></label></div>
+	  </div>
+ 
+ <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="60"></label></div>
           <div class="field_date">
-           <label>На какое число? <input type="date" name="день" max="2020-12-31"><br></label>
+	
+           <label>На какое число? <input class="date" id="min" type="date" placeholder="YYYY-MM-DD" data-date-split-input="true" /><br></label>
            
 </div>
-      <div class="form-group">
+      <div class="form-textarea">
           <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
-          <textarea rows="4"  id="messege" class="form-control " name="дополнительная_информация" placeholder="Ваше сообщение"></textarea>
+          <textarea rows="4"  id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
       </div>
       <input class="btn btn-primary" type="submit" value="Отправить"> 
   </div>
-        <a href="#close" title="Закрыть">Закрыть</a>
+     
     </div>        
 </form>
 
