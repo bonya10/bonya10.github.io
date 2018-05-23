@@ -263,51 +263,35 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   <!-- Плавающее меню-->
  
 <!-- Footer section --> 
-<!-- JS FILES --> <script>// Params
-let mainSliderSelector = ".main-slider",
+<!-- JS FILES --> <script>let mainSliderSelector = ".main-slider",
   navSliderSelector = ".nav-slider",
   interleaveOffset = 0;
-
 // Main Slider
 let mainSliderOptions = {
   loop: true,
-
-  autoplay: false,
   loopAdditionalSlides: 10,
   grabCursor: true,
-  watchSlidesProgress: true,
+  
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
   },
   on: {
-    init: function() {
-      this.autoplay.stop();
-    },
+    
     imagesReady: function() {
       this.el.classList.remove("loading");
      
-    },
-    slideChangeTransitionEnd: function() {
-      let swiper = this,
-        captions = swiper.el.querySelectorAll(".caption");
-      for (let i = 0; i < captions.length; ++i) {
-        captions[i].classList.remove("show");
-      }
-      swiper.slides[swiper.activeIndex]
-        .querySelector(".caption")
-        .classList.add("show");
     }
+   
     
   }
 };
 let mainSlider = new Swiper(mainSliderSelector, mainSliderOptions);
-
 // Navigation Slider
 let navSliderOptions = {
   loop: true,
   loopAdditionalSlides: 10,
-  speed: 1000,
+ 
   spaceBetween: 5,
   slidesPerView: 5,
   centeredSlides: true,
@@ -317,14 +301,10 @@ let navSliderOptions = {
   on: {
     imagesReady: function() {
       this.el.classList.remove("loading");
-    },
-    click: function() {
-      mainSlider.autoplay.stop();
     }
   }
 };
 let navSlider = new Swiper(navSliderSelector, navSliderOptions);
-
 // Matching sliders
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
