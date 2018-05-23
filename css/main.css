@@ -693,7 +693,8 @@ margin-bottom: 10px;
 text-align: center;
 font-size:18px;
 }
-.contacts .fa{font-size:18px;}
+.contacts .fa{font-size: 74px;
+margin: 20px 0;}
 .contacts .map{
 margin-bottom: 20px;}
 /* ------------------------------------------------------------------------------
