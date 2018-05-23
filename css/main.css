@@ -688,40 +688,7 @@ margin-bottom: 10px;
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
-.testimonials {
-	position: relative;
-	text-align: center;
-}
-.testimonials blockquote {
-	border: 0;
-	margin: 0;
-	padding: 100px 15%;
-	padding-top: 20px;
-}
-.testimonials h1 {
-	color: #fff;
-	font: 23px "Merriweather";
-	font-weight: 300;
-}
-.testimonials p {
-	color: #fff;
-	display: block;
-	font-size: 13px;
-	font-style: normal;
-	letter-spacing: 2px;
-	font-weight: 400;
-	margin-top: 30px;
-	text-transform: uppercase;
-}
-.flex-control-nav {
-	margin-top: 2%;
-	bottom: none!important;
-	position: relative!important;
-	right: 0;
-	text-align: center;
-	width: 100%!important;
-	z-index: 100;
-}
+
 /* ------------------------------------------------------------------------------
 	 modal
 -------------------------------------------------------------------------------*/
