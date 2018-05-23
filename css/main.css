@@ -141,6 +141,7 @@ ul li {
 	padding: 0;
 	background-color: #000;
 }
+.header-content .col-lg-2{width: 21.667%;}
 #header .header-content {
 	background: #ffffff1f;
 	margin: 0 auto;
@@ -188,7 +189,7 @@ text-transform: uppercase; font-size: 1.8rem;}
 	vertical-align: middle;
 	margin-top: 7px;
 	margin-bottom: 7px;
-	width: 21.667%;
+	
 }
 
 .tel .tel1{ 
