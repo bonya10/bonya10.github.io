@@ -1124,7 +1124,7 @@ line-height: 5.5rem;
 
 	offers
 -------------------------------------------------------------------------------*/
-.offers{text-align:center;}
+.offers{text-align:center; height: 61vh;}
 .wrapper {
         width: 1170px;
   display: grid;
