@@ -240,11 +240,19 @@ VK.Widgets.Group("vk_groups", {mode: 3, color3: '000000'}, 166433460);
 
   
 </footer>
-  <script src="js/fade_modal.js"></script>
+   <script src="js/fade_modal.js"></script>
   <!-- Плавающее меню-->
  
 <!-- Footer section --> 
 <!-- JS FILES --> 
+<script type="text/javascript">
+    $("input:radio").click(function () {
+        if ($('input:checked').val() == "private") {
+            $('select').children(':not(:first-child)').addClass('hidden');
+        }
+        else{   $('select').children(':not(:first-child)').removeClass('hidden');}
+        });
+    </script>
 <script>
 $(function(){
     $('[type="date"].date').prop('min', function(){
@@ -256,7 +264,7 @@ $(function(){
 $(window).load(function(){
  
 $("body").mCustomScrollbar({
-theme:"dark-thin"
+theme:"minimal"
 });
  
 });
