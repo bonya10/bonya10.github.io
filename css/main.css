@@ -681,9 +681,10 @@ height: 220px;
 .round-box{
 	padding: 0;
     padding-right: 0px;
-margin: 0 11px;
+margin: 0 4px;
 padding-right: 0px;
 margin-bottom: 10px;
+width: 220px;
 	}
 /* ------------------------------------------------------------------------------
 	 services
