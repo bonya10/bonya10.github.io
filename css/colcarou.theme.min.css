@@ -1,5 +1,5 @@
 
-.colcarou-item.inactive:hover{background:rgba(40,40,40,1)}
+.colcarou-item.inactive h2:hover{   color: #53b1cd;}
 .colcarou-image{opacity:.6}
 .colcarou-textbox{color:#fff}
 .colcarou-textbox p{font-size:16px}
