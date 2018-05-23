@@ -85,7 +85,9 @@ a {
 	color: #e84545;
 }
 .rooms{color: #fff; }
-.reviws, .rooms, #portfolio, .about_us  { background-color:#181818;}
+.reviws, .rooms, #portfolio, .about_us, .contacts  { background-color:#181818;}
+.container-rond,.offers, .about_us, #portfolio, .rooms, .contacts
+{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;}
 .current  a{color: #fff !important;}
 
   .fancy-hover.current {
@@ -580,7 +582,7 @@ border-right: 3px solid #000; padding: 0px 25px; }
     text-transform: none;
     padding-bottom: 15px;
 }
-.container-rond,.offers, .about_us, #portfolio, .rooms{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;}
+
 .variant-1{
 	  position: absolute;
 left: 50%;
