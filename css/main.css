@@ -692,6 +692,8 @@ margin-bottom: 10px;
 .contacts .adress p{
 text-align: center;
 font-size:18px;
+	letter-spacing: 0.5px;
+line-height: 25px;
 }
 .contacts{padding:30px 0;}
 
