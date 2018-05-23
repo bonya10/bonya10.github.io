@@ -2,7 +2,7 @@
 .colcarou-item.inactive h2:hover{   color: #53b1cd;}
 .colcarou-image{opacity:.6}
 .colcarou-textbox{color:#fff}
-.colcarou-p{font-size:12px}
+.colcarou-p{font-size:12px !important;}
 .colcarou-textbox p{font-size:16px}
 .colcarou-item.active h2{font-size:5vw;  color:#fff;}
 .colcarou-text{padding-bottom:20px}
