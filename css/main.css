@@ -688,6 +688,7 @@ margin-bottom: 10px;
 /* ------------------------------------------------------------------------------
 	 contacts
 -------------------------------------------------------------------------------*/
+.contacts .adress{text-align: center; color:#fff;}
 .contacts .adress p{
 text-align: center;
 font-size:18px;
