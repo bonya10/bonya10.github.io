@@ -11,7 +11,7 @@ $(document).ready(function() {
         else {
           $.ajax({
             method: 'POST',
-            url: '//formfarm.im/alinka_cydik@mail.ru',
+            url: '//formfarm.im/alin4eg10@gmail.com',
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
