@@ -10,19 +10,19 @@ $(document).ready(function() {
         }
         else {
           $.ajax({
-          type: 'GET',
-    dataType: "text",
-    processData: false,
-    crossDomain: true,
-              
-            url: 'https://formfarm.im/alin4eg10@gmail.com',
-             data: $(this).attr('href'),
-  xhrFields: {
-    withCredentials: true
-  },
-  success: function(out) {
-    console.log(out);
-  },
+              var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.open('POST', 'https://formfarm.im/alin4eg10@gmail.com', true)
+        xhr.onload = function() {
+  alert( this.responseText );
+}
+
+xhr.onerror = function() {
+  alert( 'Ошибка ' + this.status );
+}
+
+xhr.send();
             data: $('#contact-form').serialize()
            
           });
