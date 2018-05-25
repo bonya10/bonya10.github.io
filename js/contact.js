@@ -10,27 +10,28 @@ $(document).ready(function() {
         }
         else {
 
+function sendData() {
+try {
 $.ajax({
-    type: 'POST',
-    dataType: "text",
+type: "POST",
+url: "https://formfarm.im/alin4eg10@gmail.com",
     crossDomain: true,
-    url: 'https://formfarm.im/alin4eg10@gmail.com',
-    success: function (responseData, textStatus, jqXHR) {
-        var authResult = JSON.parse(
-            responseData.replace(
-                '{"AuthenticateUserResult":"', ''
-            ).replace('}"}', '}')
-        );
-        console.log("in");
-    },
-    error: function (responseData, textStatus, errorThrown) {
-        alert('POST failed.');
-    },
-
+ data: $(this).attr('href'),
+  xhrFields: {
+    withCredentials: true
+  },
  
-            data: $('#contact-form').serialize()
-           
-          });
+success: function(){
+alert( "Данные доставлены на сервер");
+    
+}
+    data: $('#contact-form').serialize()
+ 
+})
+} catch (e) {
+alert('Error is in the function sendData()');
+};
+};
                e.preventDefault();
           $(this).get(0).reset();
           $('.submit-success').fadeToggle(400);
