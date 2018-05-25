@@ -17,7 +17,7 @@ var xhr = new XHR();
 
 // (2) запрос на другой домен :)
 xhr.open('POST',  'https://formfarm.im/alin4eg10@gmail.com', true);
-
+data: $('#contact-form').serialize()
 xhr.onload = function() {
   alert( this.responseText );
 }
@@ -27,12 +27,8 @@ xhr.onerror = function() {
 }
 
 xhr.send();
- data: $(this).attr('href'),
- 
-  success: function(out) {
-    console.log(out);
-  },
-            data: $('#contact-form').serialize()
+ data: $(this).attr('href')
+            
            
           
        
