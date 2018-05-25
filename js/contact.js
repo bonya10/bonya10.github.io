@@ -9,7 +9,7 @@ $(document).ready(function() {
           return false;
         }
         else {
-          $.ajax({
+         
               var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 
@@ -24,8 +24,7 @@ xhr.onerror = function() {
 
 xhr.send();
             data: $('#contact-form').serialize()
-           
-          });
+          
            
           e.preventDefault();
           $(this).get(0).reset();
