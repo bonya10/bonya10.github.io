@@ -25,14 +25,9 @@ $.ajax({
     },
     error: function (responseData, textStatus, errorThrown) {
         alert('POST failed.');
-    б,
+    },
 
-  xhrFields: {
-    withCredentials: true
-  },
-  success: function(out) {
-    console.log(out);
-  },
+ 
             data: $('#contact-form').serialize()
            
           });
