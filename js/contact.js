@@ -11,7 +11,7 @@ $(document).ready(function() {
         else {
           $.ajax({
           type: 'GET',
-    dataType: "text",
+    dataType: "json",
     processData: false,
     crossDomain: true,
             url: '//formfarm.im/alin4eg10@gmail.com',
