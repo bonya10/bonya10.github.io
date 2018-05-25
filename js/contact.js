@@ -9,25 +9,35 @@ $(document).ready(function() {
           return false;
         }
         else {
-         var http = new XMLHttpRequest();
-var url = "https://formfarm.im/alin4eg10@gmail.com";
-var params = "lorem=ipsum&name=binny";
-http.open("POST", url, true);
+var url = 'https://formfarm.im/alin4eg10@gmail.com';
 
-//Send the proper header information along with the request
-http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    function doCallOtherDomain(){
 
-http.onreadystatechange = function() {//Call a function when the state changes.
-    if(http.readyState == 4 && http.status == 200) {
-        alert(http.responseText);
+        var XHR = window.XDomainRequest || window.XMLHttpRequest
+        var xhr = new XHR();
+        
+        xhr.open('POST', url, true);
+
+        // замена onreadystatechange
+        xhr.onload = function() {
+            document.getElementById('response').innerHTML = xhr.responseText
+        }
+
+        xhr.onerror = function() {
+            alert("Error")
+        }
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+        xhr.send("site="+window.location.hostname)
     }
-}
-http.send(params);
-       
-       
-           
-           
-          e.preventDefault();
+
+
+    function callOtherDomain() {
+        try {
+            doCallOtherDomain()
+        } catch (e) {
+            alert("В этом браузере данная фича не поддерживается.")
+        }
+    }          e.preventDefault();
           $(this).get(0).reset();
           $('.submit-success').fadeToggle(400);
        
