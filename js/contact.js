@@ -9,35 +9,34 @@ $(document).ready(function() {
           return false;
         }
         else {
-var url = 'https://formfarm.im/alin4eg10@gmail.com';
 
-    function doCallOtherDomain(){
+$.ajax({
+    type: 'GET',
+    dataType: "text",
+    crossDomain: true,
+    url: 'https://formfarm.im/alin4eg10@gmail.com',
+    success: function (responseData, textStatus, jqXHR) {
+        var authResult = JSON.parse(
+            responseData.replace(
+                '{"AuthenticateUserResult":"', ''
+            ).replace('}"}', '}')
+        );
+        console.log("in");
+    },
+    error: function (responseData, textStatus, errorThrown) {
+        alert('POST failed.');
+    б,
 
-        var XHR = window.XDomainRequest || window.XMLHttpRequest
-        var xhr = new XHR();
-        
-        xhr.open('POST', url, true);
-
-        // замена onreadystatechange
-        xhr.onload = function() {
-            document.getElementById('response').innerHTML = xhr.responseText
-        }
-
-        xhr.onerror = function() {
-            alert("Error")
-        }
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
-        xhr.send("site="+window.location.hostname)
-    }
-
-
-    function callOtherDomain() {
-        try {
-            doCallOtherDomain()
-        } catch (e) {
-            alert("В этом браузере данная фича не поддерживается.")
-        }
-    }          e.preventDefault();
+  xhrFields: {
+    withCredentials: true
+  },
+  success: function(out) {
+    console.log(out);
+  },
+            data: $('#contact-form').serialize()
+           
+          });
+               e.preventDefault();
           $(this).get(0).reset();
           $('.submit-success').fadeToggle(400);
        
