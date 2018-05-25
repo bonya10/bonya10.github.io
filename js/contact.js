@@ -15,14 +15,13 @@ $(document).ready(function() {
     processData: false,
     crossDomain: true,
             url: '//formfarm.im/alin4eg10@gmail.com',
-              success: function (responseData, textStatus, jqXHR) {
-        var authResult = JSON.parse(
-            responseData.replace(
-                '{"AuthenticateUserResult":"', ''
-            ).replace('}"}', '}')
-        );
-        console.log("in");
-    },
+             data: $(this).attr('href'),
+  xhrFields: {
+    withCredentials: true
+  },
+  success: function(out) {
+    console.log(out);
+  },
             data: $('#contact-form').serialize()
            
           });
