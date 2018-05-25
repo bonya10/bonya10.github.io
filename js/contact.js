@@ -14,7 +14,7 @@ $(document).ready(function() {
             url: '//formfarm.im/alin4eg10@gmail.com',
               crossDomain: true,
             data: $('#contact-form').serialize(),
-            datatype: 'json'
+            datatype: 'jsonp'
           });
            
           e.preventDefault();
