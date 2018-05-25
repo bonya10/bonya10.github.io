@@ -12,7 +12,7 @@ $(document).ready(function() {
           $.ajax({
             method: 'POST',
             url: '//formfarm.im/alin4eg10@gmail.com',
-              crossDomain: false,
+              crossDomain: true,
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
