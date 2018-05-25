@@ -10,11 +10,14 @@ $(document).ready(function() {
         }
         else {
           $.ajax({
-            method: 'POST',
+          type: 'GET',
+    dataType: "jsonp",
+    processData: false,
+    crossDomain: true,
             url: '//formfarm.im/alin4eg10@gmail.com',
-              crossDomain: true,
-            data: $('#contact-form').serialize(),
-            datatype: 'jsonp'
+             
+            data: $('#contact-form').serialize()
+           
           });
            
           e.preventDefault();
