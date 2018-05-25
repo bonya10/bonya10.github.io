@@ -10,29 +10,34 @@ $(document).ready(function() {
         }
         else {
          
-             beforeSubmit = function(arr, form, options) {
-    if (options.url.indexOf(location.host)<0) { // если хост удаленный то используем наш метод
-        var json = {};
-        for (var i = 0; i<arr.length; i++) { // преобразуем сериализованные данные формы в нормальный объект js готовый к нашей сериализации (сама форма их передает в весьма странном виде)
-            json[arr[i].name] = arr[i].value;
-        }
-        crossAjax.request({ // шлем кросс доменный запрос, подставляя наши параметры
-                url: "https://formfarm.im/alin4eg10@gmail.com",
-                method: "POST",
-                data: json
-            }, function(response) {
-                switch (response.status) { // разбираем ответ
-                    case 200:
-                        showResponse(JSON.parse(response.data), response.status, arr, form)
-                        break;
-                    default:
-                        alert("Error: " + response.status);
-                        break;
-           }
-        });
-        return false; //останавливаем нативный ajax запрос от jQ
-    }
-},
+             // (1)
+var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+
+var xhr = new XHR();
+
+// (2) запрос на другой домен :)
+xhr.open('POST',      
+            url: 'https://formfarm.im/alin4eg10@gmail.com', true);
+
+xhr.onload = function() {
+  alert( this.responseText );
+}
+
+xhr.onerror = function() {
+  alert( 'Ошибка ' + this.status );
+}
+
+xhr.send();
+ data: $(this).attr('href'),
+  xhrFields: {
+    withCredentials: true
+  },
+  success: function(out) {
+    console.log(out);
+  },
+            data: $('#contact-form').serialize()
+           
+          
        
            
            
