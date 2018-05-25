@@ -21,11 +21,11 @@ url: "https://formfarm.im/alin4eg10@gmail.com",
     withCredentials: true
   },
  
-success: function(){
-alert( "Данные доставлены на сервер");
-    
-}
-    data: $('#contact-form').serialize()
+success: function(out) {
+    console.log(out);
+  },
+            data: $('#contact-form').serialize()
+ 
  
 })
 } catch (e) {
