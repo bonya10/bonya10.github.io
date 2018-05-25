@@ -14,7 +14,8 @@ $(document).ready(function() {
     dataType: "text",
     processData: false,
     crossDomain: true,
-            url: '//formfarm.im/alin4eg10@gmail.com',
+              
+            url: 'https://formfarm.im/alin4eg10@gmail.com',
              data: $(this).attr('href'),
   xhrFields: {
     withCredentials: true
