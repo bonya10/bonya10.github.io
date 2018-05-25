@@ -34,9 +34,7 @@ $(document).ready(function() {
     }
 },
        
-            data: $('#contact-form').serialize()
            
-          });
            
           e.preventDefault();
           $(this).get(0).reset();
