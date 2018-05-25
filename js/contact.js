@@ -16,7 +16,7 @@ var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
 var xhr = new XHR();
 
 // (2) запрос на другой домен :)
-xhr.open('POST', url: 'https://formfarm.im/alin4eg10@gmail.com', true);
+xhr.open('POST',  'https://formfarm.im/alin4eg10@gmail.com', true);
 
 xhr.onload = function() {
   alert( this.responseText );
