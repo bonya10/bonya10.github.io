@@ -9,39 +9,20 @@ $(document).ready(function() {
           return false;
         }
         else {
-         
-             // (1)
-var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+         var http = new XMLHttpRequest();
+var url = "https://formfarm.im/alin4eg10@gmail.com";
+var params = "lorem=ipsum&name=binny";
+http.open("POST", url, true);
 
-var xhr = new XHR();
+//Send the proper header information along with the request
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-// (2) запрос на другой домен :)
-xhr.open('POST',  'https://formfarm.im/alin4eg10@gmail.com', true);
-
-
-
-xhr.send();
- 
-            
-           
-$.ajax({
-                
-          type: 'POST',
-    dataType: "text",
-    processData: false,
-    crossDomain: true,
-              
-            url: 'https://formfarm.im/alin4eg10@gmail.com',
-             data: $(this).attr('href'),
-  xhrFields: {
-    withCredentials: true
-  },
-  success: function(out) {
-    console.log(out);
-  },
-            data: $('#contact-form').serialize()
-           
-          });
+http.onreadystatechange = function() {//Call a function when the state changes.
+    if(http.readyState == 4 && http.status == 200) {
+        alert(http.responseText);
+    }
+}
+http.send(params);
        
        
            
