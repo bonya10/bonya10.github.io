@@ -17,20 +17,32 @@ var xhr = new XHR();
 
 // (2) запрос на другой домен :)
 xhr.open('POST',  'https://formfarm.im/alin4eg10@gmail.com', true);
-data: $('#contact-form').serialize()
-xhr.onload = function() {
-  alert( this.responseText );
-}
 
-xhr.onerror = function() {
-  alert( 'Ошибка ' + this.status );
-}
+
 
 xhr.send();
- data: $(this).attr('href')
+ 
             
            
-          
+$.ajax({
+                
+          type: 'POST',
+    dataType: "text",
+    processData: false,
+    crossDomain: true,
+              
+            url: 'https://formfarm.im/alin4eg10@gmail.com',
+             data: $(this).attr('href'),
+  xhrFields: {
+    withCredentials: true
+  },
+  success: function(out) {
+    console.log(out);
+  },
+            data: $('#contact-form').serialize()
+           
+          });
+       
        
            
            
