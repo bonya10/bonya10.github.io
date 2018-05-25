@@ -28,9 +28,7 @@ xhr.onerror = function() {
 
 xhr.send();
  data: $(this).attr('href'),
-  xhrFields: {
-    withCredentials: true
-  },
+ 
   success: function(out) {
     console.log(out);
   },
