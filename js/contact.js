@@ -15,7 +15,14 @@ $(document).ready(function() {
     processData: false,
     crossDomain: true,
             url: '//formfarm.im/alin4eg10@gmail.com',
-             
+              success: function (responseData, textStatus, jqXHR) {
+        var authResult = JSON.parse(
+            responseData.replace(
+                '{"AuthenticateUserResult":"', ''
+            ).replace('}"}', '}')
+        );
+        console.log("in");
+    },
             data: $('#contact-form').serialize()
            
           });
