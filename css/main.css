@@ -717,24 +717,31 @@ margin: 0 12px;}
 	 contacts
 -------------------------------------------------------------------------------*/
 .contacts .adress{text-align: center; color:#fff;}
+
 .contacts .adress p{
 text-align: center;
 font-size:18px;
 	letter-spacing: 0.5px;
 line-height: 25px;
 }
+
 .contacts{padding:30px 0;}
-.contacts .footer .fab{display: inline-block;
+
+.contacts .fab
+{display: inline-block;
 font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
 font-size: inherit;
 text-rendering: auto;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;}
+
 .contacts .fa{font-size: 74px;
 margin: 20px 0;}
+
 .contacts .map{
 margin-bottom: 20px;}
+
 .contacts .adress-icon{
 	margin-left: 2%;
 	}
