@@ -724,7 +724,13 @@ font-size:18px;
 line-height: 25px;
 }
 .contacts{padding:30px 0;}
-
+.contacts .fab{display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;}
 .contacts .fa{font-size: 74px;
 margin: 20px 0;}
 .contacts .map{
