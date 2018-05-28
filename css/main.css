@@ -726,15 +726,18 @@ line-height: 25px;
 }
 
 .contacts{padding:30px 0;}
-
+.footer .fa-vk{margin-right: 9px; font-size: 22px;}
 .footer .fab
 {display: inline-block;
 font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
-font-size: inherit;
+    line-height: 1;
+font-size: 20px;
+line-height: 51px;
 text-rendering: auto;
 -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;}
+-moz-osx-font-smoothing: grayscale;
+color: white;}
 
 .contacts .fa{font-size: 74px;
 margin: 20px 0;}
