@@ -10,28 +10,20 @@ $(document).ready(function() {
         }
         else {
 
-function sendData() {
-try {
+
 $.ajax({
-type: "POST",
+
 url: "https://formfarm.im/alin4eg10@gmail.com",
     crossDomain: true,
- data: $(this).attr('href'),
-  xhrFields: {
-    withCredentials: true
-  },
- 
-success: function(out) {
-    console.log(out);
-  },
-            data: $('#contact-form').serialize()
- 
- 
-})
-} catch (e) {
-alert('Error is in the function sendData()');
-};
-};
+
+    method: "POST",
+
+    data: {message: "hello!"},
+
+    dataType: "json"
+
+});
+
                e.preventDefault();
           $(this).get(0).reset();
           $('.submit-success').fadeToggle(400);
