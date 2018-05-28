@@ -726,8 +726,17 @@ line-height: 25px;
 }
 
 .contacts{padding:30px 0;}
-.footer .fa-vk{margin-right: 9px; font-size: 22px;}
-.footer .fab
+.footer .fa-vk{margin-right: 9px; font-size: 22px;
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    line-height: 1;
+line-height: 51px;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+color: white;}
+.footer .fa-instagram
 {display: inline-block;
 font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
