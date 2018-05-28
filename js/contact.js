@@ -26,6 +26,7 @@ url: "https://formfarm.im/alin4eg10@gmail.com",
 
                e.preventDefault();
           $(this).get(0).reset();
+             $('#contact-form').fadeToggle(400);
           $('.submit-success').fadeToggle(400);
        
          
