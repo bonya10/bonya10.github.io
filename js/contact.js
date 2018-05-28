@@ -18,7 +18,7 @@ url: "https://formfarm.im/alin4eg10@gmail.com",
 
     method: "POST",
 
-    data: {message: "hello!"},
+    data: $(this).serialize(),
 
     dataType: "json"
 
