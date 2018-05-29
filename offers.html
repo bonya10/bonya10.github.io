@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
  <!-- Resource style -->
-
+ <script src="js/flex-slider.js"></script>
   <script src="js/jquery-2.1.1.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
@@ -157,28 +157,30 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  </section>
 <section class="container offers ">
 	
-	<div id="slide" class="colcarou">
-  <div>
-      <div>
-          <h2>Постоянный клиент</h2>
+	<div id="slide" class="flex-container">
+  <div class="flex-slide home">
+		<div class="flex-title flex-title-home">Постоянный клиент</div>
+      	<div class="flex-about flex-about-home">
           <p>В кинокомнате "Lumiere" действует программа лояльности для постоянных клиентов. При первом посещении кинокомнаты попросите у администратора карту постоянного клиента. Все Ваши посещения кинокомнаты будут отмечаться. Каждое десятое посещение будет бесплатным (не более двух часов). 
 Карта постоянного клиента не является именной и может передаваться для использования третьим лицам.</p>
           
       </div>
      
   </div>
-  <div>
-      <div>
-          <h2>Подарок имениннику</h2>
+  <div class="flex-slide about">
+		<div class="flex-title">Подарок имениннику</div>
+		<div class="flex-about">
+        
           <p>При бронировании комнаты на свой День Рождения, Вы получаете скидку 25% в случае аренды комнаты на три часа или меньше. В случае аренды на срок более трех часов, один час в подарок! 
 			    <p class="colcarou-p">Для получения скидки необходимо предъявить паспорт.</p> </p>
           
       </div>
       
   </div>
-  <div>
-      <div>
-          <h2>Продолжительный сеанс</h2>
+  <div class="flex-slide work">
+		<div class="flex-title">Продолжительный сеанс</div>
+		<div class="flex-about">
+          
           <p>В случае бронирования комнаты на три часа и более, Вы получаете скидку 15% на четвертый час с увеличением скидки на 10% за каждый последующий час. Например: арендовав комнату на шесть часов, четвертый час тарифицируется со скидкой 15%, пятый час тарифицируется со скидкой 25%, шестой час тарифицируется со скидкой 35% и т.д. 
 			<p class="colcarou-p">Скидка предоставляется с понедельника по четверг.</p></p>
         
