@@ -524,10 +524,7 @@ display:none
   background: radial-gradient(circle at center, #FFF 0%, transparent 60%); 
   opacity: 0;
   mix-blend-mode: screen;
-  transform: translate( 
-    calc( var(--px) * 1px ),
-    calc( var(--py) * 1px ) 
-  ) translate(-50%, -50%);
+  transform: translate( calc( var(--px) * 0.5px ), calc( var(--py) * 0.5px ) ) translate(-50%, -50%);
   
 }
 
