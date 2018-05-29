@@ -147,7 +147,8 @@
      
   .variant-2 {font-size: 0.8rem;}
   
-  #map{}
+  #map{height: 185px;}
+  .footer{padding:0;}
   
  }
  
