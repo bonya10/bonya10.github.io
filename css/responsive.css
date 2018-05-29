@@ -110,7 +110,7 @@
  }
 
 
- @media (max-width: @screen-sm-min){ 
+ @media screen and (max-width:319px){ 
   
   .header-tel, .time-work{
    width: 92% !important;
