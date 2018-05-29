@@ -1138,7 +1138,7 @@ line-height: 5.5rem;
 	color: #fff;
 	padding: 3px 0;
 }
-.footer li:first-child{margin-right:10px;}
+.footer li div{margint:0 5px;}
 .footer .copy{
 	font-size: 11px;
 	}
