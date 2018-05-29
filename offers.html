@@ -42,7 +42,7 @@
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">	
 	<script src="js/jquery.flexslider-min.js"></script> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-
+<script src="js/jquery.fancybox.pack.js"></script> 
  <script>
  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
@@ -208,7 +208,32 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
 <!-- Footer section --> 
 <!-- JS FILES -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src='//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/jquery.waitforimages.min.js'></script>
+<script >(function(){
+	
+	$(".flex-slide").each(function(){
+		$(this).hover(function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(0deg)',
+				top: '5%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '1'
+			});
+		}, function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(90deg)',
+				top: '45%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '0'
+			});
+		})
+	});
+})();
+//# sourceURL=pen.js
+</script>
 <script type="text/javascript">
     $("input:radio").click(function () {
         if ($('input:checked').val() == "private") {
