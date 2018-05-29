@@ -726,11 +726,13 @@ line-height: 25px;
 .footer .fa-vk{margin-right: 9px; 
 display: inline-block;
 font: normal normal normal 22px/1 FontAwesome;
-line-height: 51px;
-text-rendering: auto;
+/*! line-height: 87px; */
+/*! text-rendering: auto; */
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-color: white;}
+color: white;
+margin-top: 18px;
+}
 
 .footer .fa-instagram
 {display: inline-block;
@@ -1124,12 +1126,12 @@ margin-bottom: 18px;}
 .footer .numer_tel{
 	font-size: 11px;
 text-align: right;
-line-height: 5.5rem;
+line-height: 4.5rem;
 }
 
 .footer .lumiere{
 	
-line-height: 5.5rem;
+/*! line-height: 0.5rem; */
 }
 .footer h5{text-align: center;
 	color: #fff;
@@ -1138,9 +1140,14 @@ line-height: 5.5rem;
 .footer li div{margin:0 10px;}
 .footer .copy{
 	font-size: 11px;
+	line-height: 4.5rem;
 	}
 .footer .lumiere{
-	font-size: 11px;}
+	font-size: 11px;
+	display: inline-block;
+	color: #6c7279;
+	line-height: 4.5rem;
+}
 
 .footer {
 	text-align: left;
