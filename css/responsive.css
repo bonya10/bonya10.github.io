@@ -116,11 +116,11 @@
    width: 92% !important;
    margin: 0 4%;}
   
-  .header-tel{margin-bottom:12px;}
+  .header-tel{margin-bottom:9px;}
   
   #header .header-content {
   width: 90%;
-  padding: 0px;}
+  padding: 5px 0px;}
   
   #header .logo {padding-bottom: 10px;}
   
@@ -134,6 +134,20 @@
  font-size: 12px;}
   
   .modal1{width:60%;}
+  
+  .round-box {
+    width: 103px;
+    display: inline-block;}
+  
+  .round img {
+    width: 100px;
+   height: 100px;}
+  
+  .variant-1 {font-size: 0.7rem;}
+     
+  .variant-2 {font-size: 0.8rem;}
+  
+  #map{}
   
  }
  
