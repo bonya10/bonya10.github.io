@@ -1135,7 +1135,10 @@ line-height: 5.5rem;
 line-height: 5.5rem;
 }
 .footer h5{text-align: center;
-	color: #fff;}
+	color: #fff;
+	padding: 3px 0;
+}
+.footer li:first-child{margin-right:10px;}
 .footer .copy{
 	font-size: 11px;
 	}
