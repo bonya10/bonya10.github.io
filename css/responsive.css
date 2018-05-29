@@ -90,13 +90,10 @@
   .header-tel, .time-work{
    width: 92% !important;
    margin: 0 4%;}
-  
   .header-tel{margin-bottom:9px;}
-  
   #header .header-content {
   width: 90%;
   padding: 5px 0px;}
-  
   #header .logo {padding-bottom: 10px;}
   
  .banner-text {
@@ -114,42 +111,35 @@
   .private1 {font-size: 1.4rem;}
   
   .round-box {
-    width: 103px;
+    width: 123px;
     display: inline-block;}
-  
   .round img {
-    width: 100px;
-   height: 100px;}
-  
-  .variant-1 {font-size: 0.7rem;}
-     
-  .variant-2 {font-size: 0.8rem;}
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
-  
   .footer{padding:0;}
-  
   .footer li #vk_groups{margin: 0 -11px;}
-  
-   .footer li .insta{margin: 0 -3px;}
+  .footer li .insta{margin: 0 -3px;}
   .footer .numer_tel {text-align: center;}
-  
   .footer .copy {text-align: center;}
+}
 }
  
  
 @media screen and (min-width:320px) and (max-width:480px){
  
+  
   .header-tel, .time-work{
    width: 92% !important;
    margin: 0 4%;}
-  
   .header-tel{margin-bottom:9px;}
-  
   #header .header-content {
   width: 90%;
   padding: 5px 0px;}
-  
   #header .logo {padding-bottom: 10px;}
   
  .banner-text {
@@ -167,27 +157,22 @@
   .private1 {font-size: 1.4rem;}
   
   .round-box {
-    width: 103px;
+    width: 123px;
     display: inline-block;}
-  
   .round img {
-    width: 100px;
-   height: 100px;}
-  
-  .variant-1 {font-size: 0.7rem;}
-     
-  .variant-2 {font-size: 0.8rem;}
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
-  
   .footer{padding:0;}
-  
   .footer li #vk_groups{margin: 0 -11px;}
-  
-   .footer li .insta{margin: 0 -3px;}
+  .footer li .insta{margin: 0 -3px;}
   .footer .numer_tel {text-align: center;}
-  
   .footer .copy {text-align: center;}
+}
  }
 
 
@@ -196,13 +181,10 @@
   .header-tel, .time-work{
    width: 92% !important;
    margin: 0 4%;}
-  
   .header-tel{margin-bottom:9px;}
-  
   #header .header-content {
   width: 90%;
   padding: 5px 0px;}
-  
   #header .logo {padding-bottom: 10px;}
   
  .banner-text {
@@ -220,26 +202,20 @@
   .private1 {font-size: 1.4rem;}
   
   .round-box {
-    width: 103px;
+    width: 123px;
     display: inline-block;}
-  
   .round img {
-    width: 100px;
-   height: 100px;}
-  
-  .variant-1 {font-size: 0.7rem;}
-     
-  .variant-2 {font-size: 0.8rem;}
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
-  
   .footer{padding:0;}
-  
   .footer li #vk_groups{margin: 0 -11px;}
-  
-   .footer li .insta{margin: 0 -3px;}
+  .footer li .insta{margin: 0 -3px;}
   .footer .numer_tel {text-align: center;}
-  
   .footer .copy {text-align: center;}
 }
  
