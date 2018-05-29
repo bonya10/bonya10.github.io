@@ -44,7 +44,7 @@
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/jquery.waitforimages.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 	
 	<script src="js/jquery.flexslider-min.js"></script> 
-	<script src="js/flex-slider.js"></script>
+	
  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 
@@ -213,7 +213,33 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
  
 <!-- Footer section --> 
 <!-- JS FILES -->
-
+<script>
+(function(){
+	$('.flex-container').waitForImages(function() {
+		$('.spinner').fadeOut();
+	}, $.noop, true);
+	
+	$(".flex-slide").each(function(){
+		$(this).hover(function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(0deg)',
+				top: '10%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '1'
+			});
+		}, function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(90deg)',
+				top: '15%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '0'
+			});
+		})
+	});
+})();
+</script>
 <script type="text/javascript">
     $("input:radio").click(function () {
         if ($('input:checked').val() == "private") {
