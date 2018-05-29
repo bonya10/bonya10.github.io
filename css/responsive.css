@@ -109,7 +109,7 @@
   .modal-form label {font-size: 1.2rem;}
   legend {font-size: 16px;}
   .private1 {font-size: 1.4rem;}
- .col-sm-6{width:50% !important;}
+.modal1 .col-sm-6{width:50% !important;}
   
   .round-box {
     width: 123px;
@@ -156,7 +156,7 @@
   .modal-form label {font-size: 1.2rem;}
   legend {font-size: 16px;}
   .private1 {font-size: 1.4rem;}
- .col-sm-6{width:50% !important;}
+ .modal1 .col-sm-6{width:50% !important;}
   
   .round-box {
     width: 123px;
@@ -199,7 +199,7 @@
   .modal-form label {font-size: 1.2rem;}
   legend {font-size: 16px;}
   .private1 {font-size: 1.4rem;}
-  .col-sm-6{width:50% !important;}
+  .modal1 .col-sm-6{width:50% !important;}
   
   .round-box {
     width: 123px;
