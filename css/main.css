@@ -1134,7 +1134,8 @@ line-height: 5.5rem;
 	
 line-height: 5.5rem;
 }
-
+.footer h5{text-align: center;
+	color: #fff;}
 .footer .copy{
 	font-size: 11px;
 	}
