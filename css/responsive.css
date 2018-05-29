@@ -111,6 +111,12 @@
 
 
  @media only screen and (max-width: 319px){ 
+  .header-tel, .time-work{
+   width: 92%;
+margin: 0 4%;
+  }
+  
+  
  .banner-text {
  padding-top: 55%;
 }
