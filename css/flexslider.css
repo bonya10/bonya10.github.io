@@ -96,10 +96,8 @@ body {
 }
 .home {
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	background:transparent;
+	
 	@media screen and (min-width: 768px) {
 		@include animation-properties((animation: aboutFlexSlide, animation-duration: $defaultSeconds, animation-iteration-count: 1, animation-delay: 0s));
 	}
@@ -167,10 +165,7 @@ body {
 
 
 .about {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;	
+	background:transparent;
 }
 .contact-form {
 	width: 100%;
@@ -182,16 +177,10 @@ textarea {
 	width: 100%;	
 }
 .contact {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+		background:transparent;
 }
 .work {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+		background:transparent;
 }
 
 
