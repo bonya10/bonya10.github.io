@@ -1153,7 +1153,7 @@ line-height: 5.5rem;
 	border-top: 1px solid #424242;
 	
 }
-.widget-copyright a{display:none;}
+iframe .widget-copyright a{display:none;}
 /*--------------------------------------------------------------------------------
 
 	offers
