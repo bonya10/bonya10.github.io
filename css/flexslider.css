@@ -14,7 +14,7 @@ body {
 .flex-container {
 	position: absolute;
 	height: 100vh;
-	width: 100%;
+	width:1170px;
 	display: -webkit-flex; /* Safari */
 	display: flex;
 	overflow: hidden;
