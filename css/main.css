@@ -1010,13 +1010,13 @@ color:#000;
 }
 .modal-form .tims {    margin: 10px 0;
     padding-top:10px;
-    width: 196px;
+   width: 266px;
     display: inline-block;}
 
 .modal-form .field_date {    margin: 10px 0;
+   width: 164px;
    padding-top:10px;
-    width: 196px;
-    display: inline-block;}
+     display: inline-block;}
 
 /*=======================================================
 	Gallery
