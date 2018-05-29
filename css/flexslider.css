@@ -147,7 +147,7 @@ width:70%;
 @media screen and (min-width: 768px) {
   .flex-title-home {
     transform: rotate(90deg);
-    top: 15%;
+    top: 28%;
     -moz-animation: homeFlextitle;
     -moz-animation-duration: 3s;
     -moz-animation-iteration-count: 1;
