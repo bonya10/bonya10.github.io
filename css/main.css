@@ -983,12 +983,14 @@ textarea.form-control {
 .modal-form .hour {
 display: inline-block;
 margin-top: 10px;
-    width: 242px;
+width: 266px;
 }
 
 .modal-form .field {
 display: inline-block;
-width: 164px;}
+width: 164px;
+margin-top: 10px;}
+
 .modal1 form .field select{	
 display: inline-block;
 padding: 2px;
