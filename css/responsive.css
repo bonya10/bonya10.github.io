@@ -83,7 +83,7 @@
 }
  .footer .footer-col {
  margin-bottom: 50px;
-}
+  }
 }
 @media screen and (min-width:481px) and (max-width:580px){
 
@@ -126,7 +126,7 @@
   .footer li .insta{margin: 0 -3px;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
-}
+
 }
  
  
@@ -172,7 +172,7 @@
   .footer li .insta{margin: 0 -3px;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
-}
+
  }
 
 
@@ -187,14 +187,11 @@
   padding: 5px 0px;}
   #header .logo {padding-bottom: 10px;}
   
- .banner-text {
- padding-top: 55%;}
+ .banner-text {padding-top: 55%;}
   
- .testimonials blockquote {
- padding: 20px 5% 0;}
+ .testimonials blockquote {padding: 20px 5% 0;}
   
- .testimonials p {
- font-size: 12px;}
+ .testimonials p {font-size: 12px;}
   
   .modal1{width:91%;}
   .modal-form label {font-size: 1.2rem;}
