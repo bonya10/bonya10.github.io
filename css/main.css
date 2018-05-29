@@ -1006,8 +1006,13 @@ display: inline-block;
 font-weight: 300;
 color:#000;
 }
-.modal-form .tims, .modal-form .field_date {    margin: 10px 0;
-   
+.modal-form .tims {    margin: 10px 0;
+    padding-top:10px;
+    width: 196px;
+    display: inline-block;}
+
+.modal-form .field_date {    margin: 10px 0;
+   padding-top:10px;
     width: 196px;
     display: inline-block;}
 
