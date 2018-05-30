@@ -129,7 +129,7 @@
   .flex-container {width: 95vw; overflow:auto;}
   .flex-slide p {
     font-size: 0.3em;
-    line-height: 12px; overflow:hidden;}
+    line-height: 12px;}
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
@@ -216,19 +216,13 @@ width: 85%; overflow:auto;}
   
  
   .flex-container {width: 95vw; overflow:auto;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px; overflow:hidden;}
+  .flex-slide p {font-size: 0.3em;
+    line-height: 12px;}
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
 width: 85%; overflow:auto;}
- 
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px;
-    overflow: auto;
-}
+
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -311,7 +305,7 @@ width: 85%; overflow:auto;}
   .flex-container {width: 95vw; overflow:auto;}
   .flex-slide p {
     font-size: 0.3em;
-    line-height: 12px; overflow:hidden;}
+    line-height: 12px;}
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
