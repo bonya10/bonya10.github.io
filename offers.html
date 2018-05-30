@@ -221,7 +221,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 		$(this).hover(function(){
 			$(this).find('.flex-title').css({
 				transform: 'rotate(0deg)',
-				top:'5%'
+				top:'5%', 
+				opacity: 0;
 			});
 			$(this).find('.flex-about').css({
 				display: 'block'
@@ -229,7 +230,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 		}, function(){
 			$(this).find('.flex-title').css({
 				transform: 'rotate(90deg)',
-				top: '10'
+				top: '10',
+				opacity: 1;
 			});
 			$(this).find('.flex-about').css({
 				display: 'none'
