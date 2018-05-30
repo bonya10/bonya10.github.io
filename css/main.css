@@ -22,7 +22,7 @@
   format("truetype"),url("../fonts/Righteous-Regular.svg#Righteous-Regular") 
  format("svg");font-weight:normal;font-style:normal;}
 html, body{
-height: 95%;
+
 }
 .hidden {
     display : none;
@@ -111,7 +111,7 @@ background-image: url(../images/bg-1.jpg);
 	
 	font-weight: 400;
 	color: #6c7279;
-height: 100vh;
+
 }
 ul, ol {
 	margin: 0;
