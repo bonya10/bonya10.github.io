@@ -86,129 +86,11 @@
   }
 }
 @media screen and (min-width:481px) and (max-width:580px){
-
+ 
   .header-tel, .time-work{
    width: 92% !important;
    margin: 0 4%;}
-  .header-tel{margin-bottom:9px;}
-  #header .header-content {
-  width: 90%;
-  padding: 5px 0px;}
-  #header .logo {padding-bottom: 10px;}
-  
- .banner-text {
- padding-top: 55%;}
-  
- .testimonials blockquote {
- padding: 20px 5% 0;}
-  
- .testimonials p {
- font-size: 12px;}
-  
-  .modal1{width:91%;}
-  .modal-form label {font-size: 1.2rem;}
-  legend {font-size: 16px;}
-  .private1 {font-size: 1.4rem;}
-.modal1 .col-sm-6{width:50% !important;}
-  
-  .round-box {
-    width: 123px;
-    display: inline-block;}
-  .round img {
-    width: 123px;
-   height: 123px;}
-  .variant-1 {font-size: 1rem;}
-  .variant-2 {font-size: 1rem; top:40%;}
-  .container-rond h1 {font-size: 2.7rem;}
-  
-  #map{height: 185px;}
-  .footer{padding:0;}
-  .footer li #vk_groups{margin: 0 -11px;}
-  .footer li .insta{margin: 0 -3px;}
-  .footer .numer_tel {text-align: center;}
-  .footer .copy {text-align: center;}
-
-   .flex-container {width: 95vw;}
-  .flex-slide p {font-size: 0.4em;
-line-height: 18px;}
-  .flex-title {font-size: 1.6rem;}
-  .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 25padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 85%;%;
-margin: 0;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px;}
-}
-
- 
- 
-@media screen and (min-width:320px) and (max-width:480px){
- 
-  
-  .header-tel, .time-work{
-   width: 92% !important;
-   margin: 0 4%;}
-  .header-tel{margin-bottom:9px;}
-  #header .header-content {
-  width: 90%;
-  padding: 5px 0px;}
-  #header .logo {padding-bottom: 10px;}
-  
- .banner-text {
- padding-top: 55%;}
-  
- .testimonials blockquote {
- padding: 20px 5% 0;}
-  
- .testimonials p {
- font-size: 12px;}
-  
-  .modal1{width:91%;}
-  .modal-form label {font-size: 1.2rem;}
-  legend {font-size: 16px;}
-  .private1 {font-size: 1.4rem;}
- .modal1 .col-sm-6{width:50% !important;}
-  
-  .round-box {
-    width: 123px;
-    display: inline-block;}
-  .round img {
-    width: 123px;
-   height: 123px;}
-  .variant-1 {font-size: 1rem;}
-  .variant-2 {font-size: 1rem; top:40%;}
-  .container-rond h1 {font-size: 2.7rem;}
-  
-  #map{height: 185px;}
-  .footer{padding:0;}
-  .footer li #vk_groups{margin: 0 -11px;}
-  .footer li .insta{margin: 0 -3px;}
-  .footer .numer_tel {text-align: center;}
-  .footer .copy {text-align: center;}
- 
- .flex-container {width: 95vw;}
-  .flex-slide p {font-size: 0.4em;
-line-height: 18px;}
-  .flex-title {font-size: 1.6rem;}
-  .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 85%;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px;}
-
- }
-
-
- @media screen and (max-width:319px){ 
-  
-  .header-tel, .time-work{
-   width: 92% !important;
-   margin: 0 4%;}
-  .header-tel{margin-bottom:9px;}
+  .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
   width: 90%;
   padding: 5px 0px;}
@@ -253,5 +135,223 @@ width: 85%;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
+  
+  .tel .tel1 {line-height: 22.4px;
+   font-size: 1.3rem;}
+  .tel .tel2 {line-height: 12.4px;
+   font-size: 1rem;}
+  .or {line-height: 17.4px;
+    font-size: 0.9rem;
+   padding-bottom: 1px;}
+  
+  .tel a {
+    font-size: 1.2rem;
+    width: 100%;
+    display: inline-block;}
+  .book {
+    font-size: 0.9rem;
+    margin: 0;
+   text-align: center;}
+  .header-tel, .time-work {
+      height: 112px;}
+  .time-work p:first-child {
+    font-size: 1.3rem;
+   margin: 0;}
+  .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
+   padding: 0;
+    height: 37px;
+    width: 32.667%;
+    display: inline-block;
+    font-size: 1.1rem;}
+  .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
+    padding: 0;
+    height: 23px;
+    padding: 0;
+    height: 37px;
+    width: 47.667%;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: 8px;}
 }
+
  
+ 
+@media screen and (min-width:320px) and (max-width:480px){
+  
+  .header-tel, .time-work{
+   width: 92% !important;
+   margin: 0 4%;}
+  .header-tel{margin-bottom:9px; line-height: 10px;}
+  #header .header-content {
+  width: 90%;
+  padding: 5px 0px;}
+  #header .logo {padding-bottom: 10px;}
+  
+ .banner-text {padding-top: 55%;}
+  
+ .testimonials blockquote {padding: 20px 5% 0;}
+  
+ .testimonials p {font-size: 12px;}
+  
+  .modal1{width:91%;}
+  .modal-form label {font-size: 1.2rem;}
+  legend {font-size: 16px;}
+  .private1 {font-size: 1.4rem;}
+  .modal1 .col-sm-6{width:50% !important;}
+  
+  .round-box {
+    width: 123px;
+    display: inline-block;}
+  .round img {
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
+  
+  #map{height: 185px;}
+  .footer{padding:0;}
+  .footer li #vk_groups{margin: 0 -11px;}
+  .footer li .insta{margin: 0 -3px;}
+  .footer .numer_tel {text-align: center;}
+  .footer .copy {text-align: center;}
+  
+  .flex-container {width: 95vw;}
+  .flex-slide p {font-size: 0.4em;
+line-height: 18px;}
+  .flex-title {font-size: 1.6rem;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
+  
+  .tel .tel1 {line-height: 22.4px;
+   font-size: 1.3rem;}
+  .tel .tel2 {line-height: 12.4px;
+   font-size: 1rem;}
+  .or {line-height: 17.4px;
+    font-size: 0.9rem;
+   padding-bottom: 1px;}
+  
+  .tel a {
+    font-size: 1.2rem;
+    width: 100%;
+    display: inline-block;}
+  .book {
+    font-size: 0.9rem;
+    margin: 0;
+   text-align: center;}
+  .header-tel, .time-work {
+      height: 112px;}
+  .time-work p:first-child {
+    font-size: 1.3rem;
+   margin: 0;}
+  .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
+   padding: 0;
+    height: 37px;
+    width: 32.667%;
+    display: inline-block;
+    font-size: 1.1rem;}
+  .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
+    padding: 0;
+    height: 23px;
+    padding: 0;
+    height: 37px;
+    width: 47.667%;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: 8px;}
+
+ }
+
+
+ @media screen and (max-width:319px){ 
+  
+  .header-tel, .time-work{
+   width: 92% !important;
+   margin: 0 4%;}
+  .header-tel{margin-bottom:9px; line-height: 10px;}
+  #header .header-content {
+  width: 90%;
+  padding: 5px 0px;}
+  #header .logo {padding-bottom: 10px;}
+  
+ .banner-text {padding-top: 55%;}
+  
+ .testimonials blockquote {padding: 20px 5% 0;}
+  
+ .testimonials p {font-size: 12px;}
+  
+  .modal1{width:91%;}
+  .modal-form label {font-size: 1.2rem;}
+  legend {font-size: 16px;}
+  .private1 {font-size: 1.4rem;}
+  .modal1 .col-sm-6{width:50% !important;}
+  
+  .round-box {
+    width: 123px;
+    display: inline-block;}
+  .round img {
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
+  
+  #map{height: 185px;}
+  .footer{padding:0;}
+  .footer li #vk_groups{margin: 0 -11px;}
+  .footer li .insta{margin: 0 -3px;}
+  .footer .numer_tel {text-align: center;}
+  .footer .copy {text-align: center;}
+  
+  .flex-container {width: 95vw;}
+  .flex-slide p {font-size: 0.4em;
+line-height: 18px;}
+  .flex-title {font-size: 1.6rem;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
+  
+  .tel .tel1 {line-height: 22.4px;
+   font-size: 1.3rem;}
+  .tel .tel2 {line-height: 12.4px;
+   font-size: 1rem;}
+  .or {line-height: 17.4px;
+    font-size: 0.9rem;
+   padding-bottom: 1px;}
+  
+  .tel a {
+    font-size: 1.2rem;
+    width: 100%;
+    display: inline-block;}
+  .book {
+    font-size: 0.9rem;
+    margin: 0;
+   text-align: center;}
+  .header-tel, .time-work {
+      height: 112px;}
+  .time-work p:first-child {
+    font-size: 1.3rem;
+   margin: 0;}
+  .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
+   padding: 0;
+    height: 37px;
+    width: 32.667%;
+    display: inline-block;
+    font-size: 1.1rem;}
+  .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
+    padding: 0;
+    height: 23px;
+    padding: 0;
+    height: 37px;
+    width: 47.667%;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: 8px;}
+}
