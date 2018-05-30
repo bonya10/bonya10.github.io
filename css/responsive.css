@@ -136,7 +136,7 @@ line-height: 18px;}
     border: 2px solid #f1f1f1;
    width: 98%;}
 }
-}
+
  
  
 @media screen and (min-width:320px) and (max-width:480px){
@@ -190,7 +190,6 @@ line-height: 18px;}
   .flex-about { padding: 3%;
     border: 2px solid #f1f1f1;
    width: 98%;}
-}
 
  }
 
