@@ -224,7 +224,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 				top:'5%'
 			});
 			$(this).find('.flex-about').css({
-				opacity: '1'
+				display: 'block'
 			});
 		}, function(){
 			$(this).find('.flex-title').css({
@@ -232,7 +232,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 				top: ''
 			});
 			$(this).find('.flex-about').css({
-				opacity: '0'
+				display: 'none'
 			});
 		})
 	});
