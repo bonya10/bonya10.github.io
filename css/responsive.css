@@ -119,9 +119,9 @@
   .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
-  .footer{padding:0;}
-  .footer li #vk_groups{margin: 0 -11px;}
-  .footer li .insta{margin: 0 -3px;}
+  .footer{padding:0;}  .footer .display-none{display:block;}
+  .footer li #vk_groups{display:none;}
+  .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
@@ -210,8 +210,9 @@ width: 85%;}
   
   #map{height: 185px;}
   .footer{padding:0;}
-  .footer li #vk_groups{margin: 0 -11px;}
-  .footer li .insta{margin: 0 -3px;}
+   .footer .display-none{display:block;}
+  .footer li #vk_groups{display:none;}
+  .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
@@ -300,8 +301,9 @@ width: 85%;}
   
   #map{height: 185px;}
   .footer{padding:0;}
-  .footer li #vk_groups{margin: 0 -11px;}
-  .footer li .insta{margin: 0 -3px;}
+  .footer .display-none{display:block;}
+  .footer li #vk_groups{display:none;}
+  .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
