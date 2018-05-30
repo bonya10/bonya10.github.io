@@ -126,7 +126,7 @@
   .footer .copy {text-align: center;}
   
   
-  .flex-container {width: 95vw; overflow:hidden;}
+  .flex-container {width: 95vw; overflow:auto;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px; overflow:hidden;}
@@ -215,7 +215,7 @@ width: 85%; overflow:hidden;}
   .footer .copy {text-align: center;}
   
  
-  .flex-container {width: 95vw; overflow:hidden;}
+  .flex-container {width: 95vw; overflow:auto;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px; overflow:hidden;}
@@ -308,7 +308,7 @@ width: 85%; overflow:hidden;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw; overflow:hidden;}
+  .flex-container {width: 95vw; overflow:auto;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px; overflow:hidden;}
