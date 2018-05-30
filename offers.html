@@ -221,22 +221,22 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 		$(this).hover(function(){
 			$(this).find('.flex-title').css({
 				transform: 'rotate(0deg)',
-				top:'5%', 
+				top:'5%'
 				
 			});
 			$(this).find('.flex-about').css({
 				display: 'block', 
-				opacity: 1;
+				opacity: 1
 			});
 		}, function(){
 			$(this).find('.flex-title').css({
 				transform: 'rotate(90deg)',
-				top: '10',
+				top: '10'
 				
 			});
 			$(this).find('.flex-about').css({
-				display: 'none', 
-				opacity: 0;
+				display: 'none',
+				opacity: 0
 			});
 		})
 	});
