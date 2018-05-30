@@ -119,7 +119,7 @@
   .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
-  .footer{padding:0;}  .footer .display-none{display:block;}
+  .footer{padding:0;}  .footer .display-none{display:inline-block;}
   .footer li #vk_groups{display:none;}
   .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
@@ -210,7 +210,7 @@ width: 85%;}
   
   #map{height: 185px;}
   .footer{padding:0;}
-   .footer .display-none{display:block;}
+   .footer .display-none{display:inline-block;}
   .footer li #vk_groups{display:none;}
   .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
@@ -301,7 +301,7 @@ width: 85%;}
   
   #map{height: 185px;}
   .footer{padding:0;}
-  .footer .display-none{display:block;}
+  .footer .display-none{display:inline-block; }
   .footer li #vk_groups{display:none;}
   .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
