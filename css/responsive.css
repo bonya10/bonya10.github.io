@@ -125,15 +125,16 @@
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw; overflow:auto;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px; overflow:auto;}
-  .flex-title {font-size: 1.6rem; overflow:auto;}
+  .flex-container {width: 95vw;}
+  .flex-slide p {font-size: 0.4em;
+line-height: 18px;}
+  .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%;
-   overflow:auto;}
+width: 85%;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -213,15 +214,20 @@ width: 85%;
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-   .flex-container {width: 95vw; overflow:auto;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px; overflow:auto;}
-  .flex-title {font-size: 1.6rem; overflow:auto;}
+  .flex-container {width: 95vw;/*! overflow: hidden; */height: 36vh;}
+  .flex-slide p {font-size: 0.4em;
+line-height: 18px;}
+  .flex-title {font-size: 1.4rem;height: 20px;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
 width: 85%;
-   overflow:auto;}
+overflow: auto;
+}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;
+    overflow: auto;
+}
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -301,15 +307,16 @@ width: 85%;
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw; overflow:auto;}
-  .flex-slide p {
-    font-size: 0.3em;
-    line-height: 12px; overflow:auto;}
-  .flex-title {font-size: 1.6rem; overflow:auto;}
+  .flex-container {width: 95vw;}
+  .flex-slide p {font-size: 0.4em;
+line-height: 18px;}
+  .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%;
-   overflow:auto;}
+width: 85%;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -318,6 +325,7 @@ width: 85%;
   .or {line-height: 17.4px;
     font-size: 0.9rem;
    padding-bottom: 1px;}
+  
   .tel a {
     font-size: 1.2rem;
     width: 100%;
