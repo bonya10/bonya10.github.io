@@ -126,14 +126,15 @@
   .footer .copy {text-align: center;}
   
   
-  .flex-container {width: 95vw; overflow:auto;}
+.offers {height: 351px;}
+  .flex-container {width: 95vw; height: 348px; }
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
-  .flex-title {font-size: 1.6rem; overflow:hidden;}
+  .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:auto;}
+width: 85%;}
  
   
   .tel .tel1 {line-height: 22.4px;
@@ -215,13 +216,15 @@ width: 85%; overflow:auto;}
   .footer .copy {text-align: center;}
   
  
-  .flex-container {width: 95vw; overflow:auto;}
-  .flex-slide p {font-size: 0.3em;
+.offers {height: 351px;}
+  .flex-container {width: 95vw; height: 348px; }
+  .flex-slide p {
+    font-size: 0.3em;
     line-height: 12px;}
-  .flex-title {font-size: 1.6rem; overflow:hidden;}
+  .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:auto;}
+width: 85%;}
 
   
   .tel .tel1 {line-height: 22.4px;
@@ -302,14 +305,15 @@ width: 85%; overflow:auto;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw; overflow:auto;}
+  .offers {height: 351px;}
+  .flex-container {width: 95vw; height: 348px; }
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
-  .flex-title {font-size: 1.6rem; overflow:hidden;}
+  .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:auto;}
+width: 85%;}
  
   
   .tel .tel1 {line-height: 22.4px;
