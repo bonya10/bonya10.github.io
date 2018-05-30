@@ -128,13 +128,15 @@
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
 
-   .flex-container {width: 100vw;}
+   .flex-container {width: 95vw;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 25%;
+width: 25padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%;%;
 margin: 0;}
   .flex-slide p {
     font-size: 0.3em;
@@ -187,14 +189,13 @@ margin: 0;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
  
- .flex-container {width: 100vw;}
+ .flex-container {width: 95vw;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 25%;
-margin: 0;}
+width: 85%;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
@@ -242,14 +243,13 @@ margin: 0;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 100vw;}
+  .flex-container {width: 95vw;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 25%;
-margin: 0;}
+width: 85%;}
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
