@@ -125,16 +125,16 @@
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw;}
-  .flex-slide p {font-size: 0.4em;
-line-height: 18px;}
-  .flex-title {font-size: 1.6rem;}
-  .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 85%;}
+  
+  .flex-container {width: 95vw; overflow:hidden;}
   .flex-slide p {
     font-size: 0.3em;
-    line-height: 12px;}
+    line-height: 12px; overflow:hidden;}
+  .flex-title {font-size: 1.6rem; overflow:hidden;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%; overflow:hidden;}
+ 
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -214,15 +214,16 @@ width: 85%;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw;/*! overflow: hidden; */height: 36vh;}
-  .flex-slide p {font-size: 0.4em;
-line-height: 18px;}
-  .flex-title {font-size: 1.4rem;height: 20px;}
+ 
+  .flex-container {width: 95vw; overflow:hidden;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px; overflow:hidden;}
+  .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%;
-overflow: auto;
-}
+width: 85%; overflow:hidden;}
+ 
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;
@@ -307,16 +308,15 @@ overflow: auto;
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .flex-container {width: 95vw;}
-  .flex-slide p {font-size: 0.4em;
-line-height: 18px;}
-  .flex-title {font-size: 1.6rem;}
-  .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 85%;}
+  .flex-container {width: 95vw; overflow:hidden;}
   .flex-slide p {
     font-size: 0.3em;
-    line-height: 12px;}
+    line-height: 12px; overflow:hidden;}
+  .flex-title {font-size: 1.6rem; overflow:hidden;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%; overflow:hidden;}
+ 
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
