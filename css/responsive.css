@@ -128,13 +128,17 @@
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
 
-  .flex-container {width: 100vw;}
+   .flex-container {width: 100vw;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
-  .flex-about { padding: 3%;
-    border: 2px solid #f1f1f1;
-   width: 98%;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 25%;
+margin: 0;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
 }
 
  
@@ -183,13 +187,17 @@ line-height: 18px;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
  
-  .flex-container {width: 100vw;}
+ .flex-container {width: 100vw;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
-  .flex-about { padding: 3%;
-    border: 2px solid #f1f1f1;
-   width: 98%;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 25%;
+margin: 0;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
 
  }
 
@@ -238,8 +246,12 @@ line-height: 18px;}
   .flex-slide p {font-size: 0.4em;
 line-height: 18px;}
   .flex-title {font-size: 1.6rem;}
-  .flex-about { padding: 3%;
-    border: 2px solid #f1f1f1;
-   width: 98%;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 25%;
+margin: 0;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
 }
  
