@@ -133,7 +133,7 @@
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:hidden;}
+width: 85%; overflow:auto;}
  
   
   .tel .tel1 {line-height: 22.4px;
@@ -222,7 +222,7 @@ width: 85%; overflow:hidden;}
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:hidden;}
+width: 85%; overflow:auto;}
  
   .flex-slide p {
     font-size: 0.3em;
@@ -315,7 +315,7 @@ width: 85%; overflow:hidden;}
   .flex-title {font-size: 1.6rem; overflow:hidden;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-width: 85%; overflow:hidden;}
+width: 85%; overflow:auto;}
  
   
   .tel .tel1 {line-height: 22.4px;
