@@ -239,14 +239,14 @@ VK.Widgets.Group("vk_groups", {mode: 3, width: "243", color3: '000000'}, 1664334
 function noMondays(e){
 
     var day = new Date().getUTCDay();
-   
-time = e.target.value;
+   var n = day.getTime(e.target.value).getTime();
+
     // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
 
     if( day == 0 || day == 1 || day == 2 || day == 3 || day == 4 ){
 
-      time.max = "00:00"; 
-	time.min = "14:00";     
+      n.max = "00:00"; 
+	n.min = "14:00";     
 	   
         e.target.setCustomValidity('выберите время с 00:00 до 14:00');
 	    
@@ -254,11 +254,11 @@ time = e.target.value;
 	
 	if( day == 5 || day == 6 ){
 
-     time.max = "06:00"; 
-	time.min = "14:00";     
+     n.max = "06:00"; 
+	n.min = "14:00";     
 e.target.setCustomValidity('выберите время с 06:00 до 14:00');
     }
-}time.addEventListener('input',noMondays);
+}n.addEventListener('input',noMondays);
 	</script>
  
 <!-- Footer section --> 
