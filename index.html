@@ -120,7 +120,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
           <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
           <textarea rows="4" id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
       </div>
-      <input class="btn btn-primary" value="Отправить"  onclick="noMondays(e)" type="submit"> 
+      <input class="btn btn-primary" value="Отправить" type="submit"> 
 	       <p class="book1">Данная бронь является предварительной.</br> Администратор свяжется с Вами для уточнения деталей. </p>
   </form>
 </div>
@@ -256,7 +256,7 @@ $(function(){
 	var time = document.querySelector('[type=time]');
 function noMondays(e){
 
-    var day = new Date( e.target.value ).getUTCDay();
+    var day = date( e.target.value ).getUTCDay();
 
     // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
 
