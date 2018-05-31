@@ -130,7 +130,7 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
     </div>        
 </div>
    <div class="alert alert-danger center-block submit-fail display-none">Не все поля заполнены!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
-   <div class="modal2 alert alert-success center-block submit-success display-none" id="modal2"><p id="demo"></p>
+   <div class="modal2 alert alert-success center-block submit-success display-none" id="modal2">
 	   Спасибо, ваша заявка принята!<br><a href="https://lumiere10.github.io/">на главную</a></div>
   
       <nav class="navigation" role="navigation">
@@ -266,13 +266,7 @@ function noMondays(e){
 	time.min = "14:00";     
 	    document.getElementById("demo").innerHTML =time.max+" "+time.min+" "+day;
 	    
-    } else {
-console.log('выбрано неверное время')
-    var error = document.createElement('div')
-    error.className = 'error'
-    error.style.color = 'red'
-    error.innerHTML = 'выбрано неверное время'
-    time.insertBefore(error, time)
+    } else {e.target.setCustomValidity('OH NOES! We hate Mondays! Please pick any day but Monday.');
     }
 	
 	if( day == 5 || day == 6 ){
@@ -280,18 +274,12 @@ console.log('выбрано неверное время')
      time.max = "06:00"; 
 	time.min = "14:00";     
 		 document.getElementById("demo").innerHTML =time.max+" "+time.min+" "+day;
-    } else {
-console.log('выбрано неверное время')
-    var error = document.createElement('div')
-    error.className = 'error'
-    error.style.color = 'red'
-    error.innerHTML = 'выбрано неверное время'
-    time.insertBefore(error, time)
-        
+    } else { e.target.setCustomValidity('OH NOES! We hate Mondays! Please pick any day but Monday.');
+
          
 
     }
-
+date.addEventListener('[type=time]',noMondays);
 }
 	</script>
 	<script>
