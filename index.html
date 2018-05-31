@@ -249,7 +249,30 @@ $(function(){
         return new Date().toJSON().split('T')[0];
     });
 });</script>
+	
+<script>
+	var date = document.querySelector('[type=date]');
+	var time=var date = document.querySelector('[type=time]');
+function noMondays(e){
 
+    var day = new Date( e.target.value ).getUTCDay();
+
+    // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
+
+    if( day == 0 || day == 1 || day == 2 || day == 3 ||day==4 ){
+
+      time.max = "00:00"; 
+	time.min = "14:00";     
+    } else {
+
+        
+      time.max = "06:00"; 
+	time.min = "14:00";    
+
+    }
+
+}
+	</script>
 	<script>
     (function($){
         $(window).on("load",function(){
