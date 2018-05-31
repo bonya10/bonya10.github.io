@@ -254,9 +254,9 @@ $(function(){
 <script>
 	var date = document.querySelector('[type=date]');
 	var time = document.querySelector('[type=time]');
-function noMondays(e){
+function noMondays(){
 
-    var day = date( e.target.value ).getUTCDay();
+    var day = date.getUTCDay();
 
     // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
 
@@ -266,20 +266,14 @@ function noMondays(e){
 	time.min = "14:00";     
 	    document.getElementById("demo").innerHTML =time.max+" "+time.min+" "+day;
 	    
-    } else {e.target.setCustomValidity('OH NOES! We hate Mondays! Please pick any day but Monday.');
-    }
+    } else
 	
 	if( day == 5 || day == 6 ){
 
      time.max = "06:00"; 
 	time.min = "14:00";     
 		 document.getElementById("demo").innerHTML =time.max+" "+time.min+" "+day;
-    } else { e.target.setCustomValidity('OH NOES! We hate Mondays! Please pick any day but Monday.');
-
-         
-
     }
-
 }time.addEventListener('[type=time]',noMondays);
 	</script>
 	<script>
