@@ -234,11 +234,11 @@ VK.Widgets.Group("vk_groups", {mode: 3, width: "243", color3: '000000'}, 1664334
   
   <!-- Плавающее меню-->
 	<script>
-	
+	var date = document.getElementsByName('дата').value;
 	var time = document.getElementsByName('время');
 function noMondays(){
-var Xmas95 = new Date(document.getElementsByName('дата'));
-    var day = Xmas95.getDay();
+date = new Date(date);
+    var day = date.getDay();
 
     // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
 
