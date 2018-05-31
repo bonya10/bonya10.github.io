@@ -1010,13 +1010,13 @@ font-weight: 300;
 color:#000;
 }
 .modal-form .tims {    margin: 10px 0;
-    padding-top:10px;
+    /*! padding-top:10px; */
    width: 266px;
     display: inline-block;}
 
 .modal-form .field_date {    margin: 10px 0;
    width: 164px;
-   padding-top:10px;
+   /*! padding-top:10px; */
      display: inline-block;}
 
 /*=======================================================
@@ -1150,8 +1150,6 @@ line-height: 4.5rem;
 	color: #6c7279;
 	line-height: 4.5rem;
 }
-.footer ul{text-align: center;
-margin: 0 33px;}
 
 .footer {
 	text-align: left;
