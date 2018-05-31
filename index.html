@@ -264,10 +264,27 @@ function noMondays(e){
       time.max = "00:00"; 
 	time.min = "14:00";     
     } else {
+console.log('выбрано неверное время')
+    var error = document.createElement('div')
+    error.className = 'error'
+    error.style.color = 'red'
+    error.innerHTML = 'выбрано неверное время'
+    time.insertBefore(error, time)
+    }
+	
+	if( day == 5 || day == 6 ){
 
+     time.max = "06:00"; 
+	time.min = "14:00";     
+    } else {
+console.log('выбрано неверное время')
+    var error = document.createElement('div')
+    error.className = 'error'
+    error.style.color = 'red'
+    error.innerHTML = 'выбрано неверное время'
+    time.insertBefore(error, time)
         
-      time.max = "06:00"; 
-	time.min = "14:00";    
+         
 
     }
 
