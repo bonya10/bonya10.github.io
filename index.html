@@ -238,9 +238,9 @@ VK.Widgets.Group("vk_groups", {mode: 3, width: "243", color3: '000000'}, 1664334
 	var time = document.getElementsByName('время');
 function noMondays(e){
 
-    var day = new Date( e.target.value ).getUTCDay();
+    var day = new Date().getUTCDay();
    
-
+time = e.target.value;
     // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
 
     if( day == 0 || day == 1 || day == 2 || day == 3 || day == 4 ){
