@@ -1150,6 +1150,8 @@ line-height: 4.5rem;
 	color: #6c7279;
 	line-height: 4.5rem;
 }
+.footer ul{text-align: center;
+margin: 0 33px;}
 
 .footer {
 	text-align: left;
