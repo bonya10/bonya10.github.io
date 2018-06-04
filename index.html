@@ -48,3 +48,239 @@
  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?154"></script>
+	
+ <script>
+Array.from(document.querySelectorAll('.fancy-hover'),function(el){
+  el.addEventListener('mousemove',function(e){
+    el.style.setProperty('--px', e.clientX - el.offsetLeft);
+    el.style.setProperty('--py', e.clientY - el.offsetTop);
+  });
+});</script>
+
+</head>
+
+<body>
+<!-- header section -->
+<section  class="banner" role="banner">
+  <header id="header" class="container">
+    <div class="header-content container clearfix"> <a class="logo" href="/">Lumiere</a>
+      <p class="slogan"> кинокомната</p>
+      <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
+      <p class="tel2">+375(29)8011222</p>
+       <p class="or" >или</p>
+	     
+         <a class="but" href="#">забронировать онлайн</a>
+	      <p class="book">данная бронь является предвариетльной </p>
+
+		    </div>
+         <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
+		 <div class="col-sm-5 col-lg-5 col-md-5">воскресенье</br>- четверг</div>
+		 <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 00:00</div>
+           <div class="col-sm-5 col-lg-5 col-md-5">пятница</br>- суббота</div> 
+		  <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 06:00</div></div>
+</div> 
+<div id="modal1" class="modal1">
+    <div>
+       <div class="text" align="center">
+       <div id="blok_tel">
+ <form id="contact-form" class="modal-form" action="" method="POST">
+      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
+          <label class="control-label" for="имя">Как вас зовут?</label>
+         <input required="" class="form-control contact-input" id="inputName" name="имя" placeholder="" type="text">
+      </div>
+	   
+      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
+          <label class="control-label" for="телефон">Ваш номер телефона:</label>
+          <input class="form-control" required="" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___" type="phone">
+      </div>
+  <legend> Какую комнату бронируете </legend>
+  <div><label> <input required="" id="privat" value="private" name="комната" type="radio"> <span class="private1">private</span></label>
+  <label> <input required="" value="VIP" name="комната" type="radio"> <span class="private1">VIP</span> </label></div>
+
+  <div class="hour  col-lg-7 col-md-6 col-sm-6"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
+            <input name="количество часов" min="0.5" max="8" step="0.5" value="1" type="number"></div>
+  <div class="field   col-lg-5 col-md-6 col-sm-6">
+            <label class="visuallyhidden" for="количество_людей">сколько человек?</label>
+            <select name="количество людей" id="hour" required="">
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+            </select>
+	  </div>
+ 
+	<div class="field_date  col-lg-6 col-md-6 col-sm-6">
+	
+           <label>На какое число? <input class="date" id="min" name="дата" placeholder="YYYY-MM-DD"  min="2018-05-29" type="date"><br></label>
+		 <div class="tims  col-lg-6 col-md-6 col-sm-6"><label>На какое время? </br><input required="" name="время"  min=" " max=" " step="60" type="time"></label></div>
+          
+</div>
+      <div class="form-textarea  col-lg-12 col-md-12 col-sm-12">
+          <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
+          <textarea rows="4" id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
+      </div>
+      <input class="btn btn-primary" value="Отправить" type="submit"> 
+	       <p class="book1">Данная бронь является предварительной.</br> Администратор свяжется с Вами для уточнения деталей. </p>
+  </form>
+</div>
+
+
+</div>
+    </div>        
+</div>
+   <div class="alert alert-danger center-block submit-fail display-none">Не все поля заполнены!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
+   <div class="modal2 alert alert-success center-block submit-success display-none" id="modal2">
+	   Спасибо, ваша заявка принята!<br><a href="https://lumiere10.github.io/">на главную</a></div>
+  
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li class="fancy-hover"><a href="/our_rooms">Наши комнаты</a></li>
+          <li class="fancy-hover"><a href="/our_services">наши услуги</a></li>
+          <li class="fancy-hover"><a href="/offers">акции</a></li>
+          <li class="fancy-hover"><a href="/about_us">о нас</a></li>
+          <li class="fancy-hover"><a href="/gallery">фотогалерея</a></li>
+          <li class="fancy-hover"><a href="/contacts">контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a></div>
+
+
+  </header>
+  <!-- banner text -->
+  <div class="container container-rond">
+    
+      <div class="banner-text multi text-center">
+      <div class="row container">
+        <h1 class="main_heder">скоро открытие!</h1>
+       
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
+        <div  class="round round-yelow">
+          <img src="images/vr_1.jpg" alt="" >
+          <h4 class="variant-1">ps4 pro </br> vr</h4>
+           </div> </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
+        <div class="round ">
+          <img src="images/dendy_2.jpg" alt="">
+          <h4 class="variant-1">retro games </br> ps1&dandy</h4>
+           </div> </div>
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
+        <div class="round round-red">
+          <img src="images/4.jpg" alt="">
+          <h4 class="variant-1">фильмы в hd</h4>
+           </div> </div>
+             <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
+        <div class="round round-green">
+          <img src="images/sport_1.jpg" alt="" >
+          <h4 class="variant-2">спортивные трансляции</h4>
+           </div> </div>
+     <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
+        <div class="round round-purp">
+          <img src="images/karaoke.jpg" alt="" >
+          <h4 class="variant-1">караоке</h4>
+           </div> </div>
+ </div>
+    </div>
+                        
+<!-- Testimonials section -->
+
+</div>
+<!-- Testimonials section -->        
+
+
+
+<!-- Footer section -->
+<footer class="footer container">
+  <div class="footer-top container ">
+   
+    
+        <div class=" map col-md-5">
+        
+    
+<div id="map" style=" width=100%; height: 300px;"></div>
+          
+        </div>
+                <div class="col-md-7">
+         <h5>Присоединитесь к нам!</h5>
+          <ul class="footer-share">
+            <li><div class="col-sm-1 display-none"></div> 
+		    <a href="vk.com" class="col-sm-5  display-none"><i class="fab fa-vk"></i></a> 
+		    <a href="instagram.com" class="col-sm-5 display-none"><i class="fab fa-instagram"></i></a>
+    	   <div class="col-sm-1 display-none"></div> 
+<!-- VK Widget -->
+<!-- VK Widget -->
+<div  class="col-md-6" id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, width: "243", color3: '000000'}, 166433460);
+</script></li>
+		  <li> 
+			  <div  class="insta col-md-6"><!-- Чёрный -->
+				<!-- InstaWidget -->
+<!-- InstaWidget -->
+<!-- InstaWidget -->
+<iframe src="//widget.instagramm.ru/?imageW=2&amp;imageH=2&amp;thumbnail_size=80&amp;type=0&amp;typetext=lumieregrodno&amp;head_show=1&amp;profile_show=1&amp;shadow_show=0&amp;bg=255,255,255,0.99&amp;opacity=true&amp;head_bg=d4d4d4&amp;subscribe_bg=d4d4d4&amp;border_color=d4d4d4&amp;head_title=" allowtransparency="true" scrolling="no" style="border:none;overflow:hidden;width:243px;height:227px;" frameborder="0"></iframe>  </div></div></div>
+	  
+			  <div id="copy">
+	<div class="copy col-md-6">© 2018 <span class="lumiere"> Lumiere Гродно</span></div>
+	<div class="numer_tel col-md-6">+375(29)123-456-78</div></div>
+  <!-- footer top --> 
+  
+	
+  
+</footer>
+ <script src="js/fade_modal.js"></script>
+  
+  <!-- Плавающее меню-->
+	<script>
+	var date = document.querySelector('[type=date]');
+	var time = document.getElementsByName('время');
+function noMondays(e){
+    var day = new Date().getUTCDay();
+   var n = day.getTime(e.target.value).getTime();
+    // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
+    if( day == 0 || day == 1 || day == 2 || day == 3 || day == 4 ){
+      n.max = "00:00"; 
+	n.min = "14:00";     
+	   
+        e.target.setCustomValidity('выберите время с 00:00 до 14:00');
+	    
+    } else
+	
+	if( day == 5 || day == 6 ){
+     n.max = "06:00"; 
+	n.min = "14:00";     
+e.target.setCustomValidity('выберите время с 06:00 до 14:00');
+    }
+}n.addEventListener('input',noMondays);
+	</script>
+ 
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script type="text/javascript">
+    $("input:radio").click(function () {
+        if ($('input:checked').val() == "private") {
+            $('select').children(':not(:first-child)').addClass('hidden');
+        }
+        else{   $('select').children(':not(:first-child)').removeClass('hidden');}
+        });
+    </script>
+<script>
+$(function(){
+    $('[type="date"].date').prop('min', function(){
+        return new Date().toJSON().split('T')[0];
+    });
+});</script>
+	
+
+	<script>
+    (function($){
+        $(window).on("load",function(){
+           $("body").mCustomScrollbar({
+theme:"minimal"});
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
