@@ -1,293 +1,1199 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
 
-<head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lumiere -кинокомната</title>
-	<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/font-icon.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
- <!-- Resource style -->
- 
-  <script src="js/jquery-2.1.1.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
- <script src="js/contact.js"></script>
-  <script src="js/fix-navigate.js"></script> 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
-<script src="js/jquery.fancybox.pack.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script> 
-<script type="text/javascript" src="js/jquery.contact.js"></script>
-   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<script src="js/map.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+/* ------------------------------------------------------------------------------
+	Template Name: Minifolio
+	Author: Designstub
+	Author URI: http://www.designstub.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-		<script type="text/javascript" src="//vk.com/js/api/openapi.js?154"></script>
-	
- <script>
-Array.from(document.querySelectorAll('.fancy-hover'),function(el){
-  el.addEventListener('mousemove',function(e){
-    el.style.setProperty('--px', e.clientX - el.offsetLeft);
-    el.style.setProperty('--py', e.clientY - el.offsetTop);
-  });
-});</script>
+/* ------------------------------------------------------------------------------
+	Typography
+-------------------------------------------------------------------------------*/
 
-</head>
+@import url(https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500);
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800');
+ @font-face {font-family:"Righteous";src:url("../fonts/Righteous-Regular.eot?") 
+ format("eot"),url("../fonts/Righteous-Regular.woff") 
+ format("woff"),url("../fonts/Righteous-Regular.ttf")
+  format("truetype"),url("../fonts/Righteous-Regular.svg#Righteous-Regular") 
+ format("svg");font-weight:normal;font-style:normal;}
+html, body{
 
-<body>
-<!-- header section -->
-<section  class="banner" role="banner">
-  <header id="header" class="container">
-    <div class="header-content container clearfix"> <a class="logo" href="/">Lumiere</a>
-      <p class="slogan"> кинокомната</p>
-      <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
-      <p class="tel2">+375(29)8011222</p>
-       <p class="or" >или</p>
-	     
-         <a class="but" href="#">забронировать онлайн</a>
-	      <p class="book">данная бронь является предвариетльной </p>
+}
+.hidden, .display-none {
+    display : none;
+}
+img { pointer-events: none; }
+p {
+	font-size: 13px;
+	line-height: 22.4px;
+	color: white;
+}
+h1 {
+	font-size: 65px;
+	color: #2d3033;
+}
+h2 {
+	font-size: 40px;
+	color: #2d3033;
+}
+h3 {
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+h4 {
+	font-size: 22px;
+	color: #2d3033;
+	font-weight: 400;
+}
+h5 {
+	font-size: 14px;
+	color: #2d3033;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.main_heder{text-transform: uppercase;
+	}
+.btn {
+	background-color: #3bc492;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+	width:82%;
+	margin-top: 10px;
+}
+.btn:hover, .btn:focus {
+	background-color: #3d3d3d;
+	color: #fff;
+}
+.btn-large {
+	padding: 15px 40px;
+}
+/* ------------------------------------------------------------------------------
+	Global Styles
+-------------------------------------------------------------------------------*/
+a {
+	color: #e84545;
+}
+.rooms{color: #fff; }
+.reviws, .rooms, #portfolio, .about_us, .contacts, .our_serv  { background-color:#181818;}
+.container-rond,.offers, .about_us, #portfolio, .rooms, .contacts, .our_serv 
+{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;}
+.current  a{color: #fff !important;}
 
-		    </div>
-         <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
-		 <div class="col-sm-5 col-lg-5 col-md-5">воскресенье</br>- четверг</div>
-		 <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 00:00</div>
-           <div class="col-sm-5 col-lg-5 col-md-5">пятница</br>- суббота</div> 
-		  <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 06:00</div></div>
-</div> 
-<div id="modal1" class="modal1">
-    <div>
-       <div class="text" align="center">
-       <div id="blok_tel">
- <form id="contact-form" class="modal-form" action="" method="POST">
-      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
-          <label class="control-label" for="имя">Как вас зовут?</label>
-         <input required="" class="form-control contact-input" id="inputName" name="имя" placeholder="" type="text">
-      </div>
-	   
-      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
-          <label class="control-label" for="телефон">Ваш номер телефона:</label>
-          <input class="form-control" required="" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___" type="phone">
-      </div>
-  <legend> Какую комнату бронируете </legend>
-  <div><label> <input required="" id="privat" value="private" name="комната" type="radio"> <span class="private1">private</span></label>
-  <label> <input required="" value="VIP" name="комната" type="radio"> <span class="private1">VIP</span> </label></div>
-
-  <div class="hour  col-lg-7 col-md-6 col-sm-6"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
-            <input name="количество часов" min="0.5" max="8" step="0.5" value="1" type="number"></div>
-  <div class="field   col-lg-5 col-md-6 col-sm-6">
-            <label class="visuallyhidden" for="количество_людей">сколько человек?</label>
-            <select name="количество людей" id="hour" required="">
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-             <option value="5">5</option>
-             <option value="6">6</option>
-		    <option value="7">7</option>
-             <option value="8">8</option>
-            </select>
-	  </div>
- 
-	<div class="field_date  col-lg-6 col-md-6 col-sm-6">
-	
-           <label>На какое число? <input class="date" id="min" name="дата" placeholder="YYYY-MM-DD"  min="2018-05-29" type="date"><br></label>
-		</div> <div class="tims  col-lg-6 col-md-6 col-sm-6"><label>На какое время? </br><input required="" name="время"  min=" " max=" " step="60" type="time"></label></div>
-          
-
-      <div class="form-textarea  col-lg-12 col-md-12 col-sm-12">
-          <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
-          <textarea rows="4" id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
-      </div>
-      <input class="btn btn-primary" value="Отправить" type="submit"> 
-	       <p class="book1">Данная бронь является предварительной.</br> Администратор свяжется с Вами для уточнения деталей. </p>
-  </form>
-</div>
-
-
-</div>
-    </div>        
-</div>
-   <div class="alert alert-danger center-block submit-fail display-none">Не все поля заполнены!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
-   <div class="modal2 alert alert-success center-block submit-success display-none" id="modal2">
-	   Спасибо, ваша заявка принята!<br><a href="https://lumiere10.github.io/">на главную</a></div>
-  
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li class="fancy-hover"><a href="/our_rooms">Наши комнаты</a></li>
-          <li class="fancy-hover"><a href="/our_services">наши услуги</a></li>
-          <li class="fancy-hover"><a href="/offers">акции</a></li>
-          <li class="fancy-hover"><a href="/about_us">о нас</a></li>
-          <li class="fancy-hover"><a href="/gallery">фотогалерея</a></li>
-          <li class="fancy-hover"><a href="/contacts">контакты</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a></div>
-
-
-  </header>
-  <!-- banner text -->
-  <div class="container container-rond">
-    
-      <div class="banner-text multi text-center">
-      <div class="row container">
-        <h1 class="main_heder">скоро открытие!</h1>
-       
-        
-        <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
-        <div  class="round round-yelow">
-          <img src="images/vr_1.jpg" alt="" >
-          <h4 class="variant-1">ps4 pro </br> vr</h4>
-           </div> </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
-        <div class="round ">
-          <img src="images/dendy_2.jpg" alt="">
-          <h4 class="variant-1">retro games </br> ps1&dandy</h4>
-           </div> </div>
-            
-            <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
-        <div class="round round-red">
-          <img src="images/4.jpg" alt="">
-          <h4 class="variant-1">фильмы в hd</h4>
-           </div> </div>
-             <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
-        <div class="round round-green">
-          <img src="images/sport_1.jpg" alt="" >
-          <h4 class="variant-2">спортивные трансляции</h4>
-           </div> </div>
-     <div class="col-lg-3 col-md-3 col-sm-6 round-box"> 
-        <div class="round round-purp">
-          <img src="images/karaoke.jpg" alt="" >
-          <h4 class="variant-1">караоке</h4>
-           </div> </div>
- </div>
-    </div>
-                        
-<!-- Testimonials section -->
-
-</div>
-<!-- Testimonials section -->        
-
-
-
-<!-- Footer section -->
-<footer class="footer container">
-  <div class="footer-top container ">
-   
-    
-        <div class=" map col-md-5">
-        
-    
-<div id="map" style=" width=100%; height: 300px;"></div>
-          
-        </div>
-                <div class="col-md-7">
-         <h5>Присоединитесь к нам!</h5>
-          <ul class="footer-share">
-            <li><div class="col-sm-1 display-none"></div> 
-		    <a href="vk.com" class="col-sm-5  display-none"><i class="fab fa-vk"></i></a> 
-		    <a href="instagram.com" class="col-sm-5 display-none"><i class="fab fa-instagram"></i></a>
-    	   <div class="col-sm-1 display-none"></div> 
-<!-- VK Widget -->
-<!-- VK Widget -->
-<div  class="col-md-6" id="vk_groups"></div>
-<script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 3, width: "243", color3: '000000'}, 166433460);
-</script></li>
-		  <li> 
-			  <div  class="insta col-md-6"><!-- Чёрный -->
-				<!-- InstaWidget -->
-<!-- InstaWidget -->
-<!-- InstaWidget -->
-<iframe src="//widget.instagramm.ru/?imageW=2&amp;imageH=2&amp;thumbnail_size=80&amp;type=0&amp;typetext=lumieregrodno&amp;head_show=1&amp;profile_show=1&amp;shadow_show=0&amp;bg=255,255,255,0.99&amp;opacity=true&amp;head_bg=d4d4d4&amp;subscribe_bg=d4d4d4&amp;border_color=d4d4d4&amp;head_title=" allowtransparency="true" scrolling="no" style="border:none;overflow:hidden;width:243px;height:227px;" frameborder="0"></iframe>  </div></div></div>
-	  
-			  <div id="copy">
-	<div class="copy col-md-6">© 2018 <span class="lumiere"> Lumiere Гродно</span></div>
-	<div class="numer_tel col-md-6">+375(29)123-456-78</div></div>
-  <!-- footer top --> 
-  
-	
-  
-</footer>
- <script src="js/fade_modal.js"></script>
-  
-  <!-- Плавающее меню-->
-	<script>
-	var date = document.querySelector('[type=date]');
-	var time = document.getElementsByName('время');
-function noMondays(e){
-
-    var day = new Date().getUTCDay();
-   var n = day.getTime(e.target.value).getTime();
-
-    // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
-
-    if( day == 0 || day == 1 || day == 2 || day == 3 || day == 4 ){
-
-      n.max = "00:00"; 
-	n.min = "14:00";     
-	   
-        e.target.setCustomValidity('выберите время с 00:00 до 14:00');
+  .fancy-hover.current {
+    background-color: rgba(78, 75, 75, 0.67) !important;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    padding: 0px 25px;
 	    
-    } else
+}
+a:hover, a:focus {
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+}
+body {font-family: 'Montserrat Alternates' , sans-serif;
+background-image: url(../images/bg-1.jpg);
+ background-size: cover;
+ background-attachment: fixed;
 	
-	if( day == 5 || day == 6 ){
+	font-weight: 400;
+	color: #6c7279;
 
-     n.max = "06:00"; 
-	n.min = "14:00";     
-e.target.setCustomValidity('выберите время с 06:00 до 14:00');
-    }
-}n.addEventListener('input',noMondays);
-	</script>
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+.section {
+	padding: 30px 0;
+}
+.no-padding {
+	padding: 0;
+}
+.no-gutter [class*=col-] {
+	padding-right: 0;
+	padding-left: 0;
+}
+.space {
+	margin-top: 60px;
+}
+/* ------------------------------------------------------------------------------
+	Header
+-------------------------------------------------------------------------------*/
+#header {
+	position: relative;
+	z-index: 999;
+	padding: 0;
+	background-color: #000;
+}
+.header-content .col-lg-2{width: 21.667%;}
+#header .header-content {
+	background: #ffffff1f;
+	margin: 0 auto;
+	max-width: 100vw;
+	padding: 0;
+	width: 100%;
+	-moz-transition: padding 0.3s;
+	-o-transition: padding 0.3s;
+	-webkit-transition: padding 0.3s;
+	transition: padding 0.3s;
+}
+#header .logo {
+	font-family: "Righteous", sans-serif;
+float: left;
+font-size: 5rem;
+font-weight: 700;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 7px;
+margin-left: 13px;
+line-height: 9rem;}
+#header .slogan{
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff;
+	top: 76px;
+	text-transform: uppercase;
+	max-width: 300px;
+	position: absolute;
+	margin-left: 13px;
+}
+.time-work{    font-size: 1.3rem;text-align: center;}
+.time-work p:first-child{ 
+text-transform: uppercase; font-size: 1.8rem;}
+
+.header-tel, .time-work{
+	float: right;
+	color: white;
+	background: #ffffff1a;
+	border-radius: 8px;
+	padding: 10px 17px;
+	margin-right: 12px;
+	height: 130px;
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	
+}
+
+.tel .tel1{ 
+font-size: 1.8rem;
+text-transform: uppercase;
+text-align: center;  margin:0 0 1px;}
+
+.tel .tel2{ 
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center; margin:0 0 1px;}
+
+.or{font-size: 1.2rem;
+padding-bottom:1px;
+text-align: center; margin: 0;}
+
+.book{font-size: 0.94rem; margin: 0;}
+.book1 {
+
+    font-size: 1rem;
+    margin: 0;
+    color: #000;
+
+}
+
+.time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5{
+	padding:0;
+height: 37px;}
+
+.time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7{
+	padding:0;
+height: 37px;
+padding: 8px 0;}
+
+.tel1{margin: 0 0 7px;}
+.tel a{ 
+font-size: 1.47rem;
+text-transform: uppercase;
+text-align: center; 
+  color: #ffff;}
+.tel a:focus, a:hover {
+    color: #ff1932;}
+#header.fixed {
+	    background-color: #ffffff40;
+    color: #95c4ec;
+}
+
+#header.fixed .logo, #header.fixed  .header-tel, #header.fixed .time-work, #header.fixed .slogan, #header.fixed  .navigation {
+	display: none;
+}
+#header.fixed a {
+	    font-weight: 600;
+	font-size: 1.5rem;
+}
+#header.fixed .navigation{margin-top: 0;}
+#header.fixed .header-content {
+	border-bottom: 0;
+	padding:  0;
+}
+#header.fixed .nav-toggle {
+	top: 18px;
+	color: #000;
+}
+.navigation.open {
+	opacity: 0.9;
+	visibility: visible;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.navigation ul{margin: 0;
+	float: left;
+
+
+padding-top: 5px;
+padding-bottom: 5px;}
+
+.navigation li {
+	float: left;
+	text-transform: uppercase;
+font: normal normal 2.1rem "Poiret One";
+
+}
+.navigation a { color: rgb(97, 219, 255);
+text-decoration: none;
+padding: 6px 10px;
+display: block;
+border: 1px solid transparent;
+text-shadow: 1px 1px 1px rgba(245, 236, 236, 0.32);
+}
+
+.navigation a:hover, .navigation a.active {
+	color: #fff;
+}
+
+
+.nav-toggle {
+	display: none;
+	height: 44px;
+	overflow: hidden;
+	position: fixed;
+	right: 5%;
+	text-indent: 100%;
+	top: 32px;
+	white-space: nowrap;
+	width: 44px;
+	z-index: 99999;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.nav-toggle:before, .nav-toggle:after {
+	border-radius: 50%;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+}
+.nav-toggle:before {
+	background-color: #e84545;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+.nav-toggle:after {
+	background-color: #e84545;
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-moz-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+.nav-toggle span {
+	background-color: #fff;
+	bottom: auto;
+	display: inline-block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	right: auto;
+	top: 50%;
+	width: 18px;
+	z-index: 10;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.nav-toggle span:before, .nav-toggle span:after {
+	background-color: #fff;
+	content: "";
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transition: -moz-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+.nav-toggle span:before {
+	-moz-transform: translateY(-6px) rotate(0deg);
+	-ms-transform: translateY(-6px) rotate(0deg);
+	-webkit-transform: translateY(-6px) rotate(0deg);
+	transform: translateY(-6px) rotate(0deg);
+}
+.nav-toggle span:after {
+	-moz-transform: translateY(6px) rotate(0deg);
+	-ms-transform: translateY(6px) rotate(0deg);
+	-webkit-transform: translateY(6px) rotate(0deg);
+	transform: translateY(6px) rotate(0deg);
+}
+.nav-toggle.close-nav:before {
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+.nav-toggle.close-nav:after {
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.nav-toggle.close-nav span {
+	background-color: rgba(255, 255, 255, 0);
+}
+.nav-toggle.close-nav span:before, .nav-toggle.close-nav span:after {
+	background-color: #fff;
+}
+.nav-toggle.close-nav span:before {
+	-moz-transform: translateY(0) rotate(45deg);
+	-ms-transform: translateY(0) rotate(45deg);
+	-webkit-transform: translateY(0) rotate(45deg);
+	transform: translateY(0) rotate(45deg);
+}
+.nav-toggle.close-nav span:after {
+	-moz-transform: translateY(0) rotate(-45deg);
+	-ms-transform: translateY(0) rotate(-45deg);
+	-webkit-transform: translateY(0) rotate(-45deg);
+	transform: translateY(0) rotate(-45deg);
+}
+/* ------------------------------------------------------------------------------
+	$round navigate
+-------------------------------------------------------------------------------*/
+#fix_nv{z-index:5;
+	position:fixed;
+	height:100%;
+	top:0;
+	right:16px;
+	text-align: center;}
+
+#fix_nv:after {display:inline-block;
+	vertical-align:middle;
+	width:0;
+	height:100%;
+	content:'';}
+
+#fix_nv ul{display:inline-block;
+	vertical-align:middle;
+	position:relative;
+	list-style:none;
+	margin: 0 auto;}
+
+#fix_nv li {position:relative;
+	height:25px;}
+
+#fix_nv a {display: block;
+width: 10px;
+height: 10px;
+text-indent: -9999px;
+background: white;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+
+#fix_nv a:hover,#fix_nv .actv_b{background:#0dc3ff;}
+
+#fix_nv span{background:#de2e54;
+	position:absolute;
+	right:32px;top:-7px;
+	text-align:center;
+	display:none;
+	padding:8px 15px 8px;color:#fff;
+	white-space:nowrap;
+	font-size:18px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border-radius:25px;
+	-webkit-box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:0px 8px 10px 0px rgba(50, 50, 50, 0.2);}
+
+/* ------------------------------------------------------------------------------
+	$light hover effect in menu
+-------------------------------------------------------------------------------*/
+
+:root {
+  --px: 0;
+  --py: 0;
+}
+#header.fixed .fancy-hover:hover{    padding: 0 26.4px;
+}
+#header.fixed .fancy-hover{
+background:transparent;
+	padding:none;
+	transition:none;
+	border:none;
+}
+.fancy-hover {
+  background: rgba(36,36,36,0.9);
+color: #FFF;
+display: flex;
+align-items: center;
+cursor: pointer;
+padding: 0 28.4px;
+position: relative;
+overflow: hidden;
+}
+
+
+.fancy-hover:before,
+.fancy-hover:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 0.1s linear;
+}
+#header.fixed .fancy-hover:before,#header.fixed .fancy-hover:after {
+display:none
+}
+
+.fancy-hover:before {
+  width: 160px;
+  height: 120px;
+  background: radial-gradient(circle at center, #FFF 0%, transparent 60%); 
+  opacity: 0;
+  mix-blend-mode: screen;
+  transform: translate( calc( var(--px) * 0.5px ), calc( var(--py) * 0.5px ) ) translate(-50%, -50%);
+  
+}
+
+
+.fancy-hover:after {
+  background: inherit;
+  top: 0; right: 0; bottom: 0; left: 0;
+	margin: 2px 0;
+  opacity: 0;
+  transition-delay: 0.05s;
+}
+
+
+	
+.fancy-hover:hover {background-color:rgba(56, 56, 56, 0.64);
+border-left: 3px solid #000;
+border-right: 3px solid #000; padding: 0px 25px; }
+.fancy-hover:hover:before { opacity: 0.6; }
+.fancy-hover:hover:after { opacity: 0.85; transition-delay: 0s; }
+
+
+
+/* ------------------------------------------------------------------------------
+	Banner
+-------------------------------------------------------------------------------*/
+
+.banner {/*! margin: 0 auto; */
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: auto;
+margin-bottom: 0;
+}
+
+.banner-text h1 {
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.banner-text p {
+	color: rgba(255, 255, 255, 0.60);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+
+
+/*===========================================================================
+	$round
+============================================================================*/
+.multi{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .box-r{text-align: center;
+     margin: 0 117px;}
+
+.container-rond h1 {
+   color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: none;
+    padding-bottom: 15px;
+}
+
+.variant-1{
+	  position: absolute;
+left: 50%;
+top: 40%;
+-webkit-transform: translate(-50%, 34%);
+transform: translate(-50%, 34%);
+transition: 1s all ease;
+width: 100%;
+padding: 0 10px;
+font-size: 2rem;
+line-height: 1.2;
+color: white;
+letter-spacing: 2px;
+text-transform: uppercase;
+    z-index: 1000;
+font-weight: 600;
+text-shadow: 0px 0px 8px #00c6ff;
+}
+
+.variant-2{    z-index: 1000;
+	    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, 34%);
+    transform: translate(-50%, 34%);
+    transition: 1s all ease;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /*text-shadow: -0.06em 0 red, 0.06em 0 cyan;*/
+	text-shadow: 0px 0px 8px #00c6ff;
+    font-weight: 600;
+}
+
+.round{position: relative;
+overflow: hidden; 
+display: block;
+	border-radius: 50%;
+z-index: 100;}
+
+
+.round::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background: linear-gradient(0deg, #46a2e6, transparent);
+    z-index: 1000;
+    transition: 1s all ease; 
+    
+}
+
+.round img{
+	border-radius: 70%;
+	width: 220px;
+height: 220px;
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+/*Добавим вот такой вот код*/
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+/*конец кода с transition*/
+}
+.round img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+.round-purp::before{ background:linear-gradient(0deg, #9227c2, transparent);z-index: 1000;}
+.round-green::before{ background: linear-gradient(0deg, #50c420, transparent);z-index: 1000;}
+.round-red::before{ background: linear-gradient(0deg, #e82e2e, transparent);z-index: 1000;}
+.round-blue::before{ background: linear-gradient(0deg, #4b2fc5, transparent);z-index: 1000;}
+.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
+.round-yelow::before{ background: linear-gradient(0deg, #e6e83d, transparent);z-index: 1000;}
+
+
+.round:hover::before{height: 70%;}
+
+.col-lg-3{width: 18%;}
+.round-box{
+	padding: 0;
+    padding-right: 0px;
+margin: 0 4px;
+padding-right: 0px;
+margin-bottom: 10px;
+width: 220px;
+	}
+/* ------------------------------------------------------------------------------
+	 services
+-------------------------------------------------------------------------------*/
+.our_serv {padding:30px 0;}
+.our_serv .service{border: 1px solid #fff;
+border-radius: 4px;
+padding: 14px;
+width: 355px;
+height: 494px;
+margin: 0 12px;}
+/* ------------------------------------------------------------------------------
+	 contacts
+-------------------------------------------------------------------------------*/
+.contacts .adress{text-align: center; color:#fff;}
+
+.contacts .adress p{
+text-align: center;
+font-size:18px;
+	letter-spacing: 0.5px;
+line-height: 25px;
+}
+
+.contacts{padding:30px 0;}
+.footer .fa-vk{margin-right: 9px; 
+display: inline-block;
+font: normal normal normal 22px/1 FontAwesome;
+/*! line-height: 87px; */
+/*! text-rendering: auto; */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+color: white;
+margin-top: 18px;
+}
+
+.footer .fa-instagram
+{display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    line-height: 1;
+font-size: 20px;
+line-height: 51px;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+color: white;}
+
+.contacts .fa{font-size: 74px;
+margin: 20px 0;}
+
+.contacts .map{
+margin-bottom: 20px;}
+
+.contacts .adress-icon{
+	margin-left: 2%;
+	}
+/* ------------------------------------------------------------------------------
+	 modal
+-------------------------------------------------------------------------------*/
+.display-none{display:none;}
+.modal2 {
+
+/* Слой перекрытия */
+position: fixed;
+top: 50px;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0,0,0,0.5);
+	z-index: 10000;
+	text-align: center;
+	    height: 160px;
+}
+ .modal2 {
+width:500px;
+background: #ffff;
+margin: 5% auto;
  
-<!-- Footer section --> 
-<!-- JS FILES --> 
-<script type="text/javascript">
-    $("input:radio").click(function () {
-        if ($('input:checked').val() == "private") {
-            $('select').children(':not(:first-child)').addClass('hidden');
-        }
-        else{   $('select').children(':not(:first-child)').removeClass('hidden');}
-        });
-    </script>
-<script>
-$(function(){
-    $('[type="date"].date').prop('min', function(){
-        return new Date().toJSON().split('T')[0];
-    });
-});</script>
-	
+padding: 30px;
+-moz-border-radius: 7px;
+border-radius: 7px;
 
-	<script>
-    (function($){
-        $(window).on("load",function(){
-           $("body").mCustomScrollbar({
-theme:"minimal"});
-        });
-    })(jQuery);
-</script>
-</body>
-</html>
+z-index: 10000;
+}
+
+/* Контейнер */
+.modal1 {
+ 
+    padding: 5px;
+    
+    display: none;
+    position: fixed;
+    top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 10000;
+background: rgba(0,0,0,0.5);
+width:250px;
+width:500px;
+background: #ffff;
+margin: 5% auto;
+
+padding: 15px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+}
+.modal1.opened {
+    display: block;
+}
+
+.modal1 input[type=radio]{
+	width: 30px; 
+}
+.form-group {
+    width: 49%;
+    margin-bottom: 15px;
+    /* margin: 0; */
+    display: inline-block;
+}
+
+
+.modal1 input[type=radio] label{
+margin-right:10px;}
+
+.modal1 input[type=text]{
+	width: 175px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* ------------------------------------------------------------------------------
+	rooms
+-------------------------------------------------------------------------------*/
+.variant-3{padding: 0 10px;
+font-size: 3rem;
+line-height: 1.7;
+color: white;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 600;
+text-shadow: 0px 0px 8px #00c6ff;}
+
+
+.rooms{padding: 50px 0;}
+.rooms img{width:325px;
+	height:auto;
+	border-radius:4px;}
+
+.room-box h3{color: #fff;font-size: 2.1rem;}
+.room-box h2{color: #fff;
+	font-size: 3.2rem;}
+.room-box .tarif{    color: #000;
+    background: #fff6;
+    width: 300px;
+    text-align: center;
+    font-size: 1.1rem;
+	margin-left: 25%;
+margin-bottom: 48px;
+}
+	
+.room-box{text-align: center;}
+.private ul{background: #fff5f61a;
+width: 454px;
+margin-left: 10%;
+padding: 27px 59px;
+border-radius: 4px;
+font-size: 2.1rem;
+line-height: 3rem;
+margin-top: 20px;}
+
+.vip ul{background: #fff5f61a;
+width: 454px;
+margin-left: 10%;
+padding: 12px 10px;
+border-radius: 4px;
+font-size: 1.7rem;
+line-height: 3rem;
+margin-top: 20px;}
+
+.from-left:before, 
+.from-left:after {
+    top: 0;
+    width: 0;
+    height: 100%;
+}
+
+.booking{padding: 5px 10px;
+
+border-radius: 4px;
+}
+.btn1 {      
+    position: relative; 
+    padding: 1.4rem 4.2rem;
+    padding-right: 3.1rem;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+    transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);  
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn1:before, .btn1:after {
+    content: '';
+    position: absolute; 
+    transition: inherit;
+   
+}
+
+.btn1:hover {
+    color: #000;
+    transition-delay: .6s;
+    z-index:1;
+}
+
+.btn1:hover:before {
+    transition-delay: 0s;
+}
+
+.btn1:hover:after {
+    background: #fff;
+    transition-delay: .4s;
+}
+.booking:before, 
+.booking:after {
+    top: 0;
+    width: 0;
+    height: 100%;
+}
+
+.booking:before {
+    right: 0;
+box-shadow: 0px 1px 8px #00c6ff;
+}
+
+.booking:after {
+    left: 0;
+    z-index:-1;
+}
+
+.booking:hover:before,
+.booking:hover:after {
+    width: 100%;
+	border-radius: 4px;
+}
+/* ------------------------------------------------------------------------------
+	Contact form
+-------------------------------------------------------------------------------*/
+
+textarea.form-control {
+    height: 100px;
+    width: 80%;
+}
+
+.modal1 input:checked + span {
+   
+	color: #0e9b9b;}
+
+.modal1 .field legend div {
+    width: 10%;
+}
+
+#success_page{
+	color: #00bdbd;
+	font-weight: 500;
+}
+.error_message{
+	color: #ff675f;
+	padding-bottom: 15px;
+	font-weight: 500;
+}
+#success_page h3{
+	font-size:17px;
+	color:#5ed07b;
+	font-weight: 700;
+}
+
+.modal-form .hour {
+display: inline-block;
+margin-top: 10px;
+width: 266px;
+}
+
+.modal-form .field {
+display: inline-block;
+width: 164px;
+margin-top: 10px;}
+
+.modal1 form .field select{	
+display: inline-block;
+padding: 2px;
+width: 48px;
+height: 26px;
+margin-bottom: 10px;
+}
+.modal-form .hour input {
+	width: 48px;
+display: inline-block;
+}
+	
+.modal-form label {
+ display: inline-block;
+font-weight: 300;
+color:#000;
+}
+.modal-form .tims {    margin: 10px 0;
+    /*! padding-top:10px; */
+   width: 181px;
+    display: inline-block;}
+
+.modal-form .field_date {    margin: 10px 0;
+   width: 260px;
+   /*! padding-top:10px; */
+     display: inline-block;}
+
+/*=======================================================
+	Gallery
+=========================================================*/
+
+#portfolio .col-sm-3 img{
+   width: 100%;
+    max-height: 167px;
+    overflow: hidden;
+}
+
+#portfolio .col-sm-3{
+	padding: 2px 5px;}
+
+#portfolio .col-md-11{
+	margin: 0 4%;}
+
+.modal-body {
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+.modal-dialog {
+    
+    width: auto;
+    
+}
+
+.modal-content {
+  background:transparent;
+    border: 2px solid rgba(255, 252, 252, 0.46);
+}
+
+#portfolio div.desc {
+    padding: 15px;
+	display:none;
+    text-align: center;
+}
+
+#portfolio div.img:hover .desc{
+    padding: 15px;
+	display:inline-block;
+	top:50px;
+    text-align: center;
+background: #ffff;
+	width:100%;
+	height:100%;
+}
+
+
+
+/* ------------------------------------------------------------------------------
+	about_us
+------------------------------------------------------------------------------*/
+
+.private1 {padding: 0 10px;
+font-size: 1.6rem;
+line-height: 1.7;
+color: white;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 600;
+text-shadow: 0px 0px 8px #00c6ff;}
+
+.about_us{line-height: 2.7rem;
+	color:white;
+		padding: 30px 15px;
+}
+
+.lumiere{letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 2.1rem;
+line-height: 3.5rem;
+}
+
+#list8 { text-align: center; margin-bottom: 18px;}
+#list8 ul { list-style:none; }
+#list8 li { display:block;  background-color:#333; 
+border-left:5px solid #222; border-right:5px solid #222;
+text-decoration:none; color:#bfe1f1; }
+
+#imposible{
+	margin-left: 25%;
+font-size: 2.25rem;}
+.services{
+	margin-left: 40%;
+font-size: 2.25rem;}
+
+.about_us p{
+    text-align: center;
+	font-size: 19px;
+margin-bottom: 18px;}
+
+/* ------------------------------------------------------------------------------
+	 Footer
+-------------------------------------------------------------------------------*/
+.footer .map{padding: 0; padding-top: 15px;}
+[class*="ymaps-2"]{font-family: 'Montserrat Alternates' , sans-serif !important;
+
+}
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+.footer .numer_tel{
+	font-size: 11px;
+text-align: right;
+line-height: 4.5rem;
+}
+
+.footer .lumiere{
+	
+/*! line-height: 0.5rem; */
+}
+.footer h5{text-align: center;
+	color: #fff;
+	padding: 3px 0;
+}
+.footer li div{margin:0 10px;}
+.footer .copy{
+	font-size: 11px;
+	line-height: 4.5rem;
+	}
+.footer .lumiere{
+	font-size: 11px;
+	display: inline-block;
+	color: #6c7279;
+	line-height: 4.5rem;
+}
+ul.footer-share{text-align:center;
+	margin:0 33px;}
+
+.footer {
+	text-align: left;
+	background-color: #181818;
+	padding: 0;
+}
+.footer  #copy {
+	border-top: 1px solid #424242;
+	
+	margin-top: 7px;
+}
+iframe .widget-copyright a{display:none;}
+/*--------------------------------------------------------------------------------
+
+	offers
+-------------------------------------------------------------------------------*/
+.offers{text-align:center; height: 63vh;}
+.wrapper {
+        width: 1170px;
+  display: grid;
+  grid-template-columns: 300px 60% ;
+  grid-template-rows: 250px 250px;
+  grid-gap: 1rem;
+	
+}
+
+.one-div, .two-div, .three-div, .for-div, .five-div, .six-div{
+	text-align:center;
+	color:#fff; 
+	border: 1px solid #fff;
+	border-radius: 5px;
+	height:250px;
+	}
+.one-div, .for-div, .five-div{
+  
+	}
+.two-div, .three-div, .six-div {
+ 
+	}
+
+/* ------------------------------------------------------------------------------
+	Banner
+-------------------------------------------------------------------------------*/
