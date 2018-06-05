@@ -36,7 +36,7 @@
 <script src="js/jquery.fancybox.pack.js"></script> 
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script> 
+
 <script type="text/javascript" src="js/jquery.contact.js"></script>
    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="js/map.js"></script>
@@ -46,7 +46,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-
+<script src="js/main.js"></script> 
  <script>
  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
@@ -72,8 +72,8 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
   <header id="header" class="container">
     <div class="header-content container clearfix"> <a class="logo" href="/">Lumiere</a>
       <p class="slogan"> кинокомната</p>
-       <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
-         <p class="tel2">+375(29)123-456-78</p>
+      <div class="header-tel tel clearfix  col-lg-2 col-md-2 col-sm-6"> <p class="tel1" >Бронь по тел</p>
+      <p class="tel2">+375(29)8011222</p>
        <p class="or" >или</p>
 	     
          <a class="but" href="#">забронировать онлайн</a>
@@ -81,57 +81,59 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 
 		    </div>
          <div class="time-work  col-lg-2 col-md-2 col-sm-6"> <p>время работы:</p>
-          <p>будние: 08:00- 00:00</p>
-          <p>суббота, воскресение: 14:00 - 06:00</p></div>
+		 <div class="col-sm-5 col-lg-5 col-md-5">воскресенье</br>- четверг</div>
+		 <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 00:00</div>
+           <div class="col-sm-5 col-lg-5 col-md-5">пятница</br>- суббота</div> 
+		  <div class="col-sm-7 col-lg-7 col-md-7"> : с 14:00 до 06:00</div></div>
 </div> 
 <div id="modal1" class="modal1">
     <div>
        <div class="text" align="center">
        <div id="blok_tel">
-  <form id="contact-form" class="modal-form" action="" method="POST">
-      <div class="form-group">
+ <form id="contact-form" class="modal-form" action="" method="POST">
+      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
           <label class="control-label" for="имя">Как вас зовут?</label>
-         <input type="text" required class="form-control contact-input" id="inputName" name="имя" placeholder="">
+         <input required="" class="form-control contact-input" id="inputName" name="имя" placeholder="" type="text">
       </div>
 	   
-      <div class="form-group">
+      <div class="form-group  col-lg-6 col-md-6 col-sm-6">
           <label class="control-label" for="телефон">Ваш номер телефона:</label>
-          <input class="form-control"  required type="phone" class="form-control contact-input" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___">
+          <input class="form-control" required="" id="inputPhone" name="телефон" placeholder="+375(__)__ __ ___" type="phone">
       </div>
-	    <fieldset>
   <legend> Какую комнату бронируете </legend>
-  <div><label> <input required id="privat" type=radio value="private" name="комната"> <span class="private1">private</span></label>
-  <label> <input required  type=radio value="VIP" name="комната"> <span class="private1">VIP</span> </label></div>
-  </fieldset>
-  <div class="hour"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
-            <input type="number" name="количество часов"   min="0.5" max="8" step="0.5" value="1"></div>
-  <div class="field">
+  <div><label> <input required="" id="privat" value="private" name="комната" type="radio"> <span class="private1">private</span></label>
+  <label> <input required="" value="VIP" name="комната" type="radio"> <span class="private1">VIP</span> </label></div>
+
+  <div class="hour  col-lg-7 col-md-6 col-sm-6"><label class="visuallyhidden" for="количество часов">На сколько часов бронируете?</label>
+            <input name="количество часов" min="0.5" max="8" step="0.5" value="1" type="number"></div>
+  <div class="field   col-lg-5 col-md-6 col-sm-6">
             <label class="visuallyhidden" for="количество_людей">сколько человек?</label>
-            <select name="количество людей" id="hour" required>
+            <select name="количество людей" id="hour" required="">
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
              <option value="5">5</option>
              <option value="6">6</option>
+		    <option value="7">7</option>
+             <option value="8">8</option>
             </select>
 	  </div>
  
- <div class="tims"><label>На какое время? <input required name="время" type=time min="11:00" max="21:00" step="60"></label></div>
-          <div class="field_date">
+	<div class="field_date  col-lg-6 col-md-6 col-sm-6">
 	
-           <label>На какое число? <input class="date" id="min" type="date" placeholder="YYYY-MM-DD" data-date-split-input="true" /><br></label>
-           
-</div>
-      <div class="form-textarea">
+           <label>На какое число? <input class="date" id="min" name="дата" placeholder="YYYY-MM-DD"  min="2018-05-29" type="date"><br></label>
+		</div> <div class="tims  col-lg-6 col-md-6 col-sm-6"><label>На какое время? </br><input required="" name="время"  min=" " max=" " step="60" type="time"></label></div>
+          
+
+      <div class="form-textarea  col-lg-12 col-md-12 col-sm-12">
           <label class="control-label" for="дополнительная_информация">Ваше сообщение:</label>
-          <textarea rows="4"  id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
+          <textarea rows="4" id="messege" class="form-control " name="дополнительная информация" placeholder="Ваше сообщение"></textarea>
       </div>
-      <input class="btn btn-primary" type="submit" value="Отправить"> 
-  </div>
-     
-    </div>        
-</form>
+      <input class="btn btn-primary" value="Отправить" type="submit"> 
+	       <p class="book1">Данная бронь является предварительной.</br> Администратор свяжется с Вами для уточнения деталей. </p>
+  </form>
 </div>
+
 
 
 </div>
