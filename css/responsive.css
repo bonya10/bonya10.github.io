@@ -1,4 +1,6 @@
 @media screen and (max-width: 1024px) {
+}
+@media screen and (min-width:1201px) and (max-width:1400px) {
  #header .header-content {
  width: 90%;
  padding: 40px 0;
@@ -62,28 +64,377 @@
 }
  
    .modal1{width:60%;}
+} 
+
+ @media screen and (min-width:1025px) and (max-width:1200px){
 }
 
+@media screen and (min-width:881px) and (max-width:1024px){
+}
+
+  @media screen and (min-width:765px) and (max-width:880px){
+     .nav-toggle {
+ display: block;
+}
+ .navigation {
+ position: fixed;
+ background-color: #000;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: 99999;
+ visibility: hidden;
+ opacity: 0;
+ -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+ transition: opacity 0.5s, visibility 0s 0.5s;
+}
+ .navigation .primary-nav {
+ position: relative;
+ top: 45%;
+ -moz-transform: translateY(-45%);
+ -ms-transform: translateY(-45%);
+ -webkit-transform: translateY(-45%);
+ transform: translateY(-45%);
+}
+ .navigation li {
+ display: block;
+ margin-bottom: 20px;
+}
+ .navigation a {
+ display: block;
+ font-size: 25px;
+ margin: 0;
+ text-align: center;
+}
+  
+  .header-tel, .time-work{
+   width: 42% !important;
+   margin: 0 4%;}
+  .header-tel{margin-bottom:9px; line-height: 10px;}
+  #header .header-content {
+  width: 90%;
+  padding: 5px 0px;}
+  #header .logo {padding-bottom: 10px;}
+  
+ .banner-text {/* padding-top: 55%; */}
+  
+ .testimonials blockquote {padding: 20px 5% 0;}
+  
+ .testimonials p {font-size: 12px;}
+   .modal1{width: 91%;
+    height: 84%;
+    top: 7%;}
+  .modal-form label {font-size: 1.5rem;}
+  legend {font-size: 16px; margin-bottom: 10px;}
+  .private1 {font-size: 1.4rem;}
+ 
+   .modal1 .form-group input{font-size: 11px;
+    width: 167px;}
+  .modal1 .col-sm-6 {
+    width: 49% !important;
+    display: inline-block;
+    padding: 0 5px;}
+  .modal1 .hour, .modal-form .field { margin-top:0;}
+  .modal-form .field label {     width: 78%; padding-bottom: 16px;}
+   textarea.form-control {
+    height: 70px;
+    width: 100%;
+    font-size: 1.3rem;}
+   .btn { width: 90%;}
+   .book1{line-height: 15.4px;
+       font-size: 0.9rem;}
+  .modal-form label[for=телефон] {
+            width: 181px;
+    max-width: 191px;
+  margin-left: -13px;}
+
+ 
+  .round-box {
+    width: 127px;
+    display: inline-block;
+    }
+  .round img {
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
+  
+  #map{height: 185px;}
+  .footer{padding:0;}
+  .footer .display-none{display:inline-block; }
+  .footer li #vk_groups{display:none;}
+  .footer li .insta{display:none;}
+  .footer .numer_tel {text-align: center;}
+  .footer .copy {text-align: center;}
+  
+   .offers {height: 42vh;}
+ .flex-container {
+    width: 91%;
+    height: auto;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
+  .flex-title {font-size: 1.6rem;   margin-top: 15px;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%;}
+ 
+ 
+  
+  .tel .tel1 {line-height: 22.4px;
+   font-size: 1.3rem;}
+  .tel .tel2 {line-height: 12.4px;
+   font-size: 1rem;}
+  .or {line-height: 17.4px;
+    font-size: 0.9rem;
+   padding-bottom: 1px;}
+  
+  .tel a {
+    font-size: 1.1rem;
+    width: 100%;
+    line-height: 1.4rem;
+    display: inline-block;
+    }
+  .book {
+        font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+    line-height: 15.4px;
+    padding-top: 5px;}
+  .header-tel, .time-work {
+      height: 123px;}
+  .time-work p:first-child {
+    font-size: 1.3rem;
+   margin: 0;}
+  .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
+   padding: 0;
+   height: 45px;
+   width: 42.667%;
+   display: inline-block;
+   padding-bottom: 5px;
+   font-size: 1.1rem;
+   }
+  .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
+      padding: 0;
+    height: 23px;
+    width: 50.667%;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: -7px;}
+  
+  .rooms img {
+    width: 289px;
+    height: auto;
+   border-radius: 4px;}
+  .private ul, .vip ul {
+    background: #fff5f61a;
+    width: 290px;
+    margin-left: 0;
+    padding: 20px 6px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    margin-top: 20px;}
+  .variant-3 {
+    padding: 0 10px;
+   font-size: 2rem;}
+  .room-box h3 {
+    color: #fff;
+   font-size: 1.5rem;}
+  .room-box h2 {
+    color: #fff;
+   font-size: 2rem;}
+  .room-box .tarif {
+    width: 290px;
+   margin-bottom: 15px; 
+    margin-left:0;}
+  .btn1{padding: 5px 5px;}
+  .room-box.vip{margin-top:10px;}
+}
+  
 
  @media screen and (min-width:581px) and (max-width:764px){
- .banner-text {
- padding-top: 30%;
+  .nav-toggle {
+ display: block;
 }
- .banner-text h1 {
- font-size: 42px;
-}
- .banner-text p {
- font-size: 18px;
-}
- .flexslider {
- padding-bottom: 80px;
-}
- .flex-control-nav {
+ .navigation {
+ position: fixed;
+ background-color: #000;
  width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: 99999;
+ visibility: hidden;
+ opacity: 0;
+ -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+ transition: opacity 0.5s, visibility 0s 0.5s;
 }
- .footer .footer-col {
- margin-bottom: 50px;
-  }
+ .navigation .primary-nav {
+ position: relative;
+ top: 45%;
+ -moz-transform: translateY(-45%);
+ -ms-transform: translateY(-45%);
+ -webkit-transform: translateY(-45%);
+ transform: translateY(-45%);
+}
+ .navigation li {
+ display: block;
+ margin-bottom: 20px;
+}
+ .navigation a {
+ display: block;
+ font-size: 25px;
+ margin: 0;
+ text-align: center;
+}
+  
+  .header-tel, .time-work{
+   width: 42% !important;
+   margin: 0 4%;}
+  .header-tel{margin-bottom:9px; line-height: 10px;}
+  #header .header-content {
+  width: 90%;
+  padding: 5px 0px;}
+  #header .logo {padding-bottom: 10px;}
+  
+ .banner-text {/* padding-top: 55%; */}
+  
+ .testimonials blockquote {padding: 20px 5% 0;}
+  
+ .testimonials p {font-size: 12px;}
+   .modal1{width: 91%;
+    height: 84%;
+    top: 7%;}
+  .modal-form label {font-size: 1.5rem;}
+  legend {font-size: 16px; margin-bottom: 10px;}
+  .private1 {font-size: 1.4rem;}
+ 
+   .modal1 .form-group input{font-size: 11px;
+    width: 167px;}
+  .modal1 .col-sm-6 {
+    width: 49% !important;
+    display: inline-block;
+    padding: 0 5px;}
+  .modal1 .hour, .modal-form .field { margin-top:0;}
+  .modal-form .field label {     width: 78%; padding-bottom: 16px;}
+   textarea.form-control {
+    height: 70px;
+    width: 100%;
+    font-size: 1.3rem;}
+   .btn { width: 90%;}
+   .book1{line-height: 15.4px;
+       font-size: 0.9rem;}
+  .modal-form label[for=телефон] {
+            width: 181px;
+    max-width: 191px;
+  margin-left: -13px;}
+
+ 
+  .round-box {
+    width: 127px;
+    display: inline-block;
+    }
+  .round img {
+    width: 123px;
+   height: 123px;}
+  .variant-1 {font-size: 1rem;}
+  .variant-2 {font-size: 1rem; top:40%;}
+  .container-rond h1 {font-size: 2.7rem;}
+  
+  #map{height: 185px;}
+  .footer{padding:0;}
+  .footer .display-none{display:inline-block; }
+  .footer li #vk_groups{display:none;}
+  .footer li .insta{display:none;}
+  .footer .numer_tel {text-align: center;}
+  .footer .copy {text-align: center;}
+  
+   .offers {height: 42vh;}
+ .flex-container {
+    width: 91%;
+    height: auto;}
+  .flex-slide p {
+    font-size: 0.3em;
+    line-height: 12px;}
+  .flex-title {font-size: 1.6rem;   margin-top: 15px;}
+  .flex-about {padding: 0.5%;
+border: 2px solid #f1f1f1;
+width: 85%;}
+ 
+ 
+  
+  .tel .tel1 {line-height: 22.4px;
+   font-size: 1.3rem;}
+  .tel .tel2 {line-height: 12.4px;
+   font-size: 1rem;}
+  .or {line-height: 17.4px;
+    font-size: 0.9rem;
+   padding-bottom: 1px;}
+  
+  .tel a {
+    font-size: 1.1rem;
+    width: 100%;
+    line-height: 1.4rem;
+    display: inline-block;
+    }
+  .book {
+        font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+    line-height: 15.4px;
+    padding-top: 5px;}
+  .header-tel, .time-work {
+      height: 123px;}
+  .time-work p:first-child {
+    font-size: 1.3rem;
+   margin: 0;}
+  .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
+   padding: 0;
+   height: 45px;
+   width: 42.667%;
+   display: inline-block;
+   padding-bottom: 5px;
+   font-size: 1.1rem;
+   }
+  .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
+      padding: 0;
+    height: 23px;
+    width: 50.667%;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: -7px;}
+  
+  .rooms img {
+    width: 289px;
+    height: auto;
+   border-radius: 4px;}
+  .private ul, .vip ul {
+    background: #fff5f61a;
+    width: 290px;
+    margin-left: 0;
+    padding: 20px 6px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    margin-top: 20px;}
+  .variant-3 {
+    padding: 0 10px;
+   font-size: 2rem;}
+  .room-box h3 {
+    color: #fff;
+   font-size: 1.5rem;}
+  .room-box h2 {
+    color: #fff;
+   font-size: 2rem;}
+  .room-box .tarif {
+    width: 290px;
+   margin-bottom: 15px; 
+    margin-left:0;}
+  .btn1{padding: 5px 5px;}
+  .room-box.vip{margin-top:10px;}
 }
 @media screen and (min-width:481px) and (max-width:580px){
    
