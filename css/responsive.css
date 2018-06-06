@@ -294,7 +294,9 @@ width: 85%;}
   
  .testimonials p {font-size: 12px;}
   
-  .modal1{width:91%;}
+  .modal1{width: 91%;
+    height: 84%;
+    top: 7%;}
   .modal-form label {font-size: 1.2rem;}
   legend {font-size: 16px; margin-bottom: 10px;}
   .private1 {font-size: 1.4rem;}
