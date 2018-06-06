@@ -1167,29 +1167,7 @@ iframe .widget-copyright a{display:none;}
 /*--------------------------------------------------------------------------------
 	offers
 -------------------------------------------------------------------------------*/
-.offers{text-align:center; height: 63vh;}
-.wrapper {
-        width: 1170px;
-  display: grid;
-  grid-template-columns: 300px 60% ;
-  grid-template-rows: 250px 250px;
-  grid-gap: 1rem;
-	
-}
-
-.one-div, .two-div, .three-div, .for-div, .five-div, .six-div{
-	text-align:center;
-	color:#fff; 
-	border: 1px solid #fff;
-	border-radius: 5px;
-	height:250px;
-	}
-.one-div, .for-div, .five-div{
-  
-	}
-.two-div, .three-div, .six-div {
- 
-	}
+.offers{text-align:center; height: 66%;}
 
 /* ------------------------------------------------------------------------------
 	Banner
