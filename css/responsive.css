@@ -719,17 +719,17 @@ width: 85%;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
-  .offers {height: 42vh;}
+  .offers {height: 45.8vh;}
  .flex-container {
     width: 91%;
-    height: auto;}
+    /* display: block; */
+    height: 41vh;
+    }
   .flex-slide p {
     font-size: 0.3em;
     line-height: 12px;}
-  .flex-title {font-size: 1.6rem;   margin-top: 15px;}
-  .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;
-width: 85%;}
+  .flex-title {font-size: 1.6rem;margin-top: 2px;}
+  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;width: 85%;height:  fit-content;}
  
   
   .tel .tel1 {line-height: 22.4px;
