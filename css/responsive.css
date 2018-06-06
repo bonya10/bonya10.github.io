@@ -123,7 +123,7 @@
 }
   
   .header-tel, .time-work{
-   width: 92% !important;
+   width: 42% !important;
    margin: 0 4%;}
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
@@ -139,28 +139,28 @@
    .modal1{width: 91%;
     height: 84%;
     top: 7%;}
-  .modal-form label {font-size: 1.2rem;}
+  .modal-form label {font-size: 1.5rem;}
   legend {font-size: 16px; margin-bottom: 10px;}
   .private1 {font-size: 1.4rem;}
  
    .modal1 .form-group input{font-size: 11px;
-    width: 114px;}
+    width: 167px;}
   .modal1 .col-sm-6 {
     width: 49% !important;
     display: inline-block;
     padding: 0 5px;}
   .modal1 .hour, .modal-form .field { margin-top:0;}
-  .modal-form .field label {  padding-bottom: 16px;}
+  .modal-form .field label {     width: 78%; padding-bottom: 16px;}
    textarea.form-control {
-    height: 93px;
+    height: 70px;
     width: 100%;
     font-size: 1.3rem;}
    .btn { width: 90%;}
    .book1{line-height: 15.4px;
        font-size: 0.9rem;}
   .modal-form label[for=телефон] {
-        width: 145px;
-    max-width: 150px;
+            width: 181px;
+    max-width: 191px;
   margin-left: -13px;}
 
  
@@ -209,27 +209,30 @@ width: 85%;}
     width: 100%;
     display: inline-block;}
   .book {
-    font-size: 0.9rem;
+        font-size: 0.9rem;
     margin: 0;
-   text-align: center;}
+    text-align: center;
+    line-height: 15.4px;
+    padding-top: 5px;}
   .header-tel, .time-work {
-      height: 112px;}
+      height: 123px;}
   .time-work p:first-child {
     font-size: 1.3rem;
    margin: 0;}
   .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
    padding: 0;
-    height: 37px;
-    width: 32.667%;
+    height: 45px;
+    width: 33.667%;
     display: inline-block;
+       padding-bottom: 5px;
     font-size: 1.1rem;}
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
-    padding: 0;
+      padding: 0;
     height: 23px;
-    width: 47.667%;
+    width: 50.667%;
     display: inline-block;
     font-size: 1.1rem;
-    bottom: 8px;}
+    bottom: -7px;}
   
   .rooms img {
     width: 289px;
@@ -323,9 +326,9 @@ width: 85%;}
   .private1 {font-size: 1.4rem;}
  
    .modal1 .form-group input{font-size: 11px;
-    width: 114px;}
+    width: 1147px;}
   .modal1 .col-sm-6 {
-    width: 49% !important;
+    width: 42% !important;
     display: inline-block;
     padding: 0 5px;}
   .modal1 .hour, .modal-form .field { margin-top:0;}
@@ -491,10 +494,10 @@ width: 85%;}
  .testimonials p {font-size: 12px;}
   
   .modal1{width: 91%;
-    height: 84%;
+    height: fit-content;
     top: 7%;}
   .modal-form label {font-size: 1.2rem;}
-  legend {font-size: 16px; margin-bottom: 10px;}
+  legend {font-size: 1.5rem; margin-bottom: 10px;}
   .private1 {font-size: 1.4rem;}
  
    .modal1 .form-group input{font-size: 11px;
@@ -506,12 +509,12 @@ width: 85%;}
   .modal1 .hour, .modal-form .field { margin-top:0;}
   .modal-form .field label {  padding-bottom: 16px;}
    textarea.form-control {
-    height: 70px;
+    height: 50px;
     width: 100%;
     font-size: 1.3rem;}
-   .btn { width: 90%;}
-   .book1{line-height: 15.4px;
-       font-size: 0.9rem;}
+   .btn { width: 90%;     font-size: 1.1rem;}
+   .book1{line-height: 14px;
+    font-size: 0.75rem;}
   .modal-form label[for=телефон] {
         width: 145px;
     max-width: 150px;
