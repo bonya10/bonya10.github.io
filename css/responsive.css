@@ -298,8 +298,15 @@ width: 85%;}
   .modal-form label {font-size: 1.2rem;}
   legend {font-size: 16px;}
   .private1 {font-size: 1.4rem;}
-  .modal1 .col-sm-6{width:50% !important;}
-   .modal1 .col-sm-6 input{width:50% !important;}
+ 
+   .modal1 .form-group input{font-size: 11px;
+    width: 114px;}
+  .modal1 .col-sm-6 {
+    width: 49% !important;
+    display: inline-block;
+    padding: 0 5px;
+}
+  .modal1 .hour { width: 50%;}
   
   .round-box {
     width: 123px;
