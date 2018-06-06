@@ -2,7 +2,7 @@
 
 
 .offers {
-  position: relative;
+  position: absolute;
   height: 416px;
   width: 1134px;
   display: -webkit-flex;
