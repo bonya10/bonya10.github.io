@@ -131,7 +131,7 @@
   padding: 5px 0px;}
   #header .logo {padding-bottom: 10px;}
   
- .banner-text {padding-top: 55%;}
+ .banner-text {/* padding-top: 55%; */}
   
  .testimonials blockquote {padding: 20px 5% 0;}
   
@@ -165,8 +165,9 @@
 
  
   .round-box {
-    width: 123px;
-    display: inline-block;}
+    width: 127px;
+    display: inline-block;
+    }
   .round img {
     width: 123px;
    height: 123px;}
@@ -205,9 +206,11 @@ width: 85%;}
    padding-bottom: 1px;}
   
   .tel a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 100%;
-    display: inline-block;}
+    line-height: 1.4rem;
+    display: inline-block;
+    }
   .book {
         font-size: 0.9rem;
     margin: 0;
@@ -221,11 +224,12 @@ width: 85%;}
    margin: 0;}
   .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
    padding: 0;
-    height: 45px;
-    width: 33.667%;
-    display: inline-block;
-       padding-bottom: 5px;
-    font-size: 1.1rem;}
+   height: 45px;
+   width: 42.667%;
+   display: inline-block;
+   padding-bottom: 5px;
+   font-size: 1.1rem;
+   }
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
       padding: 0;
     height: 23px;
