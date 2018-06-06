@@ -296,7 +296,7 @@ width: 85%;}
   
   .modal1{width:91%;}
   .modal-form label {font-size: 1.2rem;}
-  legend {font-size: 16px;}
+  legend {font-size: 16px; margin-bottom: 10px;}
   .private1 {font-size: 1.4rem;}
  
    .modal1 .form-group input{font-size: 11px;
@@ -304,9 +304,18 @@ width: 85%;}
   .modal1 .col-sm-6 {
     width: 49% !important;
     display: inline-block;
-    padding: 0 5px;
-}
-  .modal1 .hour { width: 50%;}
+    padding: 0 5px;}
+  .modal1 .hour, .modal-form .field { margin-top:0;}
+  .modal-form .field {    line-height: 3rem;}
+   textarea.form-control {
+    height: 93px;
+    width: 100%;
+    font-size: 1.3rem;}
+   .btn { width: 90%;}
+   .book1{line-height: 15.4px;
+       font-size: 0.9rem;}
+  .modal-form .control-label {
+    font-size: 1.02rem;}
   
   .round-box {
     width: 123px;
