@@ -316,7 +316,8 @@ width: 85%;}
        font-size: 0.9rem;}
   .modal-form label[for=телефон] {
         width: 145px;
-    max-width: 150px;}
+    max-width: 150px;
+  margin-left: -10px;}
   
   .round-box {
     width: 123px;
