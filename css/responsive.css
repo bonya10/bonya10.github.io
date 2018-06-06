@@ -314,8 +314,9 @@ width: 85%;}
    .btn { width: 90%;}
    .book1{line-height: 15.4px;
        font-size: 0.9rem;}
-  .modal-form .control-label {
-    font-size: 1.02rem;}
+  .modal-form .control-label:last-child {
+        width: 145px;
+    max-width: 150px;}
   
   .round-box {
     width: 123px;
