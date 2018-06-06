@@ -10,11 +10,7 @@
   display: flex;
   overflow: hidden;
 }
-@media screen and (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
+
 
 .flex-title {
   color: #f1f1f1;
@@ -30,11 +26,7 @@
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-@media screen and (max-width: 768px) {
-  .flex-title {
-    transform: rotate(0deg) !important;
-  }
-}
+
 
 .flex-about p {
   color: #f1f1f1;
@@ -61,12 +53,7 @@ width:70%;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-@media screen and (max-width: 768px) {
-  .flex-about {
-    padding: 0%;
-    border: 0px solid #f1f1f1;
-  }
-}
+
 
 .flex-slide {
   -webkit-flex: 1;
@@ -81,23 +68,7 @@ width:70%;
   -o-transition: all 500ms ease;
   /* transition: all 500ms ease; */
 }
-@media screen and (max-width: 768px) {
-  .flex-slide {
-  height:  fit-content;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .flex-slide p {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .flex-slide ul li {
-    font-size: 2em;
-  }
-}
 
 .flex-slide:hover {
   -webkit-flex-grow: 3;
@@ -107,22 +78,7 @@ width:70%;
 .home {
   background:transparent;
 }
-@media screen and (min-width: 768px) {
-  .home {
-    -moz-animation: aboutFlexSlide;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: aboutFlexSlide;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: aboutFlexSlide;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
-}
+
 
 @keyframes aboutFlexSlide {
   0% {
@@ -138,24 +94,7 @@ width:70%;
     flex-grow: 1;
   }
 }
-@media screen and (min-width: 768px) {
-  .flex-title-home {
-    transform: rotate(90deg);
-    top: 45%;
-    -moz-animation: homeFlextitle;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: homeFlextitle;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: homeFlextitle;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
-}
+
 
 @keyframes homeFlextitle {
   0% {
@@ -173,22 +112,6 @@ width:70%;
 }
 .flex-about-home {
   opacity: 0;
-}
-@media screen and (min-width: 768px) {
-  .flex-about-home {
-    -moz-animation: flexAboutHome;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: flexAboutHome;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: flexAboutHome;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
 }
 
 @keyframes flexAboutHome {
