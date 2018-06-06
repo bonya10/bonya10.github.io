@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 
 //light effect nav menu
 
@@ -21,3 +21,4 @@ Array.from(document.querySelectorAll('.fancy-hover'),function(el){
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+});
