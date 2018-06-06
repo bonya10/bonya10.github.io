@@ -2,9 +2,9 @@
 
 
 .offers {
-  position: absolute;
-  height: 416px;
-  width: 1134px;
+  /* position: absolute; */
+  /* height: 416px; */
+  /* width: 1134px; */
   display: -webkit-flex;
   /* Safari */
   display: flex;
