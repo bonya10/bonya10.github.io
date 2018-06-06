@@ -314,7 +314,7 @@ width: 85%;}
    .btn { width: 90%;}
    .book1{line-height: 15.4px;
        font-size: 0.9rem;}
-  .modal-form .control-label:last-child {
+  .modal-form label[for=телефон] {
         width: 145px;
     max-width: 150px;}
   
