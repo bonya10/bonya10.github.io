@@ -15,6 +15,9 @@
     height: 100%;
      flex-direction: column;
    }
+  .colcarou-p {
+    font-size: 0.8rem;
+}
  }
  
  .flex-title {
