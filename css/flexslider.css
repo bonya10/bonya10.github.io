@@ -93,7 +93,8 @@ height: 40px;
  }
  
  @media screen and (max-width: 768px) {
-   .flex-slide p {
+   .flex-slide p {ine-height: 17px;
+    font-size: 1.3rem;
      /* font-size: 2em; */
    }
  }
