@@ -178,7 +178,9 @@
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
 }
- 
+ .colcarou-p {
+    font-size: 0.8rem;
+}
  
   
   .tel .tel1 {line-height: 22.4px;
@@ -357,7 +359,9 @@ border: 2px solid #f1f1f1;
   .flex-title {font-size: 1.6rem;  }
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;}
- 
+ .colcarou-p {
+    font-size: 0.8rem;
+}
  
   
   .tel .tel1 {line-height: 22.4px;
@@ -535,7 +539,9 @@ border: 2px solid #f1f1f1;}
   .flex-title {font-size: 1.6rem; }
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;}
- 
+ .colcarou-p {
+    font-size: 0.8rem;
+}
  
   
   .tel .tel1 {line-height: 22.4px;
@@ -714,7 +720,9 @@ border: 2px solid #f1f1f1;}
     line-height: 12px;}
   .flex-title {font-size: 1.6rem;margin-top: 2px;}
   .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;}
- 
+ .colcarou-p {
+    font-size: 0.8rem;
+}
   
   .tel .tel1 {line-height: 22.4px;
    font-size: 1.3rem;}
@@ -886,7 +894,9 @@ border: 2px solid #f1f1f1;}
   .flex-title {font-size: 1.6rem;   margin-top: 15px;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;}
- 
+ .colcarou-p {
+    font-size: 0.8rem;
+}
  
   
   .tel .tel1 {line-height: 22.4px;
