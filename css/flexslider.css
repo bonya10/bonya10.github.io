@@ -133,3 +133,90 @@ width:70%;
 .work {background:transparent;
 }
 
+
+@media screen and (max-width: 768px) {
+  .flex-title {
+    transform: rotate(0deg) !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex-about {
+    padding: 0%;
+    border: 0px solid #f1f1f1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide p {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide ul li {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    -moz-animation: aboutFlexSlide;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0s;
+    -webkit-animation: aboutFlexSlide;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+    animation: aboutFlexSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-title-home {
+    transform: rotate(90deg);
+    top: 15%;
+    -moz-animation: homeFlextitle;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0s;
+    -webkit-animation: homeFlextitle;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+    animation: homeFlextitle;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-about-home {
+    -moz-animation: flexAboutHome;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0s;
+    -webkit-animation: flexAboutHome;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+    animation: flexAboutHome;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+  }
+}
+
