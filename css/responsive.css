@@ -862,7 +862,7 @@ height: 23px;
     top: 3%;
 /*! height: auto; */
 }
-  .modal-form label {font-size: 1.0rem;}
+  .modal-form label {font-size: 1.0rem;margin-bottom: 0px;}
   legend {font-size: 1.3rem; margin-bottom: 5px;}
   .private1 {font-size: 1.4rem;}
  
