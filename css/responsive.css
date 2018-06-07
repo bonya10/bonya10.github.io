@@ -879,7 +879,7 @@ height: 22px;
   .modal1 .hour, .modal-form .field { margin-top:0;}
   .modal-form .field label {  padding-bottom: 16px;width: 118%;}
    textarea.form-control {
-    height: 50px;
+    height: 40px;
     width: 100%;
     font-size: 1.3rem;}
    .btn { width: 90%;     font-size: 1.1rem;padding: 2px;margin-top: 5px;}
