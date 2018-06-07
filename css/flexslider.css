@@ -11,7 +11,8 @@
    overflow: hidden;
  }
  @media screen and (max-width: 768px) {
-   .flex-container {
+    .offers {
+ {
      flex-direction: column;
    }
  }
