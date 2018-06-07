@@ -74,7 +74,7 @@
 }
 
   @media screen and (min-width:765px) and (max-width:880px){
-     .nav-toggle {
+ .nav-toggle {
  display: block;
 }
  .navigation {
@@ -137,7 +137,7 @@
     display: inline-block;
     padding: 0 5px;}
   .modal1 .hour, .modal-form .field { margin-top:0;}
-  .modal-form .field label {     width: 78%; padding-bottom: 16px;}
+  .modal-form .field label {width: 78%; padding-bottom: 16px;}
    textarea.form-control {
     height: 70px;
     width: 100%;
@@ -177,7 +177,7 @@
   .flex-title {font-size: 1.6rem;}
   .flex-about {padding: 0.5%;
 border: 2px solid #f1f1f1;
-}
+       width: 90%;}
  .colcarou-p {
     font-size: 0.8rem;
 }
@@ -358,7 +358,8 @@ border: 2px solid #f1f1f1;
     line-height: 12px;}
   .flex-title {font-size: 1.6rem;  }
   .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;}
+border: 2px solid #f1f1f1;
+      width: 90%;}
  .colcarou-p {
     font-size: 0.8rem;
 }
@@ -538,7 +539,8 @@ border: 2px solid #f1f1f1;}
     line-height: 12px;}
   .flex-title {font-size: 1.6rem; }
   .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;}
+border: 2px solid #f1f1f1; 
+     width: 90%;}
  .colcarou-p {
     font-size: 0.8rem;
 }
@@ -719,7 +721,8 @@ border: 2px solid #f1f1f1;}
     font-size: 0.3em;
     line-height: 12px;}
   .flex-title {font-size: 1.6rem;margin-top: 2px;}
-  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;}
+  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;
+      width: 90%;}
  .colcarou-p {
     font-size: 0.8rem;
 }
@@ -893,7 +896,7 @@ border: 2px solid #f1f1f1;}
     line-height: 12px;}
   .flex-title {font-size: 1.6rem;   margin-top: 15px;}
   .flex-about {padding: 0.5%;
-border: 2px solid #f1f1f1;}
+border: 2px solid #f1f1f1;     width: 90%;}
  .colcarou-p {
     font-size: 0.8rem;
 }
