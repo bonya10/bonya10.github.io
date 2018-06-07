@@ -135,10 +135,9 @@
  .work {background:transparent;
  }
 
-.home {
+.home {  
 background:transparent;
 }
-
 
 @keyframes homeFlextitle {
   0% {
@@ -174,6 +173,22 @@ background:transparent;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .home {
+    -moz-animation: aboutFlexSlide;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0s;
+    -webkit-animation: aboutFlexSlide;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+    animation: aboutFlexSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+  }
+}
 @keyframes flexAboutHome {
   0% {
     opacity: 0;
