@@ -1,227 +1,212 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-
-.offers {
+ @import url("https://fonts.googleapis.com/css?family=Raleway");
+ 
+ 
+ .offers {
    position: absolute;
-  height: 100vh;
-  width: 100%;
-  display: -webkit-flex;
-  /* Safari */
-  display: flex;
-  overflow: hidden;
-}
-
-
-.flex-title {
-  color: #f1f1f1;
-  position: relative;
-  font-size: 3rem;
-  margin: auto;
-  text-align: center;
-  transform: rotate(90deg);
-  top: 45%;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-
-.flex-about p {
-  color: #f1f1f1;
-  font-size: 1.5rem;}
-.colcarou-p{ font-size: 1.2rem;}
-
-.flex-about {
-  opacity: 0;
-  color: #f1f1f1;
-  position: relative;
-font-size: 3rem;
-padding: 3%;
-top: 7%;
-width:70%;
-  border: 2px solid #f1f1f1;
-  border-radius: 10px;
-  line-height: 1.3;
-  margin: auto;
-  text-align: center;
-  transform: rotate(0deg);
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-
-.flex-slide {
-  -webkit-flex: 1;
-  /* Safari 6.1+ */
-  -ms-flex: 1;
-  /* IE 10 */
-  flex: 1;
-  cursor: pointer;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-
-.flex-slide:hover {
-  -webkit-flex-grow: 3;
-  flex-grow: 3;
-}
-
-.home {
-  background:transparent;
-}
-
-
-@keyframes aboutFlexSlide {
-  0% {
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-  }
-  50% {
-    -webkit-flex-grow: 3;
-    flex-grow: 3;
-  }
-  100% {
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-  }
-}
-
-
-@keyframes homeFlextitle {
-  0% {
-    transform: rotate(90deg);
-    top: 5%;
-  }
-  50% {
-    transform: rotate(0deg);
-    top: 5%;
-  }
-  100% {
-    transform: rotate(90deg);
-    top: 5%;
-  }
-}
-.flex-about-home {
-  opacity: 0;
-}
-
-@keyframes flexAboutHome {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.about {background:transparent;
-}
-.contact {background:transparent;
-}
-
-.work {background:transparent;
-}
-
-@media screen and (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .flex-title {
-    transform: rotate(0deg) !important;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .flex-about {
-    padding: 0%;
-    border: 0px solid #f1f1f1;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .flex-slide {
-    overflow: auto;
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .flex-slide p {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .flex-slide ul li {
-    font-size: 2em;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .home {
-    -moz-animation: aboutFlexSlide;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: aboutFlexSlide;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: aboutFlexSlide;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .flex-title-home {
-    transform: rotate(90deg);
-    top: 15%;
-    -moz-animation: homeFlextitle;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: homeFlextitle;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: homeFlextitle;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .flex-about-home {
-    -moz-animation: flexAboutHome;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-delay: 0s;
-    -webkit-animation: flexAboutHome;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 0s;
-    animation: flexAboutHome;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-  }
-}
-
+   height: 390px;
+   width: 1170px;
+   display: -webkit-flex;
+   /* Safari */
+   display: flex;
+   overflow: hidden;
+ }
+ @media screen and (max-width: 768px) {
+   .flex-container {
+     flex-direction: column;
+   }
+ }
+ 
+ .flex-title {
+   color: #f1f1f1;
+   position: relative;
+   font-size: 3rem;
+   margin: auto;
+   text-align: center;
+   transform: rotate(90deg);
+   top: 45%;
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -ms-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+ @media screen and (max-width: 768px) {
+   .flex-title {
+     transform: rotate(0deg) !important;
+   }
+ }
+ 
+ .flex-about p {
+   color: #f1f1f1;
+   font-size: 1.5rem;}
+ .colcarou-p{ font-size: 1.2rem;}
+ 
+ .flex-about {
+   opacity: 0;
+   color: #f1f1f1;
+   position: relative;
+ font-size: 3rem;
+ padding: 3%;
+ top: 7%;
+ width:70%;
+   border: 2px solid #f1f1f1;
+   border-radius: 10px;
+   line-height: 1.3;
+   margin: auto;
+   text-align: center;
+   transform: rotate(0deg);
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -ms-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+ @media screen and (max-width: 768px) {
+   .flex-about {
+     padding: 0%;
+     border: 0px solid #f1f1f1;
+   }
+ }
+ 
+ .flex-slide {
+   -webkit-flex: 1;
+   /* Safari 6.1+ */
+   -ms-flex: 1;
+   /* IE 10 */
+   flex: 1;
+   cursor: pointer;
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -ms-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+ @media screen and (max-width: 768px) {
+   .flex-slide {
+   
+   }
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .flex-slide p {
+     font-size: 2em;
+   }
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .flex-slide ul li {
+     font-size: 2em;
+   }
+ }
+ 
+ .flex-slide:hover {
+   -webkit-flex-grow: 3;
+   flex-grow: 3;
+ }
+ 
+ .home {
+-  height: 390px;
+   background:transparent;
+ }
+ @media screen and (min-width: 768px) {
+   .home {
+     -moz-animation: aboutFlexSlide;
+     -moz-animation-duration: 3s;
+     -moz-animation-iteration-count: 1;
+     -moz-animation-delay: 0s;
+     -webkit-animation: aboutFlexSlide;
+     -webkit-animation-duration: 3s;
+     -webkit-animation-iteration-count: 1;
+     -webkit-animation-delay: 0s;
+     animation: aboutFlexSlide;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-delay: 0s;
+   }
+ }
+ 
+ @keyframes aboutFlexSlide {
+   0% {
+     -webkit-flex-grow: 1;
+     flex-grow: 1;
+   }
+   50% {
+     -webkit-flex-grow: 3;
+     flex-grow: 3;
+   }
+   100% {
+     -webkit-flex-grow: 1;
+     flex-grow: 1;
+   }
+ }
+ @media screen and (min-width: 768px) {
+   .flex-title-home {
+     transform: rotate(90deg);
+     top: 45%;
+     -moz-animation: homeFlextitle;
+     -moz-animation-duration: 3s;
+     -moz-animation-iteration-count: 1;
+     -moz-animation-delay: 0s;
+     -webkit-animation: homeFlextitle;
+     -webkit-animation-duration: 3s;
+     -webkit-animation-iteration-count: 1;
+     -webkit-animation-delay: 0s;
+     animation: homeFlextitle;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-delay: 0s;
+   }
+ }
+ 
+ @keyframes homeFlextitle {
+   0% {
+     transform: rotate(90deg);
+     top: 5%;
+   }
+   50% {
+     transform: rotate(0deg);
+     top: 5%;
+   }
+   100% {
+     transform: rotate(90deg);
+     top: 5%;
+   }
+ }
+ .flex-about-home {
+   opacity: 0;
+ }
+ @media screen and (min-width: 768px) {
+   .flex-about-home {
+     -moz-animation: flexAboutHome;
+     -moz-animation-duration: 3s;
+     -moz-animation-iteration-count: 1;
+     -moz-animation-delay: 0s;
+     -webkit-animation: flexAboutHome;
+     -webkit-animation-duration: 3s;
+     -webkit-animation-iteration-count: 1;
+     -webkit-animation-delay: 0s;
+     animation: flexAboutHome;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-delay: 0s;
+   }
+ }
+ 
+ @keyframes flexAboutHome {
+   0% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0;
+   }
+ }
+ .about {background:transparent;
+ }
+ .contact {background:transparent;
+ }
+ 
+ .work {background:transparent;
+ }
