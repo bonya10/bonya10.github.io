@@ -277,13 +277,13 @@ font: normal normal 2.1rem "Poiret One";
 
 }
 
-.open .navigation li {
+.open li {
 	float: left;
 	text-transform: uppercase;
 font: normal normal 2.1rem "Poiret One";
 
 }
-.open .navigation a { color: rgb(97, 219, 255);
+.open a { color: rgb(97, 219, 255);
 text-decoration: none;
 padding: 6px 10px;
 display: block;
