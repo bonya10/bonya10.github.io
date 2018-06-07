@@ -142,15 +142,15 @@ background:transparent;
 @keyframes homeFlextitle {
   0% {
     transform: rotate(90deg);
-    top: 15%;
+    top: 10%;
   }
   50% {
     transform: rotate(0deg);
-    top: 15%;
+    top: 10%;
   }
   100% {
     transform: rotate(90deg);
-    top: 15%;
+    top: 45%;
   }
 }
 .flex-about-home {
