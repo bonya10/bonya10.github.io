@@ -309,7 +309,8 @@ border: 2px solid #f1f1f1;
  .testimonials p {font-size: 12px;}
    .modal1{width: 91%;
     height: 84%;
-    top: 0;}
+    top: 0;
+  padding: 5px;}
   .modal-form label {font-size: 1.4rem;}
   legend {font-size: 15px; margin-bottom: 5px;}
   .private1 {font-size: 1.4rem;}
@@ -334,7 +335,7 @@ height: 25px;
    .book1{line-height: 15.4px;
        font-size: 0.9rem;}
   .modal-form label[for=телефон] {
-            width: 181px;
+            width: 130px;
     max-width: 191px;
   margin-left: -13px;}
 
