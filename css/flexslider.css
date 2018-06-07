@@ -142,11 +142,11 @@ background:transparent;
 @keyframes homeFlextitle {
   0% {
     transform: rotate(90deg);
-    top: 10%;
+    top: 5%;
   }
   50% {
     transform: rotate(0deg);
-    top: 10%;
+    top: 5%;
   }
   100% {
     transform: rotate(90deg);
