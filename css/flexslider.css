@@ -12,7 +12,7 @@
  }
  @media screen and (max-width: 768px) {
    .flex-container {    width: 93%;
-    height: 66%;
+    height: 59%;
      flex-direction: column;
    }
   .colcarou-p {
