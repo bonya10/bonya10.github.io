@@ -737,6 +737,26 @@ border-right: 3px solid #000; padding: 0px 25px; }
     }
   .btn1{padding: 5px 5px;top: 12px;}
   .room-box.vip{/* margin-top:10px; */}
+	
+	
+.about_us {padding: 15px;}	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
 }
 
   @media screen and (min-width:765px) and (max-width:880px){
@@ -932,6 +952,26 @@ border-right: 3px solid #000; padding: 0px 25px; }
     }
   .btn1{padding: 5px 5px;top: 12px;}
   .room-box.vip{/* margin-top:10px; */}
+	  
+	  
+.about_us {padding: 15px;}	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
 }
   
 
@@ -1126,6 +1166,26 @@ border: 2px solid #f1f1f1;
     }
   .btn1{padding: 5px 5px;top: 10px;}
   .room-box.vip{margin-top: 20px;}
+	 
+	 
+.about_us {padding: 15px;}	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
 }
 @media screen and (min-width:481px) and (max-width:580px){
    
@@ -1318,6 +1378,26 @@ border: 2px solid #f1f1f1;
     }
   .btn1{padding: 5px 5px;top: 10px;}
   .room-box.vip{margin-top: 20px;}
+
+	
+.about_us {padding: 15px;}	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
   
  }
 
@@ -1508,6 +1588,26 @@ height: 23px;
     }
   .btn1{padding: 5px 5px;top: 9px;}
   .room-box.vip{margin-top: 17px;}
+	 .about_us {padding: 15px;}
+	 
+	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
   }
 
  @media screen and (max-width:319px){ 
@@ -1695,5 +1795,23 @@ border: 2px solid #f1f1f1;     width: 90%;}
     margin-left:0;}
   .btn1{padding: 5px 5px;}
   .room-box.vip{margin-top:10px;}
-  
+
+.about_us {padding: 15px;}	 
+.about_us p {font-size: 12px; margin-bottom: 9px; line-height: 17px;}
+.lumiere {font-size: 1.3rem;}
+#imposible {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;}    
+#list8 li {
+    font-size: 12px;
+    line-height: 17px;}	    
+#list8 {margin-bottom: 12px;}  
+.services {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}	 
 }
