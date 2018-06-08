@@ -4,8 +4,8 @@
  .flex-container {
    position: absolute;
    height: 390px;
-   width: 100%;
-   max-width: 100%;
+   /* width: 85%; */
+   max-width: 94%;
    display: -webkit-flex;
    /* Safari */
    display: flex;
