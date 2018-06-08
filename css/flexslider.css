@@ -4,7 +4,8 @@
  .flex-container {
    position: absolute;
    height: 390px;
-   width: 1170px;
+   width: 100%;
+   max-width: 100%;
    display: -webkit-flex;
    /* Safari */
    display: flex;
@@ -93,9 +94,10 @@ height: 40px;
  }
  
  @media screen and (max-width: 768px) {
-   .flex-slide p {ine-height: 17px;
+   .flex-slide p {
+    line-height: 17px;
     font-size: 1.3rem;
-     /* font-size: 2em; */
+    /* font-size: 2em; */
    }
  }
  
