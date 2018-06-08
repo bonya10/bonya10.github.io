@@ -1,5 +1,37 @@
 @media screen and (min-width: 1401px) {
-	
+
+ .navigation {
+ position: fixed;
+ background-color: #000;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: 99999;
+ visibility: hidden;
+ opacity: 0;
+ -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+ transition: opacity 0.5s, visibility 0s 0.5s;
+}
+ .navigation .primary-nav {
+ position: relative;
+ top: 45%;
+ -moz-transform: translateY(-45%);
+ -ms-transform: translateY(-45%);
+ -webkit-transform: translateY(-45%);
+ transform: translateY(-45%);
+}
+ .navigation li {
+ display: block;
+ margin-bottom: 20px;
+ width:  100vw;
+}
+ .navigation a {
+ display: block;
+ font-size: 25px;
+ margin: 0;
+ text-align: center;
+}
  #header.fixed .fancy-hover:hover{    padding: 0 26.4px;
 }
 #header.fixed .fancy-hover{
