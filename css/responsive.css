@@ -90,22 +90,22 @@
 
  
   .round-box {
-    width: 136px;
+    width: 180px !important;
     display: inline-block;
     }
   .round img {
-    width: 136px;
-    height: 136px;
+    width: 180px !important;
+    height: 180px !important;
     }
-  .variant-1 {font-size: 1rem;}
-  .variant-2 {font-size: 1rem; top:40%;}
+  .variant-1 {font-size: 1.5rem !important;}
+  .variant-2 {font-size: 1.5rem !important;top: 37% !important;}
   .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
   .footer{padding:0;}
-  .footer .display-none{display:inline-block; }
-  .footer li #vk_groups{display:none;}
-  .footer li .insta{display:none;}
+  .footer .display-none{display: none !important;}
+  .footer li #vk_groups{display: block !important;margin:  0;max-width: 206px;}
+  .footer li .insta{display: block !important;margin:  0;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
@@ -495,7 +495,7 @@
   #map{height: 185px;}
   .footer{padding:0;}
   .footer .display-none{display:inline-block; }
-  .footer li #vk_groups{display:none;}
+  .footer li #vk_groups{/* display:none; */}
   .footer li .insta{display:none;}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
