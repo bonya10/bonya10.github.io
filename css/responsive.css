@@ -103,9 +103,9 @@
   
   #map{height: 185px;}
   .footer{padding:0;}
-  .footer .display-none{display: none !important;}
-  .footer li #vk_groups{display: block !important;margin:  0;max-width: 206px;}
-  .footer li .insta{display: block !important;margin:  0;}
+  .footer .display-none{/* display: none !important; */}
+  .footer li #vk_groups{/* display: block !important; *//* margin:  0; *//* max-width: 206px; */}
+  .footer li .insta{/* display: block !important; *//* margin:  0; */}
   .footer .numer_tel {text-align: center;}
   .footer .copy {text-align: center;}
   
