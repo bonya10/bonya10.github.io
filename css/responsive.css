@@ -5,10 +5,10 @@
 } 
 @media screen and (min-width:992px) and (max-width:1200px){
  .flex-container {
-    width: 93%;
+    width: 94% !important;
+    /* text-align:  center; */
 }
 }
-
  @media screen and (min-width:1025px) and (max-width:1200px){
   #header .header-content {
  width: 90%;
@@ -190,7 +190,8 @@
     font-size: 1.0rem;
 }
    .flex-slide {
-    max-width: 216px;}
+    max-width: 36%;
+    }
  
   
   .tel .tel1 {line-height: 22.4px;
