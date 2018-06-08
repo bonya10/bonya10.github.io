@@ -13,10 +13,12 @@
     font: normal normal 2.1rem "Poiret One";
 }
  .navigation a {
- display: block;
- font-size: 25px;
- margin: 0;
- text-align: center;
+.navigation a {
+    display: block;
+    font-size: 2.1rem;
+    margin: 0;
+    text-align: center;
+}
 }
  #header.fixed .fancy-hover:hover{    padding: 0 26.4px;
 }
