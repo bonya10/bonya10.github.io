@@ -101,7 +101,6 @@
  .navigation li {
  display: block;
  margin-bottom: 20px;
- width:  100vw;
 }
  .navigation a {
  display: block;
@@ -111,14 +110,15 @@
 }
   
   .header-tel, .time-work{
-   width: 42% !important;
-   margin: 0 4%;}
+   width: 30% !important;
+   /* margin: 0 3%; */
+   }
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
-  width: 100%;
+  /* width: 90%; */
   padding: 5px 0px;
   }
-  #header .logo {padding-bottom: 10px;width:  90%;}
+  #header .logo {padding-bottom: 10px;}
   
  .banner-text {/* padding-top: 55%; */}
   
@@ -212,11 +212,13 @@ border: 2px solid #f1f1f1;
       height: 123px;}
   .time-work p:first-child {
     font-size: 1.3rem;
-   margin: 0;}
+    margin: 0;
+    padding-bottom: 2px;
+    }
   .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
    padding: 0;
    height: 45px;
-   width: 54.667%;
+   width: 50.667%;
    display: inline-block;
    padding-bottom: 5px;
    font-size: 1.1rem;
@@ -224,10 +226,10 @@ border: 2px solid #f1f1f1;
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
       padding: 0;
       height: 23px;
-      width: 33.667%;
+      width: 48.667%;
       display: inline-block;
       font-size: 1.1rem;
-      bottom: -7px;
+      bottom: -3px;
       }
   
   .rooms img {
@@ -288,27 +290,24 @@ border: 2px solid #f1f1f1;
 }
  .navigation li {
  display: block;
- width: 100vw;
  margin-bottom: 20px;
 }
  .navigation a {
  display: block;
  font-size: 25px;
  margin: 0;
- /* width:  90vw; */
  text-align: center;
 }
   
   .header-tel, .time-work{
    width: 42% !important;
-   margin: 0 4%;
-   }
+   margin: 0 4%;}
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
-  width: 98%;
+  width: 100%;
   padding: 5px 0px;
   }
-  #header .logo, #header .slogan {padding-bottom: 19px;width: 100%;/* left: 28px; */max-width:  100%;/* margin-left: 32px; */text-align:  center;left: 0;}
+  #header .logo, #header .slogan {padding-bottom: 19px;width: 100%;max-width: 100%;margin-left: 0;text-align: center;left: 0;/* padding-bottom: 10px; */}
   
  .banner-text {/* padding-top: 55%; */}
   
@@ -357,7 +356,7 @@ height: 25px;
     height: 171px;
     }
   .variant-1 {font-size: 1.5rem;}
-  .variant-2 {font-size: 1.5rem;top: 38%;}
+  .variant-2 {font-size: 1.5rem;top: 36%;}
   .container-rond h1 {font-size: 2.7rem;}
   
   #map{height: 185px;}
@@ -409,7 +408,7 @@ border: 2px solid #f1f1f1;
   .time-work .col-sm-5, .time-work .col-md-5, .time-work .col-lg-5 {
    padding: 0;
    height: 45px;
-   width: 44.667%;
+   width: 42.667%;
    display: inline-block;
    padding-bottom: 5px;
    font-size: 1.1rem;
@@ -420,7 +419,7 @@ border: 2px solid #f1f1f1;
       width: 50.667%;
       display: inline-block;
       font-size: 1.1rem;
-      bottom: 7px;
+      bottom: 6px;
       }
   
   .rooms img {
@@ -481,24 +480,24 @@ border: 2px solid #f1f1f1;
  .navigation li {
  display: block;
  margin-bottom: 20px;
- width:  100vw;
 }
  .navigation a {
  display: block;
  font-size: 25px;
  margin: 0;
- /* width:  90vw; */
  text-align: center;
 }
   
   .header-tel, .time-work{
-   width: 42% !important;
-   margin: 0 4%;}
+   width: 46% !important;
+   margin: 0 2%;
+   }
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
-  width: 90%;
-  padding: 5px 0px;}
-  #header .logo, #header .slogan {padding-bottom: 19px;width: 100%;/* left: 28px; */max-width: 100%;/* margin-left: 32px; */text-align: center;left: 0;/* padding-bottom: 10px; */}
+  width: 100%;
+  padding: 5px 0px;
+  }
+  #header .logo, #header .slogan {/* padding-bottom: 10px; */padding-bottom: 19px;width: 100%;max-width: 100%;margin-left: 0;text-align: center;left: 0;}
   
  .banner-text {/* padding-top: 55%; */}
   
@@ -604,11 +603,12 @@ border: 2px solid #f1f1f1;
    }
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
       padding: 0;
-    height: 23px;
-    width: 50.667%;
-    display: inline-block;
-    font-size: 1.1rem;
-    bottom: -7px;}
+      height: 23px;
+      width: 50.667%;
+      display: inline-block;
+      font-size: 1.1rem;
+      bottom: 7px;
+      }
   
   .rooms img {
     width: 289px;
@@ -671,24 +671,24 @@ border: 2px solid #f1f1f1;
  .navigation li {
  display: block;
  margin-bottom: 20px;
- width:  100vw;
 }
  .navigation a {
  display: block;
  font-size: 25px;
  margin: 0;
  text-align: center;
- /* width:  90vw; */
 }
   
   .header-tel, .time-work{
-   width: 92% !important;
-   margin: 0 4%;}
+   width: 71% !important;
+   margin: 0 15%;
+   }
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
-  width: 90%;
-  padding: 5px 0px;}
-  #header .logo {padding-bottom: 10px;}
+  /* width: 90%; */
+  padding: 5px 0px;
+  }
+  #header .logo, #header .slogan {padding-bottom: 19px;width: 100%;max-width: 100%;margin-left: 0;text-align: center;left: 0;/* padding-bottom: 10px; */}
   
  .banner-text {}
   
@@ -850,7 +850,6 @@ height: 23px;
  .navigation li {
  display: block;
  margin-bottom: 20px;
- width:  100vw;
 }
  .navigation a {
  display: block;
@@ -860,13 +859,15 @@ height: 23px;
 }
   
   .header-tel, .time-work{
-   width: 92% !important;
-   margin: 0 4%;}
+   width: 79% !important;
+   margin: 0 10%;
+   }
   .header-tel{margin-bottom:9px; line-height: 10px;}
   #header .header-content {
-  width: 90%;
-  padding: 5px 0px;}
-  #header .logo {padding-bottom: 10px;}
+  /* width: 90%; */
+  padding: 5px 0px;
+  }
+  #header .logo, #header .slogan {padding-bottom: 19px;width: 100%;max-width: 100%;margin-left: 0;text-align: center;left: 0;/* padding-bottom: 10px; */}
   
  .banner-text {}
   
