@@ -1218,7 +1218,10 @@ border: 2px solid #f1f1f1;
     text-align: center;
     font-size: 2rem;
     margin:  0;
-}	 
+}
+	 .swiper-container {
+    width: 80%;
+    height: 70vh;
 }
 @media screen and (min-width:481px) and (max-width:580px){
    
@@ -1383,7 +1386,7 @@ border: 2px solid #f1f1f1;
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
       padding: 0;
       height: 23px;
-      width: 50.667%;
+      width: 52.667%;
       display: inline-block;
       font-size: 1.2rem;
       bottom: 7px;
@@ -1442,6 +1445,9 @@ border: 2px solid #f1f1f1;
     font-size: 2.2rem;
     margin: 0;
 }	 
+	.swiper-container {
+    width: 80%;
+    height: 70vh;
   
  }
 
@@ -1602,9 +1608,9 @@ height: 23px;
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
     padding: 0;
     height: 23px;
-    width: 48.667%;
+    width: 53.667%;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     bottom: 8px;
     }
   
@@ -1662,7 +1668,10 @@ height: 23px;
     text-align: center;
     font-size: 1.8rem;
     margin:  0;
-}	 
+}
+	 .swiper-container {
+    width: 80%;
+    height: 70vh;
   }
 
  @media screen and (max-width:319px){ 
@@ -1792,13 +1801,14 @@ border: 2px solid #f1f1f1;     width: 90%;}
    padding-bottom: 1px;}
   
   .tel a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 100%;
-    display: inline-block;}
+    display: inline-block;
+    }
   .book {
     font-size: 0.9rem;
     margin: 0;
-    line-height: 1.4rem;
+    line-height: 1.2rem;
     text-align: center;
     }
   .header-tel, .time-work {
@@ -1816,9 +1826,9 @@ border: 2px solid #f1f1f1;     width: 90%;}
   .time-work .col-sm-7, .time-work .col-md-7, .time-work .col-lg-7 {
     padding: 0;
     height: 23px;
-    width: 50.667%;
+    width: 54.667%;
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     bottom: 8px;
     }
   
@@ -1869,4 +1879,7 @@ border: 2px solid #f1f1f1;     width: 90%;}
     text-align: center;
     font-size: 1.5rem;
 }	 
+	 .swiper-container {
+    width: 80%;
+    height: 70vh;
 }
