@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1401px) {
  #header.fixed .fancy-hover:hover{    padding: 0 26.4px;
 }
 #header.fixed .fancy-hover{
