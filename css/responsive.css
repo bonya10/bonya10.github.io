@@ -101,6 +101,7 @@
  .navigation li {
  display: block;
  margin-bottom: 20px;
+ width:  100vw;
 }
  .navigation a {
  display: block;
@@ -289,6 +290,7 @@ border: 2px solid #f1f1f1;
  transform: translateY(-45%);
 }
  .navigation li {
+ width:  100vw;
  display: block;
  margin-bottom: 20px;
 }
@@ -478,6 +480,7 @@ border: 2px solid #f1f1f1;
  transform: translateY(-45%);
 }
  .navigation li {
+ width:  100vw;
  display: block;
  margin-bottom: 20px;
 }
@@ -670,6 +673,7 @@ border: 2px solid #f1f1f1;
 }
  .navigation li {
  display: block;
+ width:  100vw;
  margin-bottom: 20px;
 }
  .navigation a {
@@ -849,6 +853,7 @@ height: 23px;
 }
  .navigation li {
  display: block;
+ width:  100vw;
  margin-bottom: 20px;
 }
  .navigation a {
