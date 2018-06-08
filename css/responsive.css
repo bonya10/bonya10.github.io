@@ -180,6 +180,7 @@
     }
   .flex-title {font-size: 2.5rem;width: 273px;line-height: 2.5rem;}
   .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;width: 273px;}
+ .flex-container{ width: 75%; }
  .colcarou-p {
     font-size: 1.0rem;
 }
@@ -268,6 +269,7 @@
  .nav-toggle {
  display: block;
 }
+    .flex-container{ width: 92%; }
  .navigation {
  position: fixed;
  background-color: #000;
