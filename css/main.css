@@ -1106,9 +1106,12 @@ line-height: 4.5rem;
 ul.footer-share{text-align:center;
 	margin:0 33px;}
 
+.footer > #copy {
+	text-align: left;
+	background-color: #181818;}
 .footer {
 	text-align: left;
-	background-color: #181818;
+	background-color: transparent;
 	padding: 0;
 }
 .footer  #copy {
