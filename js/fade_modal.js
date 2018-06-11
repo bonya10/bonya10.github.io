@@ -18,7 +18,7 @@ $(function() {
   $('html').click(function(event) {
     if ($(event.target).closest('.but, .modal1').length) return;
     $but.filter('.active-menu-item').click()
-    if ($(event.target).closest('.btn, .modal1').length) return;
+    if ($(event.target).closest('.btn1, .modal1').length) return;
     $btn.filter('.active-menu-item').click()
   });
 });
