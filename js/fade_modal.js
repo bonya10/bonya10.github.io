@@ -16,11 +16,6 @@ $(function() {
       }).hide();
     })
   }); 
-  $('html').click(function(event) {
-    if ($(event.target).closest('.but, .modal1').length) return;
-    $but.filter('.active-menu-item').click()
-  });
-  
   
    $btn.each(function(a, en) {
     var $eles = $(en);
@@ -34,11 +29,6 @@ $(function() {
       }).hide();
     })
   });
-    $('html').click(function(f) {
-    if ($(f.target).closest('.btn1, .modal1').length) return;
-    $btn.filter('.active-menu-item').click()
- 
-});
   
     $btn2.each(function(c, eli) {
     var $eli = $(eli);
@@ -53,9 +43,14 @@ $(function() {
     })
   });
   
-   $('html').click(function(g) {
-    if ($(g.target).closest('.btn2, .modal1').length) return;
+   $('html').click(function(event) {
+    if ($(event.target).closest('.but, .modal1').length) return;
+    $but.filter('.active-menu-item').click()
+     
+    if ($(event.target).closest('.btn1, .modal1').length) return;
+    $btn.filter('.active-menu-item').click()
+     
+    if ($(event.target).closest('.btn2, .modal1').length) return;
     $btn2.filter('.active-menu-item').click()
- 
 });
  });
