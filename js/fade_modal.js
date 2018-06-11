@@ -3,6 +3,7 @@ $(function() {
        $btn = $(".btn1"),
      $btn2 = $(".btn2"),
       $blocks = $(".modal1");
+  
   $but.each(function(i, elem) {
     var $el = $(elem);
     $el.click(function() {
@@ -20,11 +21,12 @@ $(function() {
     $but.filter('.active-menu-item').click()
   });
   
+  
    $btn.each(function(a, en) {
-    var $elem = $(en);
+    var $eles = $(en);
     $elem.click(function() {
-      $btn.not($elem).removeClass("active-menu-item");
-      $elem.toggleClass("active-menu-item");
+      $btn.not($eles).removeClass("active-menu-item");
+      $eles.toggleClass("active-menu-item");
       $blocks.filter(function(b,
         ele) {
         a == b && $(ele).fadeToggle();
@@ -37,6 +39,7 @@ $(function() {
     $btn.filter('.active-menu-item').click()
  
 });
+  
     $btn2.each(function(c, eli) {
     var $eli = $(eli);
     $eli.click(function() {
