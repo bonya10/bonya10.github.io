@@ -19,15 +19,15 @@ $(function() {
     if ($(event.target).closest('.but, .modal1').length) return;
     $but.filter('.active-menu-item').click()
   });
-   $btn.each(function(i, elem) {
-    var $el = $(elem);
-    $el.click(function() {
-      $btn.not($el).removeClass("active-menu-item");
-      $el.toggleClass("active-menu-item");
-      $blocks.filter(function(j,
-        el) {
-        i == j && $(el).fadeToggle();
-        return i != j
+   $btn.each(function(a, en) {
+    var $elem = $(en);
+    $elem.click(function() {
+      $btn.not($elem).removeClass("active-menu-item");
+      $elem.toggleClass("active-menu-item");
+      $blocks.filter(function(b,
+        ele) {
+        a == b && $(ele).fadeToggle();
+        return a != b
       }).hide();
     })
   });
@@ -36,15 +36,15 @@ $(function() {
     $btn.filter('.active-menu-item').click()
  
 });
-    $btn2.each(function(i, elem) {
-    var $el = $(elem);
-    $el.click(function() {
-      $btn2.not($el).removeClass("active-menu-item");
-      $el.toggleClass("active-menu-item");
-      $blocks.filter(function(j,
-        el) {
-        i == j && $(el).fadeToggle();
-        return i != j
+    $btn2.each(function(c, eli) {
+    var $eli = $(eli);
+    $eli.click(function() {
+      $btn2.not($eli).removeClass("active-menu-item");
+      $eli.toggleClass("active-menu-item");
+      $blocks.filter(function(d,
+        ely) {
+        c == d && $(ely).fadeToggle();
+        return c != d
       }).hide();
     })
   });
