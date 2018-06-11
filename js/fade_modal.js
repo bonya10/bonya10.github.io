@@ -19,7 +19,7 @@ $(function() {
   
    $btn.each(function(a, en) {
     var $eles = $(en);
-    $elem.click(function() {
+    $eles.click(function() {
       $btn.not($eles).removeClass("active-menu-item");
       $eles.toggleClass("active-menu-item");
       $blocks.filter(function(b,
