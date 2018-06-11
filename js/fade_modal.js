@@ -6,6 +6,17 @@ $(function() {
     var $el = $(elem);
     $el.click(function() {
       $but.not($el).removeClass("active-menu-item");
+      $el.toggleClass("active-menu-item");
+      $blocks.filter(function(j,
+        el) {
+        i == j && $(el).fadeToggle();
+        return i != j
+      }).hide();
+    })
+  });
+   $btn.each(function(i, elem) {
+    var $el = $(elem);
+    $el.click(function() {
       $btn.not($el).removeClass("active-menu-item");
       $el.toggleClass("active-menu-item");
       $blocks.filter(function(j,
