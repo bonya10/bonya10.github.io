@@ -16,9 +16,9 @@ $(function() {
     })
   });
   
-  
+   $('html').click(function (event) {
    if ($(event.target).closest('.btn1, .modal1').length) return;
     $btn.filter('.active-menu-item').click()
-   
+   });
 
 });
