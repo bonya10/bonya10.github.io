@@ -19,6 +19,22 @@
     margin: 0;
     text-align: center;
 }
+	 .flex-about p {
+
+    font-size: 2rem;
+    padding: 1%;
+    top: 6%;
+		 width: 90%;}
+	 
+	 .flex-title {
+
+		 font-size: 2.5rem;}
+.flex-about p {
+
+    font-size: 1.3rem;}
+	 
+	 .flex-slide {
+		 max-width: 29%;}
 }
  #header.fixed .fancy-hover:hover{    padding: 0 26.4px;
 }
