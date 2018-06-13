@@ -846,7 +846,7 @@ margin-top: 20px;}
 
 border-radius: 4px;
 }
-.btn1 {      
+.booking {      
     position: relative; 
     padding: 1.4rem 4.2rem;
     padding-right: 3.1rem;
@@ -859,24 +859,24 @@ border-radius: 4px;
     user-select: none;
 }
 
-.btn1:before, .btn1:after {
+.booking:before, .booking:after {
     content: '';
     position: absolute; 
     transition: inherit;
    
 }
 
-.btn1:hover {
+.booking:hover {
     color: #000;
     transition-delay: .6s;
     z-index:1;
 }
 
-.btn1:hover:before {
+.booking:hover:before {
     transition-delay: 0s;
 }
 
-.btn1:hover:after {
+.booking:hover:after {
     background: #fff;
     transition-delay: .4s;
 }
