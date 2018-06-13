@@ -1,24 +1,24 @@
 $(function() {
-  var $btn = $(".btn1"),
+  var $but = $(".btn1"),
       $blocks = $(".modal1");
   
-  
-   $btn.each(function(a, en) {
-    var $eles = $(en);
-    $eles.click(function() {
-      $btn.not($eles).removeClass("active-menu-item");
-      $eles.toggleClass("active-menu-item");
-      $blocks.filter(function(b,
-        ele) {
-        a == b && $(ele).fadeToggle();
-        return a != b
+  $but.each(function(i, elem) {
+    var $el = $(elem);
+    $el.click(function() {
+      $but.not($el).removeClass("active-menu-item");
+      $el.toggleClass("active-menu-item");
+      $blocks.filter(function(j,
+        el) {
+        i == j && $(el).fadeToggle();
+        return i != j
       }).hide();
     })
-  });
+  }); 
   
-   $('html').click(function (event) {
-   if ($(event.target).closest('.btn1, .modal1').length) return;
-    $btn.filter('.active-menu-item').click()
-   });
-
+  
+   $('html').click(function(event) {
+    if ($(event.target).closest('.btn1, .modal1').length) return;
+    $but.filter('.active-menu-item').click()
+    
+});
 });
