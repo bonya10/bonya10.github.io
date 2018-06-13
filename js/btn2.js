@@ -15,7 +15,7 @@ $(function() {
     })
   });
   
-  
+   $('html').click(function (event) {
     if ($(event.target).closest('.btn2, .modal1').length) return;
     $btn2.filter('.active-menu-item').click()
 });
