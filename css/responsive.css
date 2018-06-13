@@ -18,12 +18,11 @@
     margin: 0;
     text-align: center;
 }
-	 .flex-about p {
+	 .flex-about {
 
     font-size: 2rem;
     padding: 1%;
-    top: 6%;
-		 width: 90%;}
+    top: 6%; width: 90%;}
 	 
 	 .flex-title {
 
