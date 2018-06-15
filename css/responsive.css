@@ -898,13 +898,13 @@ border-right: 3px solid #000; padding: 0px 25px; }
     font-size: 0.4em;
     line-height: 15px;
     }
-  .flex-title {/* font-size: 2.5rem; */width: 295px;line-height: 2.5rem;}
-  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;width: 316px;}
+  .flex-title {font-size: 2.5rem;/* width: 295px; */line-height: 2.5rem;}
+  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;/* width: 316px; */}
  .colcarou-p {
     font-size: 1.0rem;
 }
    .flex-slide {
-    max-width: 202px;
+    /* max-width: 202px; */
     }
  
   
