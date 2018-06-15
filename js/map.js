@@ -11,29 +11,8 @@ ymaps.ready(function () {
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
         ),
 
-        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            // Опции.
-           
-
-             iconCaption:'Lumiere',
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
-        }, 
-     {
-            // Опции.
-            // Необходимо указать данный тип макета.
-            iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: 'images/pin-smile.png',
-            // Размеры метки.
-            iconImageSize: [30, 28],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-5, -38]
-        })
+      
      
         
-       
-  myMap.geoObjects
-        .add(myPlacemark);
+      
 });
