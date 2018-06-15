@@ -15,7 +15,7 @@
  @media screen and (max-width: 768px) {
    .flex-container {
     /* width: 109%; */
-    height: 69%;
+    /* height: 69%; */
     flex-direction: column;
    }
   .colcarou-p {
@@ -90,8 +90,8 @@
  }
  @media screen and (max-width: 768px) {
    .flex-slide {
-   width: 90vw;
-height: 40px;
+   /* width: 90vw; */
+   /* height: 40px; */
    }
  }
  
