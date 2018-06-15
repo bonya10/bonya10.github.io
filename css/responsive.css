@@ -1802,7 +1802,7 @@ height: 22px;
     font-size: 0.3em;
     line-height: 12px;}
   .flex-title {font-size: 1.6rem;   margin-top: 15px;}
-  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;width: 57%;}
+  .flex-about {padding: 0.5%;border: 2px solid #f1f1f1;/* width: 57%; */}
  .colcarou-p {
     font-size: 0.8rem;
 }
