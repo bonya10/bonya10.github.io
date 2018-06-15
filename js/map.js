@@ -4,13 +4,7 @@ ymaps.ready(function () {
             zoom: 18
         }, {
             searchControlProvider: 'yandex#search'
-        }),
-
-        // Создаём макет содержимого.
-        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-        ),
-
+        })
       
      
         
