@@ -2,19 +2,21 @@
  
  
  .flex-container {
-   position: absolute;
+   position: relative;
    height: 390px;
-   /* width: 85%; */
-   max-width: 94%;
+   /* width: 100%; */
+   /* max-width: 90%; */
    display: -webkit-flex;
    /* Safari */
    display: flex;
    overflow: hidden;
+   margin:  0 auto;
  }
  @media screen and (max-width: 768px) {
-   .flex-container {    width: 93%;
+   .flex-container {
+    /* width: 109%; */
     height: 69%;
-     flex-direction: column;
+    flex-direction: column;
    }
   .colcarou-p {
     font-size: 0.8rem;
@@ -50,10 +52,10 @@
    opacity: 0;
    color: #f1f1f1;
    position: relative;
- font-size: 3rem;
- padding: 2%;
- top: 7%;
- width:55%;
+   font-size: 3rem;
+   padding: 2%;
+   top: 7%;
+   /* width: 76%; */
    border: 2px solid #f1f1f1;
    border-radius: 10px;
    line-height: 1.3;
