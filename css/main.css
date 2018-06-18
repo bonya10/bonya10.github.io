@@ -87,7 +87,7 @@ a {
 .rooms{color: #fff; }
 .reviws, .rooms, #portfolio, .about_us, .contacts, .our_serv  { background-color:#181818;}
 .container-rond,.offers, .about_us, #portfolio, .rooms, .contacts, .our_serv 
-{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;     height: 77vh;}
+{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;     min-height: 77vh;}
 .current  a{color: #fff !important;}
 
   .fancy-hover.current {
