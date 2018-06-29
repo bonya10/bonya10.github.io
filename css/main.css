@@ -661,13 +661,10 @@ width: 220px;
 	 services
 -------------------------------------------------------------------------------*/
 .our_serv {padding:30px 0;}
-.our_serv .service{border: 1px solid #fff;
+.our_serv .services_our{border: 1px solid #fff;
 border-radius: 4px;
-padding: 14px;
 height: 494px;}
-.our_serv:last-child div{
-margin-left: 10px;
-	margin-right: 10px;}
+
 /* ------------------------------------------------------------------------------
 	 contacts
 -------------------------------------------------------------------------------*/
