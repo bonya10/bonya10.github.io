@@ -787,11 +787,11 @@ border-right: 3px solid #000; padding: 0px 25px; }
     font-size: 1.8rem;
     margin:  0;
 }	 
-	.our_serv .services_our {
-    margin: -24px auto;}
-	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}
+.our_serv .services_our {
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } 
 }
 
   @media screen and (min-width:765px) and (max-width:880px){
@@ -1016,11 +1016,11 @@ border-right: 3px solid #000; padding: 0px 25px; }
     font-size: 1.8rem;
     margin:  0;
 }
-	  .our_serv .services_our {
-    margin: -24px auto;}
-	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}
+.our_serv .services_our {
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } 
 }
   
 
@@ -1249,11 +1249,11 @@ border: 2px solid #f1f1f1;
 	 .swiper-container {
     width: 80%;
 		 height: 70vh;}
-	 .our_serv .services_our {
-    margin: -24px auto;}
-	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}
+	.our_serv .services_our {
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } 
 }
 @media screen and (min-width:481px) and (max-width:580px){
    
@@ -1482,10 +1482,10 @@ border: 2px solid #f1f1f1;
 		height: 70vh;}
 		 
 .our_serv .services_our {
-    margin: -24px auto;}
-	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } 
   
  }
 
@@ -1713,10 +1713,10 @@ height: 23px;
 	 }  
 	 
 .our_serv .services_our {
-    margin: -24px auto;}
-	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}}
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } }
 
  @media screen and (max-width:319px){ 
   
@@ -1927,8 +1927,9 @@ height: 22px;
 		 height: 70vh;}
 	 
 .our_serv .services_our {
-    margin: -24px auto;}
+    margin: -24px auto;
+font-size: 1.5rem; }
+	.our_serv .services_our h3{
+font-size: 1.5rem; } 
 	 
-.our_serv .services_our p {
-		 font-size: 1.5rem;}
 }
