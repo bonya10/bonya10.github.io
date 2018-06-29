@@ -665,7 +665,7 @@ width: 220px;
 border-radius: 4px;
 padding: 14px;
 height: 494px;}
-.our_serv .service:last-child p{
+.our_serv .service:last-child div{
 margin-left: 10px;
 	margin-right: 10px;}
 /* ------------------------------------------------------------------------------
