@@ -663,9 +663,10 @@ width: 220px;
 .our_serv {padding:30px 0;}
 .our_serv .services_our{border: 1px solid #fff;
 border-radius: 4px;
-height: 494px;
+height: 350px;
 padding: 14px;
-color:#fff;}
+color: #fff;
+margin: 46px auto;}
 .our_serv  h3{
 	color:#fff;
 	text-align:center;}
