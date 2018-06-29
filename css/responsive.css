@@ -564,6 +564,16 @@ border-right: 3px solid #000; padding: 0px 25px; }
     }
   .btn1{padding: 5px 5px;top: 12px;}
   .room-box.vip{/* margin-top:10px; */}
+	 .our_serv .services_our {
+    margin: -16px auto;
+font-size: 1.1rem; 
+    text-align: center;
+}
+	.our_serv .services_our h3{
+font-size: 2.2rem; } 
+    
+	 .service{margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 1024px) and (min-width: 881px){
@@ -788,10 +798,14 @@ border-right: 3px solid #000; padding: 0px 25px; }
     margin:  0;
 }	 
 .our_serv .services_our {
-    margin: -24px auto;
-font-size: 1.5rem; }
+    margin: -16px auto;
+font-size: 1.1rem; 
+    text-align: center;
+}
 	.our_serv .services_our h3{
-font-size: 1.5rem; } 
+font-size: 2.2rem; }
+	.service{margin: 0 auto;
+}
 }
 
   @media screen and (min-width:765px) and (max-width:880px){
@@ -1017,10 +1031,14 @@ font-size: 1.5rem; }
     margin:  0;
 }
 .our_serv .services_our {
-    margin: -24px auto;
-font-size: 1.5rem; }
+    margin: -26px auto;
+font-size: 1.1rem; 
+    text-align: center;
+}
 	.our_serv .services_our h3{
-font-size: 1.5rem; } 
+font-size: 2.2rem; }
+	  .service{margin: 0 auto;
+}
 }
   
 
@@ -1250,10 +1268,12 @@ border: 2px solid #f1f1f1;
     width: 80%;
 		 height: 70vh;}
 	.our_serv .services_our {
-    margin: -24px auto;
-font-size: 1.5rem; }
+    margin: 4px auto;
+font-size: 1.5rem; 
+    height: auto;
+}
 	.our_serv .services_our h3{
-font-size: 1.5rem; } 
+/*! font-size: 1.5rem; */ } 
 }
 @media screen and (min-width:481px) and (max-width:580px){
    
@@ -1482,10 +1502,14 @@ border: 2px solid #f1f1f1;
 		height: 70vh;}
 		 
 .our_serv .services_our {
-    margin: -24px auto;
-font-size: 1.5rem; }
+    margin: 4px auto;
+font-size: 1.5rem; 
+    height: auto;
+}
 	.our_serv .services_our h3{
-font-size: 1.5rem; } 
+/*! font-size: 1.5rem; */ } 
+	.service{margin: 0 auto;
+}
   
  }
 
@@ -1713,10 +1737,15 @@ height: 23px;
 	 }  
 	 
 .our_serv .services_our {
-    margin: -24px auto;
-font-size: 1.5rem; }
+    margin: 4px auto;
+font-size: 1.2rem; 
+    height: auto;
+}
 	.our_serv .services_our h3{
-font-size: 1.5rem; } }
+/*! font-size: 1.5rem; */ } 
+.service{margin: 0 auto;
+}
+}
 
  @media screen and (max-width:319px){ 
   
@@ -1930,6 +1959,8 @@ height: 22px;
     margin: -24px auto;
 font-size: 1.5rem; }
 	.our_serv .services_our h3{
-font-size: 1.5rem; } 
+font-size: 1.5rem; }
+	 .service{margin: 0 auto;
+}
 	 
 }
