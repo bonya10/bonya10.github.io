@@ -1,4 +1,17 @@
-@media screen and (min-width: 1401px)  {
+
+@media screen and (min-width: 1761px)
+{.container {
+    width: 66.3vw;
+}
+	.fancy-hover {
+  
+		padding:0 1.825vw !important;}
+	.navigation ul {
+  
+    width: 66.29vw;
+}}
+
+@media screen and (min-width: 1401px) and (max-width: 1760px)  {
 
 .container {
     width: 66.3vw;
