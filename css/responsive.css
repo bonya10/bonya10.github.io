@@ -1,6 +1,21 @@
 
 @media screen and (min-width: 1769px)
-{.container {
+{.fancy-hover::before {
+    width: 10vw;
+	height: 6vh;}
+	.vip u, .pvate ul {
+
+    margin-left: 5vw;
+	.navigation a {
+    padding: 1vh 0.82vw;}
+	.round-box {
+    width: 12.5vw;
+}
+	.round img {
+    border-radius: 70%;
+    width: 12.8vw;
+		height: 12.8vw;}
+	.container {
     width: 66.3vw;
 }
 	.fancy-hover {
