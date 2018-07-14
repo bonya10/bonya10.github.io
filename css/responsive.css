@@ -13,16 +13,7 @@
 
 @media screen and (min-width: 1401px) and (max-width: 1760px)  {
 
-.container {
-    width: 66.3vw;
-}
-	.fancy-hover {
-  
-		padding:0 1.825vw !important;}
-	.navigation ul {
-  
-    width: 66.29vw;
-}
+
  .navigation ul {
     margin: 0;
     float: left;
