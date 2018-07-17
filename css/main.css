@@ -87,7 +87,7 @@ a {
 .rooms{color: #fff; }
 .reviws, .rooms, #portfolio, .about_us, .contacts, .our_serv  { background-color:#181818;}
 .container-rond,.offers, .about_us, #portfolio, .rooms, .contacts, .our_serv 
-{background-image: url(../images/bg (2).jpg);background-attachment: fixed;  background-size: auto;     min-height: 77vh;}
+{background-image: url(../images/bg.jpg);background-attachment: fixed;  background-size: auto;     min-height: 77vh;}
 .current  a{color: #fff !important;}
 
   .fancy-hover.current {
@@ -105,7 +105,7 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {font-family: 'Montserrat Alternates' , sans-serif;
-background-image: url(../images/bg-1.jpg);
+background-image: url(../images/bg-2.jpg);
  background-size: cover;
  background-attachment: fixed;
 	
